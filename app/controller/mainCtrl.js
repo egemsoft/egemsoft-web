@@ -1,10 +1,11 @@
-var MainCtrl = function($scope, $rootScope, $location, $language, $config) {
+var MainCtrl = function($scope, $location, $config, $availableLanguages, $language) {
 	$scope.config = $config;
   $scope.sections = $scope.config.sections; // html files to load
   $scope.loadedSections = [$scope.sections[0]]; //loaded html files
   $scope.year = new Date().getFullYear();
 
-  $scope.language = $scope.config.languages[0];
+  $scope.languages = $availableLanguages;
+  $scope.language = $availableLanguages[0];
 
   $scope.setLanguage = function(language) {
   	$scope.language = language;

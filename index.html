@@ -38,7 +38,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-globe"></span> {{locale('language')}} <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li ng-repeat="lang in config.languages">
+              <li ng-repeat="lang in languages">
                 <a ng-click="setLanguage(lang)"><span class="badge">{{lang.key}}</span> {{lang.label}}</a>
               </li>
             </ul>
@@ -69,7 +69,7 @@
   <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
   
-  <script src="/app/locale/language.js"></script>
+  <script src="/app/language.js"></script>
   <script src="/app/config.js"></script>
   <script src="/app/module/scrollSection.js"></script>
   <script src="/app/controller/mainCtrl.js"></script>
