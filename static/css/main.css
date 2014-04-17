@@ -12,8 +12,9 @@
 	margin-left: 5px;
 	margin-right: 5px;
 }
-.navbar-egem .nav li:hover a {
+.navbar-egem .nav li:hover a, .navbar-egem .nav li.active a {
 	border-bottom: 1px solid #c0392b;
+	color: #EF2300;
 }
 .navbar-egem .nav li .dropdown-menu a { border: none }
 .navbar-egem .nav li:hover a,
@@ -34,11 +35,42 @@
 .section-a {
 	background-color: #f8f8f8;
 	padding: 90px 0;
-	min-height: 400px;
+	min-height: 650px;
 }
 .section-b {
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
 	padding: 90px 0;
-	min-height: 400px;
+	min-height: 650px;
+}
+
+.subsection .lead, .sub.lead {
+	font-size: 16px;
+}
+
+.contact {
+	font-size: 14px;
+	padding-left: 15px;
+}
+.contact a {
+	color: #222;
+}
+
+.rounded {
+	border-radius: 4px;
+}
+
+footer {
+  background-color: #c0392b !important;
+  font-weight: normal;
+  color: #bdc3c7;
+  padding: 40px 0 40px;
+  font-size: 14px;
+}
+footer a {
+  color: #eee;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
 }

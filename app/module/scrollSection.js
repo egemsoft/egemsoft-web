@@ -8,8 +8,9 @@ angular.module('scrollSection', []).
         // Check if section is proportional for scrolling. If it is not, add sections recursively.
         var scrollPos = (document.body.scrollTop || document.documentElement.scrollTop) + document.documentElement.clientHeight;
         var elemBottom = element[0].offsetTop + element[0].offsetHeight;
-        if(scrollPos >= elemBottom)
+        if(scrollPos >= elemBottom) {
          loadedSections.push(sections[loadedSections.length]); //add next section
+        }
         else { // If section height is enough to scroll bind scroll event.
           $window = angular.element(window);
           $window.bind('scroll', function(event) {
