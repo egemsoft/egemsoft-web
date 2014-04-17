@@ -1,4 +1,4 @@
-var MainCtrl = function($scope, $location, $config, $availableLanguages, $language) {
+var MainCtrl = function($scope, $location, $config, $availableLanguages, $language, $anchorScroll) {
 	$scope.config = $config;
   $scope.sections = $scope.config.sections; // html files to load
   $scope.loadedSections = [$scope.sections[0]]; //loaded html files
@@ -9,6 +9,7 @@ var MainCtrl = function($scope, $location, $config, $availableLanguages, $langua
 
   $scope.setLanguage = function(language) {
   	$scope.language = language;
+  	// scroll to current section, text sizes may differentiate for locales.
   	$anchorScroll();
   };
 
