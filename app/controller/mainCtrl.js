@@ -1,11 +1,11 @@
-var MainCtrl = function($scope, $location, $route, $config, $availableLanguages, $language, $anchorScroll) {
+var MainCtrl = function($scope, $location, $route, $config, $language, $anchorScroll) {
 	$scope.config = $config;
   $scope.sections = $scope.config.sections; // html files to load
   $scope.loadedSections = [$scope.sections[0]]; //loaded html files
   $scope.year = new Date().getFullYear();
 
-  $scope.languages = $availableLanguages;
-  $scope.language = $availableLanguages[0];
+  $scope.languages = $language.availableLanguages;
+  $scope.language = $language.availableLanguages[0];
 
   $scope.setLanguage = function(language) {
   	$scope.language = language;
@@ -13,8 +13,8 @@ var MainCtrl = function($scope, $location, $route, $config, $availableLanguages,
   	$anchorScroll();
   };
 
-  $scope.locale = function(string) {
-  	return $language[string][$scope.language.key];
+  $scope.locale = function(key) {
+  	return $language.strings[key][$scope.language.key];
   };
 
   $scope.$on('$routeChangeStart', function() {
