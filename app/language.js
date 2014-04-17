@@ -7,48 +7,48 @@
  */
 angular.module("egem.language", []).
 
-/**
- * $availableLanguages provider
- * Provides supported languages.
- * Add languages here if you plan to support more. 
- */
-factory("$availableLanguages", [
-  function() {
-  	return [
-  		{
-  			key: 'tr',
-  			label: 'Türkçe'
-  		},
-	  	{
-	  		key: 'en',
-	  		label: 'English'
-	  	}];
-  }]).
+  /**
+   * $availableLanguages provider
+   * Provides supported languages.
+   * Add languages here if you plan to support more. 
+   */
+  factory("$availableLanguages", [
+    function() {
+    	return [
+    		{
+    			key: 'tr',
+    			label: 'Türkçe'
+    		},
+  	  	{
+  	  		key: 'en',
+  	  		label: 'English'
+  	  	}];
+    }]).
 
-/**
- * $language provider
- * Provides all language strings with locale values. 
- * Add strings here to provide multilingual locale variables.
- */
-factory("$language", [
-  function() {
-  	return {
-      // edit here
-  		language: {
-  			tr: 'Dil',
-  			en: 'Language'
-  		},
-  		about: {
-  			tr: 'Hakkımızda',
-  			en: 'About'
-  		},
-  		services: {
-  			tr: 'Ürünler',
-  			en: 'Services'
-  		},
-  		contact: {
-  			tr: 'İletişim',
-  			en: 'Contact'
-  		}
-	  };
-  }]);
+  /**
+   * $language provider
+   * Provides all language strings with locale values. 
+   * Add strings here to provide multilingual locale variables.
+   */
+  factory("$language", [
+    function() {
+    	return {
+        // edit here
+    		language: {
+    			tr: 'Dil',
+    			en: 'Language'
+    		},
+    		about: {
+    			tr: 'Hakkımızda',
+    			en: 'About'
+    		},
+    		services: {
+    			tr: 'Ürünler',
+    			en: 'Services'
+    		},
+    		contact: {
+    			tr: 'İletişim',
+    			en: 'Contact'
+    		}
+  	  };
+    }]);
