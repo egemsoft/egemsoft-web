@@ -6,17 +6,6 @@
  * @author Ismail Demirbilek
  */
 angular.module("egem.language", []).
-
-  /**
-   * $availableLanguages provider
-   * Provides supported languages.
-   * Add languages here if you plan to support more.
-   */
-  factory("$availableLanguages", [
-    function() {
-    	;
-    }]).
-
   /**
    * $language provider
    * Provides all language strings with locale values.
