@@ -3,14 +3,14 @@
 /**
  * Egemsoft web app language module
  * Serves language helper providers.
- * @author Ismail Demirbilek 
+ * @author Ismail Demirbilek
  */
 angular.module("egem.language", []).
 
   /**
    * $availableLanguages provider
    * Provides supported languages.
-   * Add languages here if you plan to support more. 
+   * Add languages here if you plan to support more.
    */
   factory("$availableLanguages", [
     function() {
@@ -27,7 +27,7 @@ angular.module("egem.language", []).
 
   /**
    * $language provider
-   * Provides all language strings with locale values. 
+   * Provides all language strings with locale values.
    * Add strings here to provide multilingual locale variables.
    */
   factory("$language", [
@@ -35,8 +35,8 @@ angular.module("egem.language", []).
     	return {
         // edit here
     		language: {
-    			tr: 'Dil',
-    			en: 'Language'
+    			tr: 'tr/en',
+    			en: 'en/tr'
     		},
     		about: {
     			tr: 'Hakkımızda',

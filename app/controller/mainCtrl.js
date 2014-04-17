@@ -1,4 +1,4 @@
-var MainCtrl = function($scope, $location, $config, $availableLanguages, $language, $anchorScroll) {
+var MainCtrl = function($scope, $location, $route, $config, $availableLanguages, $language, $anchorScroll) {
 	$scope.config = $config;
   $scope.sections = $scope.config.sections; // html files to load
   $scope.loadedSections = [$scope.sections[0]]; //loaded html files
@@ -16,7 +16,7 @@ var MainCtrl = function($scope, $location, $config, $availableLanguages, $langua
   $scope.locale = function(string) {
   	return $language[string][$scope.language.key];
   };
-  
+
   $scope.$on('$routeChangeStart', function() {
   	// does roouted tpl exist?
   	if($scope.sections.indexOf($location.hash()) > -1) {
