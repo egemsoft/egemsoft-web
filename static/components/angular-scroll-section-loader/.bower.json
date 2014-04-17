@@ -1,0 +1,15 @@
+{
+  "name": "angular-scroll-section-loader",
+  "homepage": "https://github.com/dbtek/angular-scroll-section-loader",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "6cfe2922ab16aff5ee694a8ba86990370de43b9a"
+  },
+  "_source": "git://github.com/dbtek/angular-scroll-section-loader.git",
+  "_target": "~0.1.0",
+  "_originalSource": "angular-scroll-section-loader",
+  "_direct": true
+}

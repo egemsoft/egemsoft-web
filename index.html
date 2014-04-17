@@ -53,7 +53,7 @@
            id="{{section}}"
            ng-class="{'section-a':$odd, 'section-b':$even}"
            ng-include="config.contentSrc + section + '.html'"
-           scroll-section
+           scroll-section-load
            sections="sections"
            loaded-sections="loadedSections"
            ng-animate="{enter:'section-animate-enter'}">
@@ -68,10 +68,10 @@
   <script src="/static/components/angular-route/angular-route.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="/static/components/angular-scroll-section-loader/scroll-section-loader.js"></script>
   
   <script src="/app/language.js"></script>
   <script src="/app/config.js"></script>
-  <script src="/app/module/scrollSection.js"></script>
   <script src="/app/controller/mainCtrl.js"></script>
   <script src="/app/app.js"></script>
 

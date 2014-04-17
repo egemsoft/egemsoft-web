@@ -1,5 +1,12 @@
-angular.module('scrollSection', []).
-  directive('scrollSection', function($compile) {
+/**
+ * Angular JS scrollSectionLoader module.
+ * Provides <scroll-section-load> directive. And auto template loading with scroll event.
+ * http://github.com/dbtek/angular-scroll-section-loader
+ * Ismail Demirbilek, 2014
+ * MIT License
+ */
+angular.module('scrollSectionLoader', []).
+  directive('scrollSectionLoad', function($compile) {
     return {
       restrict: 'A',
       link: function(scope, element, attrs) {
