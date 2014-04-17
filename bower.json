@@ -1,0 +1,26 @@
+{
+  "name": "egemsoft-web",
+  "version": "0.0.1",
+  "authors": [
+    "İsmail Demirbilek <ce.demirbilek@gmail.com>"
+  ],
+  "description": "Angular app for egemsoft.net",
+  "main": "app/app.js",
+  "license": "Egemsoft License",
+  "homepage": "egemsoft.net",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.10.0",
+    "angular-route": "~1.2.16",
+    "angular-scroll-section-loader": "~0.1.0",
+    "jquery": "~2.1.0"
+  }
+}
