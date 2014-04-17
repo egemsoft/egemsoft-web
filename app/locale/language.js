@@ -1,5 +1,5 @@
 "use strict";
-angular.module("egem-language", []).factory("$language", [
+angular.module("egem.language", []).factory("$language", [
   function() {
   	return {
   		language: {

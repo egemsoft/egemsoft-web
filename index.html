@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
+  <title>Egemsoft</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
@@ -52,14 +52,14 @@
     <section ng-repeat="section in loadedSections"
            id="{{section}}"
            ng-class="{'section-a':$odd, 'section-b':$even}"
-           ng-include="'templates/'+section+'.html'"
+           ng-include="config.contentSrc + section + '.html'"
            scroll-section
            sections="sections"
            loaded-sections="loadedSections"
            ng-animate="{enter:'section-animate-enter'}">
     </section>
   </div>
-  <footer ng-include="'templates/footer.html'"></footer>
+  <footer ng-include="config.contentSrc + 'footer.html'"></footer>
 
   <script src="/static/components/jquery/dist/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -68,7 +68,9 @@
   <script src="/static/components/angular-route/angular-route.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  
   <script src="/app/locale/language.js"></script>
+  <script src="/app/config.js"></script>
   <script src="/app/module/scrollSection.js"></script>
   <script src="/app/controller/mainCtrl.js"></script>
   <script src="/app/app.js"></script>
