@@ -18,9 +18,9 @@ var MainCtrl = function($scope, $location, $route, $config, $availableLanguages,
   };
 
   $scope.$on('$routeChangeStart', function() {
+		$scope.activeSection = $location.hash();
   	// does roouted tpl exist?
   	if($scope.sections.indexOf($location.hash()) > -1) {
-  		$scope.activeSection = $location.hash();
   		// is it loaded?
   		if($scope.loadedSections.indexOf($location.hash()) < 0) {
 	  		for(i = $scope.loadedSections.length; i < $scope.sections.length; i++) {

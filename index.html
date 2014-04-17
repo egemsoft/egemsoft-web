@@ -32,6 +32,7 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
+          <li ng-class="{'active':!activeSection}"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
           <li ng-class="{'active':activeSection=='about'}"><a href="#/#about">{{locale('about')}}</a></li>
           <li ng-class="{'active':activeSection=='services'}"><a href="#/#services">{{locale('services')}}</a></li>
           <li ng-class="{'active':activeSection=='contact'}"><a href="#/#contact">{{locale('contact')}}</a></li>
