@@ -1,10 +1,26 @@
-var MainCtrl = function($scope, $rootScope, $window, $route, $location, $q, $timeout, $window) {
+var MainCtrl = function($scope, $rootScope, $window, $route, $location, $q, $timeout, $window, $language) {
 	$scope.sections = ['about','services','contact']; //html files to load (top.html, etc)
   $scope.loadedSections = [$scope.sections[0]]; //loaded html files
   $scope.year = new Date().getFullYear();
 
+  console.log($language);
+
+  $scope.config = {
+  	languages: [{key: 'tr', label: 'Türkçe'}, {key:'en', label: 'English'}]
+  };
+
+  $scope.language = $scope.config.languages[0];
+
+  $scope.setLanguage = function(language) {
+  	$scope.language = language;
+  };
+
   $scope.setHash = function(hash) {
   	$location.hash(hash);
+  };
+
+  $scope.locale = function(string) {
+  	return $language[string][$scope.language.key];
   };
   
   $scope.$on('$routeChangeStart', function() {

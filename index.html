@@ -32,19 +32,15 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li ng-class="{'active':activeSection=='about'}"><a href="#/#about">About</a></li>
-          <li ng-class="{'active':activeSection=='services'}"><a href="#/#services">Services</a></li>
-          <li ng-class="{'active':activeSection=='contact'}"><a href="#/#contact">Contanct</a></li>
+          <li ng-class="{'active':activeSection=='about'}"><a href="#/#about">{{locale('about')}}</a></li>
+          <li ng-class="{'active':activeSection=='services'}"><a href="#/#services">{{locale('services')}}</a></li>
+          <li ng-class="{'active':activeSection=='contact'}"><a href="#/#contact">{{locale('contact')}}</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-globe"></span> {{locale('language')}} <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contanct</a></li>
-              <li class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
+              <li ng-repeat="lang in config.languages">
+                <a ng-click="setLanguage(lang)"><span class="badge">{{lang.key}}</span> {{lang.label}}</a>
+              </li>
             </ul>
           </li>
         </ul>
@@ -72,6 +68,7 @@
   <script src="/static/components/angular-route/angular-route.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="/app/locale/language.js"></script>
   <script src="/app/module/scrollSection.js"></script>
   <script src="/app/controller/mainCtrl.js"></script>
   <script src="/app/app.js"></script>
