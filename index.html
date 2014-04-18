@@ -52,8 +52,9 @@
           <li ng-class="{'active':activeSection=='about' && activePage == '/'}"><a href="#/#about">{{locale('about')}}</a></li>
           <li ng-class="{'active':activeSection=='services' && activePage == '/'}"><a href="#/#services">{{locale('services')}}</a></li>
           <li ng-class="{'active':activeSection=='contact' && activePage == '/'}"><a href="#/#contact">{{locale('contact')}}</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-globe"></span> {{locale('language')}} <b class="caret"></b></a>
+          <li class="dropdown lng-selection">
+            <a class="dropdown-toggle" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-globe"></span> {{locale('language')}} <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li ng-repeat="lang in languages" ng-class="{'active':language.key==lang.key}">
                 <a ng-click="setLanguage(lang)"><span class="badge">{{lang.key}}</span> {{lang.label}}</a>
