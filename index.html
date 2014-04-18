@@ -10,6 +10,21 @@
   <link rel="stylesheet" href="/static/css/main.css">
   <link rel="stylesheet" href="/static/css/animate.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css">
+
+  <script src="/static/components/jquery/dist/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+  <script src="/static/components/angular/angular.min.js"></script>
+  <script src="/static/components/angular-route/angular-route.min.js"></script>
+  <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="/static/components/angular-scroll-section-loader/scroll-section-loader.js"></script>
+
+  <script src="/app/language.js"></script>
+  <script src="/app/config.js"></script>
+  <script src="/app/controller/mainCtrl.js"></script>
+  <script src="/app/controller/pageCtrl.js"></script>
+  <script src="/app/app.js"></script>
 </head>
 <body ng-controller="MainCtrl">
   <!--
@@ -53,21 +68,6 @@
   <ng-view></ng-view>
 
   <footer ng-include="config.contentSrc + 'footer.html'"></footer>
-
-  <script src="/static/components/jquery/dist/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
-  <script src="/static/components/angular/angular.min.js"></script>
-  <script src="/static/components/angular-route/angular-route.min.js"></script>
-  <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
-  <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-  <script src="/static/components/angular-scroll-section-loader/scroll-section-loader.js"></script>
-
-  <script src="/app/language.js"></script>
-  <script src="/app/config.js"></script>
-  <script src="/app/controller/mainCtrl.js"></script>
-  <script src="/app/controller/pageCtrl.js"></script>
-  <script src="/app/app.js"></script>
 
   <script src="/static/js/analytics.js"></script>
 </body>
