@@ -32,10 +32,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li ng-class="{'active':!activeSection}"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-          <li ng-class="{'active':activeSection=='about'}"><a href="#/#about">{{locale('about')}}</a></li>
-          <li ng-class="{'active':activeSection=='services'}"><a href="#/#services">{{locale('services')}}</a></li>
-          <li ng-class="{'active':activeSection=='contact'}"><a href="#/#contact">{{locale('contact')}}</a></li>
+          <li ng-class="{'active':!activeSection && activePage == '/'}"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li ng-class="{'active':activeSection=='about' && activePage == '/'}"><a href="#/#about">{{locale('about')}}</a></li>
+          <li ng-class="{'active':activeSection=='services' && activePage == '/'}"><a href="#/#services">{{locale('services')}}</a></li>
+          <li ng-class="{'active':activeSection=='contact' && activePage == '/'}"><a href="#/#contact">{{locale('contact')}}</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-globe"></span> {{locale('language')}} <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -46,20 +46,11 @@
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    </div><!-- /.container -->
   </nav>
 
-  <div class="content">
-    <section ng-repeat="section in loadedSections"
-           id="{{section}}"
-           ng-class="{'section-a':$odd, 'section-b':$even}"
-           ng-include="config.contentSrc + section + '.html'"
-           scroll-section-load
-           sections="sections"
-           loaded-sections="loadedSections"
-           ng-animate="{enter:'section-animate-enter'}">
-    </section>
-  </div>
+  <ng-view></ng-view>
+
   <footer ng-include="config.contentSrc + 'footer.html'"></footer>
 
   <script src="/static/components/jquery/dist/jquery.min.js"></script>
@@ -74,6 +65,7 @@
   <script src="/app/language.js"></script>
   <script src="/app/config.js"></script>
   <script src="/app/controller/mainCtrl.js"></script>
+  <script src="/app/controller/pageCtrl.js"></script>
   <script src="/app/app.js"></script>
 
   <script src="/static/js/analytics.js"></script>

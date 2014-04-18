@@ -12,6 +12,8 @@ angular.module("egem.config", []).
 	  		// edit here to configure sections (pages), there should be a section-name.html file
 		  	sections: ['about','services','contact'],
 		  	// edit here to configure section source directory e.g. /content/about.html
-		  	contentSrc: '/content/'
+		  	contentSrc: '/content/',
+		  	// edit here to configure standalone pages source directory e.g. /content/page/projects.html
+		  	pageContentSrc: '/content/page/',
 		  };
 	  }]);

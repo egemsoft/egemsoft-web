@@ -31,6 +31,10 @@ angular.module("egem.language", []).
           contact: {
             tr: 'İletişim',
             en: 'Contact'
+          },
+          home: {
+            tr: 'Anasayfa',
+            en: 'Home'
           }
         },
 

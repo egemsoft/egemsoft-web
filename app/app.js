@@ -8,5 +8,11 @@
 angular.module('egem-web', ['egem.language', 'egem.config', 'ngRoute','ui.bootstrap', 'scrollSectionLoader']).
 	// Route configuration
 	config(['$routeProvider', function($routeProvider) {
-	  $routeProvider.when('/', { });
+	  $routeProvider.when('/', {
+	  	templateUrl: '/layout/home.html'
+	  });
+	  // standalone pages routing
+	  $routeProvider.when('/page/:pageName', {
+	  	templateUrl: '/layout/page.html'
+	  });
 	}]);

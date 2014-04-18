@@ -1,7 +1,8 @@
-var MainCtrl = function($scope, $location, $route, $config, $language, $anchorScroll) {
+var MainCtrl = function($scope, $location, $route, $config, $language, $anchorScroll, $window, $timeout) {
 	$scope.config = $config;
   $scope.sections = $scope.config.sections; // html files to load
   $scope.loadedSections = [$scope.sections[0]]; //loaded html files
+  $scope.window = $window;
   $scope.year = new Date().getFullYear();
 
   $scope.languages = $language.availableLanguages;
@@ -18,18 +19,22 @@ var MainCtrl = function($scope, $location, $route, $config, $language, $anchorSc
   };
 
   $scope.$on('$routeChangeStart', function() {
+    $scope.activePage = $location.path();
 		$scope.activeSection = $location.hash();
-  	// does roouted tpl exist?
+  	// does routed tpl exist?
   	if($scope.sections.indexOf($location.hash()) > -1) {
+      console.log($scope.sections.indexOf($location.hash()), $location.hash(), $scope.loadedSections.indexOf($location.hash()));
   		// is it loaded?
-  		if($scope.loadedSections.indexOf($location.hash()) < 0) {
+  		if($scope.loadedSections.indexOf($location.hash()) == -1) {
 	  		for(i = $scope.loadedSections.length; i < $scope.sections.length; i++) {
+          console.log($scope.sections[i], i);
 	  			$scope.loadedSections.push($scope.sections[i]);
 	  			if($location.hash() == $scope.sections[i])
 	  				break;
 	  		}
 	  	}
+      // do anchor scroll if default scroll won't work
+      $timeout($anchorScroll, 500);
   	}
 	});
-
 };
