@@ -46,7 +46,7 @@
 	margin-top:60px;
 }
 .home-top {
-	background: url('../img/home-bg.svg');
+	background: url('../img/home-bg.jpg');
 	height: 400px;
 	width: 100%;
 	text-align: center;
@@ -93,6 +93,9 @@
 .contact {
 	font-size: 14px;
 	padding-left: 15px;
+}
+.contact li {
+	margin-top: 10px;
 }
 .contact a {
 	color: #222;
