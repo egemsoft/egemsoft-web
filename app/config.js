@@ -15,5 +15,11 @@ angular.module("egem.config", []).
 		  	contentSrc: '/content/',
 		  	// edit here to configure standalone pages source directory e.g. /content/page/projects.html
 		  	pageContentSrc: '/content/page/',
+
+		  	// home, motto, etc.
+		  	home: {
+		  		title: '',
+		  		motto: ''
+		  	}
 		  };
 	  }]);
