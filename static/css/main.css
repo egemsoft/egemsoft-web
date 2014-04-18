@@ -58,7 +58,9 @@
 .home-top .title {
 	position: relative;
 	top: 300px;
-	font-weight: 800;
+	font-size: 33px;
+	color: #e2e2e2;
+	opacity: 0.8;
 }
 .home-top .motto {
 	position: relative;

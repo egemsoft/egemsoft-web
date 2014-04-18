@@ -18,7 +18,7 @@ angular.module("egem.config", []).
 
 		  	// home, motto, etc.
 		  	home: {
-		  		title: '',
+		  		title: 'Your big data partner',
 		  		motto: ''
 		  	}
 		  };
