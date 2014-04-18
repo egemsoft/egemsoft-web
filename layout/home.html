@@ -1,12 +1,12 @@
 <div class="content">
   <section ng-repeat="section in loadedSections"
 	         id="{{section}}"
-	         ng-class="{'section-a':$odd, 'section-b':$even}"
+	         class="animated",
+	         ng-class="{'section-a fadeInLeft': $even, 'section-b fadeInRight': $odd}"
+	         style="min-height: {{window.innerHeight-54-60}}px;"
 	         ng-include="config.contentSrc + section + '.html'"
 	         scroll-section-load
 	         sections="sections"
-	         loaded-sections="loadedSections"
-	         ng-animate="{enter:'section-animate-enter'}"
-	         style="min-height: {{window.innerHeight-172-54}}px">
+	         loaded-sections="loadedSections">
   </section>
 </div>
