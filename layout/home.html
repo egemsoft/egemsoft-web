@@ -1,8 +1,5 @@
 <div class="content">
-	<div class="home-top">
-		<header class="title lead">{{config.home.title}}</header>
-		<p class="motto">{{config.home.motto}}</p>
-	</div>
+	<div ng-include="config.contentSrc + 'home-top.html'"></div>
   <section ng-repeat="section in loadedSections"
 	         id="{{section}}"
 	         class="animated",
