@@ -6,7 +6,7 @@
   <section ng-repeat="section in loadedSections"
 	         id="{{section}}"
 	         class="animated",
-	         ng-class="{'section-a fadeInLeft': $even, 'section-b fadeInRight': $odd}"
+	         ng-class="{'section-a fadeInLeftBig': $even, 'section-b fadeInLeftBig': $odd}"
 	         style="min-height: {{window.innerHeight-54-60}}px;"
 	         ng-include="config.contentSrc + section + '.html'"
 	         scroll-section-load
