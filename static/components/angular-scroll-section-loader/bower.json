@@ -22,14 +22,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "_release": "0.1.1",
-  "_resolution": {
-    "type": "version",
-    "tag": "0.1.1",
-    "commit": "064e203d5b45930cee30c6968fe31b61cbec80cd"
-  },
-  "_source": "git://github.com/dbtek/angular-scroll-section-loader.git",
-  "_target": "~0.1.1",
-  "_originalSource": "angular-scroll-section-loader"
+  ]
 }

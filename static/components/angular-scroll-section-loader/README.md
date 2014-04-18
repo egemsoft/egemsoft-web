@@ -7,7 +7,7 @@ Bower: ```bower install angular-scroll-section-loader```
 ##Usage
 Include module in your html.
 ```html
-  <script src="/angular-scroll-section-loader/scroll-section-loader.min.js"></script>
+  <script src="/angular-scroll-section-loader/scroll-section-loader.js"></script>
 ```
 
 Add ```scrollSectionLoader``` as a dependency in your Angular app.
