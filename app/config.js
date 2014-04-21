@@ -13,8 +13,6 @@ angular.module("egem.config", []).
 		  	sections: ['about','services','contact'],
 		  	// edit here to configure section source directory e.g. /content/about.html
 		  	contentSrc: '/content/',
-		  	// edit here to configure standalone pages source directory e.g. /content/page/projects.html
-		  	pageContentSrc: '/content/page/',
 
 		  	// home, motto, etc.
 		  	home: {

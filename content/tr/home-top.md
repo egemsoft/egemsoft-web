@@ -1,0 +1,1 @@
+## Büyük veri çözüm ortağınız

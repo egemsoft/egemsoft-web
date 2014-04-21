@@ -1,4 +1,9 @@
 <div class="content page" ng-controller="PageCtrl" style="min-height: {{window.innerHeight-172-60}}px">
-  <section ng-include="config.pageContentSrc + page + '.html'"
-  				 class="animated fadeInLeft"></section>
+	<section class="animated fadeInLeft section">
+		<div class="container">
+			<div btf-markdown
+					 ng-include="config.contentSrc + language.key + '/page/' + page + '.md'">
+			</div>
+		</div>
+	</section>
 </div>

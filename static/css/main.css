@@ -39,7 +39,6 @@
 	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
 .lng-selection .glyphicon {
-	line-height:11px;
 	font-size: 15px;
 }
 .content {
@@ -47,9 +46,9 @@
 	overflow: hidden;
 }
 .content.page {
-	margin-top:60px;
+	margin-top:80px;
 }
-.home-top {
+#home-top {
 	background: url('../img/home-bg.jpg');
 	height: 400px;
 	width: 100%;
@@ -59,14 +58,14 @@
 	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
-.home-top .title {
+#home-top h2 {
 	position: relative;
 	top: 300px;
 	font-size: 33px;
 	color: #e2e2e2;
 	opacity: 0.8;
 }
-.home-top .motto {
+#home-top h3 {
 	position: relative;
 	top: 320px;
 }
@@ -82,27 +81,28 @@
 	min-height: 650px;
 }
 
-.section-a img, .section-b img {
+.section img {
 	margin-top: 90px;
 }
 
-.subsection .lead {
+.section p, .section ul, .section h4, .section h3 {
+	color: #6f6f6f;
+}
+
+#contact {
 	font-size: 16px;
-}
-
-.sub.lead {
-	font-size: 15px;
-}
-
-.contact {
-	font-size: 14px;
 	padding-left: 15px;
 }
-.contact li {
+#contact ul {
+	padding-left: 5px;
+	margin-top: 15px;
+}
+#contact li {
+	list-style-type: none;
 	margin-top: 10px;
 }
-.contact a {
-	color: #222;
+#contact a {
+	color: #6f6f6f;
 }
 
 .rounded {
@@ -122,6 +122,9 @@ footer a {
 footer a:hover {
   color: white;
   text-decoration: none;
+}
+.footer-menu-divider {
+	margin-right: 5px;
 }
 
 a {

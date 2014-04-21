@@ -13,12 +13,17 @@
 
   <script src="/static/components/jquery/dist/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="/static/components/showdown/compressed/showdown.js"></script>
+  <script src="/static/components/showdown-icon/showdown-icon.js"></script>
+  <script src="/static/components/showdown-date/showdown-date.js"></script>
 
   <script src="/static/components/angular/angular.min.js"></script>
   <script src="/static/components/angular-route/angular-route.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
   <script src="/static/components/angular-scroll-section-loader/scroll-section-loader.js"></script>
+  <script src="/static/components/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="/static/components/angular-markdown-directive/markdown.js"></script>
 
   <script src="/app/language.js"></script>
   <script src="/app/config.js"></script>
@@ -36,7 +41,7 @@
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#egem-navbar">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -46,7 +51,7 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="egem-navbar">
         <ul class="nav navbar-nav navbar-right">
           <li ng-class="{'active':!activeSection && activePage == '/'}"><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
           <li ng-class="{'active':activeSection=='about' && activePage == '/'}"><a href="#/#about">{{locale('about')}}</a></li>
@@ -55,21 +60,39 @@
           <li class="dropdown lng-selection">
             <a class="dropdown-toggle" data-toggle="dropdown">
               <span class="glyphicon glyphicon-globe"></span> {{locale('language')}} <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li ng-repeat="lang in languages" ng-class="{'active':language.key==lang.key}">
-                <a ng-click="setLanguage(lang)"><span class="badge">{{lang.key}}</span> {{lang.label}}</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container -->
-  </nav>
+              <ul class="dropdown-menu">
+                <li ng-repeat="lang in languages" ng-class="{'active':language.key==lang.key}">
+                  <a ng-click="setLanguage(lang)"><span class="badge">{{lang.key}}</span> {{lang.label}}</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
 
-  <ng-view></ng-view>
+    <ng-view></ng-view>
 
-  <footer ng-include="config.contentSrc + 'footer.html'"></footer>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <ul class="list-inline nav-menu">
+            <li>
+              <a href="#"><span class="glyphicon glyphicon-home"></span></a>
+            </li>
+            <li ng-repeat="section in sections">
+              <span class="footer-menu-divider">⋅</span>
+              <a href="#/#{{section}}">{{locale(section)}}</a>
+            </li>
+          </ul>
+          <div class="copyright small"
+               btf-markdown
+               showdown-extensions="icon,date"
+               ng-include="config.contentSrc + language.key + '/footer.md'"></div>
+        </div>
+      </div>
+    </footer>
 
-  <script src="/static/js/analytics.js"></script>
-</body>
-</html>
+    <script src="/static/js/analytics.js"></script>
+  </body>
+  </html>
