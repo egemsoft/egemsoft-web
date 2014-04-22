@@ -22,8 +22,7 @@
   <script src="/static/components/angular-bootstrap/ui-bootstrap.min.js"></script>
   <script src="/static/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
   <script src="/static/components/angular-scroll-section-loader/scroll-section-loader.js"></script>
-  <script src="/static/components/angular-sanitize/angular-sanitize.min.js"></script>
-  <script src="/static/components/angular-markdown-directive/markdown.js"></script>
+  <script src="/static/components/angular-markdown/angular.markdown.js"></script>
 
   <script src="/app/language.js"></script>
   <script src="/app/config.js"></script>
@@ -85,10 +84,10 @@
               <a href="#/#{{section}}">{{locale(section)}}</a>
             </li>
           </ul>
-          <div class="copyright small"
-               btf-markdown
-               showdown-extensions="icon,date"
-               ng-include="config.contentSrc + language.key + '/footer.md'"></div>
+          <markdown class="copyright small"
+                    extensions="icon, date"
+                    ng-include="config.contentSrc + language.key + '/footer.md'">
+          </markdown>
         </div>
       </div>
     </footer>

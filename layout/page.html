@@ -1,9 +1,11 @@
-<div class="content page" ng-controller="PageCtrl" style="min-height: {{window.innerHeight-172-60}}px">
+<div ng-controller="PageCtrl"
+		 class="content page"
+		 style="min-height: {{window.innerHeight-172-60}}px">
+		 
 	<section class="animated fadeInLeft section">
 		<div class="container">
-			<div btf-markdown
-					 ng-include="config.contentSrc + language.key + '/page/' + page + '.md'">
-			</div>
+			<markdown ng-include="config.contentSrc + language.key + '/page/' + page + '.md'">
+			</markdown>
 		</div>
 	</section>
 </div>

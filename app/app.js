@@ -5,7 +5,7 @@
  * Depends on indicated modules
  * @author Ismail Demirbilek
  */
-angular.module('egem-web', ['egem.language', 'egem.config', 'ngRoute','ui.bootstrap', 'scrollSectionLoader', 'btford.markdown']).
+angular.module('egem-web', ['egem.language', 'egem.config', 'ngRoute','ui.bootstrap', 'scrollSectionLoader', 'angular-markdown']).
 	// Route configuration
 	config(['$routeProvider', function($routeProvider) {
 	  $routeProvider.when('/', {
