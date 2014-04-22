@@ -3,7 +3,7 @@
 // A directive for rendering markdown in AngularJS.
 // https://bitbucket.org/morgul/angular-markdown
 //
-// Written by John Lindquist (original author). Modified by Jonathan Rowny (ngModel support).
+// Written by John Lindquist (original author). Modified by <Enter Your Name>
 // Adapted by Christopher S. Case
 //
 // Taken from: http://blog.angularjs.org/2012/05/custom-components-part-1.html
@@ -16,7 +16,7 @@ MarkdownModule.directive('markdown', function () {
 	var converter = new Showdown.converter();
 
 	return {
-		restrict: 'E',
+		restrict: 'EA',
 		require: '?ngModel',
 		link: function (scope, element, attrs, model) {
 			// Check for extensions
