@@ -35,6 +35,10 @@ angular.module("egem.language", []).
           home: {
             tr: 'Anasayfa',
             en: 'Home'
+          },
+          readMore: {
+            tr: 'Devamını oku',
+            en: 'Read more'
           }
         },
 

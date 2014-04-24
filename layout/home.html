@@ -1,9 +1,44 @@
 <div class="content"
 	   style="min-height: {{window.innerHeight-54-60}}px;">
 	
-	<div markdown id="home-top"
-			 class="animated fadeInDown"
-			 ng-include="config.contentSrc + language.key + '/' + 'home-top.md'">
+  <div id="home" style="min-height: {{window.innerHeight-54}}px;">
+	  <div id="home-top" class="animated fadeInDown">
+	 		<div style="height: 305px">
+	 			<carousel interval="config.home.slideInterval" id="egem-slider">
+	 				<slide ng-repeat="slide in slides" active="slide.active">
+	 					<div class="container text-right">
+		 					<div class="col-sm-6 item-description">
+		 						<h1 class="title">{{slide.title}}</h1>
+		 						<p class="text">{{slide.text|limitTo:300}}</p>
+		 						<a class="btn btn-primary btn-sm" href="{{slide.link}}">{{locale('readMore')}}</a>
+		 					</div>
+		 					<div class="col-sm-6">
+		 						<img ng-src="{{slide.image}}" style="margin:auto;">
+		 					</div>
+	 					</div>
+	 				</slide>
+	 			</carousel>
+	 		</div>
+		</div>
+
+		<div class="row" id="home-blocks">
+		  <div class="col-sm-4 block" ng-repeat="block in blocks">
+		    <div class="thumbnail">
+		    	<div class="caption col-xs-6">
+		        <h3 class="title">{{block.title}}</h3>
+			      <p>{{block.text|limitTo:150}} <a href="{{block.link}}">...</a></p>
+		    	</div>
+		    	<div class="col-xs-6">
+			      <img class="img-circle" src="{{block.image}}">
+			    </div>
+			    <div class="clearfix"></div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<div class="text-center more-section animated fadeInDown infinite hinge">
+		<a href="#/#{{sections[0]}}"><span class="glyphicon glyphicon-chevron-down"></span></a>
 	</div>
   
   <section id="{{section}}"

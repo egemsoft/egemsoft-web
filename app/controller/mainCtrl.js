@@ -8,8 +8,15 @@ var MainCtrl = function($scope, $location, $route, $config, $language, $anchorSc
   $scope.languages = $language.availableLanguages;
   $scope.language = $language.availableLanguages[0];
 
+
+  $scope.slides = $config.home[$scope.language.key].slides;
+  $scope.blocks = $config.home[$scope.language.key].blocks;
+
   $scope.setLanguage = function(language) {
   	$scope.language = language;
+    $scope.slides = $config.home[$scope.language.key].slides;
+    $scope.blocks = $config.home[$scope.language.key].blocks;
+
   	// scroll to current section, text sizes may differentiate for locales.
   	$anchorScroll();
   };

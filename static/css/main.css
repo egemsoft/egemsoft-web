@@ -50,25 +50,40 @@
 }
 #home-top {
 	background: url('../img/home-bg.jpg');
-	height: 400px;
+	height: 480px;
 	width: 100%;
 	text-align: center;
 	color: #fff;
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+	padding-top: 54px;
 }
-#home-top h2 {
-	position: relative;
-	top: 300px;
-	font-size: 33px;
-	color: #e2e2e2;
-	opacity: 0.8;
+#home-blocks {
+	margin-top:30px;
+	padding: 0 10% 0;
 }
-#home-top h3 {
-	position: relative;
-	top: 320px;
+#home-blocks .block .caption {
+	z-index: 100;
 }
+
+#home-blocks .block .title {
+	white-space: nowrap;
+}
+
+#egem-slider .carousel-inner .item {
+	height: 400px;
+	padding: 40px 0 40px;
+}
+
+#egem-slider .carousel-inner .item .item-description {
+	text-shadow: 2px 1px 8px rgba(150, 150, 150, 1);
+}
+
+#egem-slider .carousel-control {
+	background-image: none;
+}
+
 .section-a {
 	background-color: #f8f8f8;
 	padding: 40px 0;
@@ -129,4 +144,8 @@ footer a:hover {
 
 a {
 	cursor: pointer;
+}
+
+.more-section a {
+	color: #c0392b;
 }
