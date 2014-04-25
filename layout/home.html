@@ -22,14 +22,14 @@
 		</div>
 
 		<div class="row" id="home-blocks">
-		  <div class="col-sm-4 block" ng-repeat="block in blocks">
+		  <div class="col-md-4 block animated fadeInDown" ng-repeat="block in blocks">
 		    <div class="thumbnail">
 		    	<div class="caption col-xs-6">
 		        <h3 class="title">{{block.title}}</h3>
 			      <p>{{block.text|limitTo:150}} <a href="{{block.link}}">...</a></p>
 		    	</div>
 		    	<div class="col-xs-6">
-			      <img class="img-circle" src="{{block.image}}">
+			      <img class="img-circle img-responsive" src="{{block.image}}">
 			    </div>
 			    <div class="clearfix"></div>
 		    </div>
