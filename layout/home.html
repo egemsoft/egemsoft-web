@@ -7,13 +7,13 @@
 	 			<carousel interval="config.home.slideInterval" id="egem-slider">
 	 				<slide ng-repeat="slide in slides" active="slide.active">
 	 					<div class="container text-right">
-		 					<div class="col-sm-6 item-description">
+		 					<div class="col-xs-6 item-description">
 		 						<h1 class="title">{{slide.title}}</h1>
 		 						<p class="text">{{slide.text|limitTo:300}}</p>
 		 						<a class="btn btn-primary btn-sm" href="{{slide.link}}">{{locale('readMore')}}</a>
 		 					</div>
-		 					<div class="col-sm-6">
-		 						<img ng-src="{{slide.image}}" style="margin:auto;">
+		 					<div class="col-xs-6">
+		 						<img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;">
 		 					</div>
 	 					</div>
 	 				</slide>

@@ -87,6 +87,11 @@
 
 #egem-slider .carousel-inner .item .item-description {
 	text-shadow: 2px 1px 8px rgba(150, 150, 150, 1);
+	z-index: 100;
+}
+
+#egem-slider .carousel-inner .item .item-description .title {
+	white-space: nowrap;
 }
 
 #egem-slider .carousel-control {
@@ -157,4 +162,9 @@ a {
 
 .more-section a {
 	color: #c0392b;
+}
+
+.nowrap {
+	white-space: nowrap;
+	z-index: 1000;
 }
