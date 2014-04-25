@@ -1,8 +1,8 @@
 <div class="content"
 	   style="min-height: {{window.innerHeight-54-60}}px;">
 	
-  <div id="home" style="min-height: {{window.innerHeight-54}}px;">
-	  <div id="home-top" class="animated fadeInDown">
+  <div id="home" class="animated fadeInDown" style="min-height: {{window.innerHeight-54}}px;">
+	  <div id="home-top">
 	 		<div style="height: 305px">
 	 			<carousel interval="config.home.slideInterval" id="egem-slider">
 	 				<slide ng-repeat="slide in slides" active="slide.active">
@@ -21,8 +21,8 @@
 	 		</div>
 		</div>
 
-		<div class="row" id="home-blocks">
-		  <div class="col-md-4 block animated fadeInDown" ng-repeat="block in blocks">
+		<div class="row animated fadeInLeft" id="home-blocks">
+		  <div class="col-md-4 block" ng-repeat="block in blocks">
 		    <div class="thumbnail">
 		    	<div class="caption col-xs-6">
 		        <h3 class="title">{{block.title}}</h3>
@@ -43,7 +43,7 @@
   
   <section id="{{section}}"
   				 ng-repeat="section in loadedSections"
-	         class="section animated fadeInLeftBig",
+	         class="section animated fadeInLeft",
 	         ng-class="{'section-a': $even, 'section-b': $odd}"
 	         style="min-height: {{window.innerHeight-54-60}}px;"
 	         scroll-section-load
