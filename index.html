@@ -70,7 +70,9 @@
       </div><!-- /.container -->
     </nav>
 
-    <ng-view></ng-view>
+    <div style="min-height:{{window.innerHeight}}px">
+      <ng-view></ng-view>
+    </div>
 
     <footer>
       <div class="container">
