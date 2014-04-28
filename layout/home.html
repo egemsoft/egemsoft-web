@@ -8,12 +8,17 @@
 	 				<slide ng-repeat="slide in slides" active="slide.active">
 	 					<div class="container text-right">
 		 					<div class="col-xs-6 item-description">
-		 						<h1 class="title">{{slide.title}}</h1>
-		 						<p class="text">{{slide.text|limitTo:300}}</p>
-		 						<a class="btn btn-primary btn-sm" href="{{slide.link}}">{{locale('readMore')}}</a>
+		 						<h1 class="title"><a href="{{slide.link}}">{{slide.title}}</a></h1>
+		 						<p class="text">
+		 							<a href="{{slide.link}}">
+		 								{{slide.text|limitTo:300}}...
+		 							</a>
+		 						</p>
 		 					</div>
 		 					<div class="col-xs-6">
-		 						<img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;">
+		 						<a href="{{slide.link}}">
+		 							<img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;">
+		 						</a>
 		 					</div>
 	 					</div>
 	 				</slide>

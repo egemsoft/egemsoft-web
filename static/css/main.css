@@ -48,9 +48,9 @@
 	color: #eee;
 }
 .lng-selection .glyphicon {
-	font-size: 15px;
-}
-.content {
+	font-size: 15px
+content;}
+.loca {
 	width:100%;
 	overflow: hidden;
 }
@@ -63,9 +63,6 @@
 	width: 100%;
 	text-align: center;
 	color: #fff;
-	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 	padding-top: 54px;
 }
 #home-blocks {
@@ -83,6 +80,12 @@
 #egem-slider .carousel-inner .item {
 	height: 400px;
 	padding: 40px 0 40px;
+	color: #2c3e50;
+}
+
+#egem-slider .carousel-inner .item a {
+	color: #2c3e50;
+	text-decoration: none;
 }
 
 #egem-slider .carousel-inner .item .item-description {

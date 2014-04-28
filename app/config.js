@@ -26,29 +26,37 @@ angular.module("egem.config", []).
 			  			{
 			  				title: 'Your Big Data Partner',
 			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/slide1.png'
+			  				image: uploadsUrl + '/slide-bigdata.png',
+			  				link: '#/#services'
 			  			},
 			  			{
-			  				title: 'System Integration Expertize',
+			  				title: 'System Integration Expertise',
 			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/slide2.png'
+			  				image: uploadsUrl + '/slide-integration.png',
+			  				link: '#/#services'
+			  			},
+			  			{
+			  				title: 'Software Testing Services',
+			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
+			  				image: uploadsUrl + '/slide-test.png',
+			  				link: '#/#services'
 			  			}
 			  		],
 			  		blocks: [
 			  			{
-			  				title: 'Your Big Data Partner',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block1.png'
+			  				title: 'MARS',
+			  				text: 'Mail archiving, analysis and reporting system. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
+			  				image: uploadsUrl + '/block-mars.png'
 			  			},
 			  			{
-			  				title: 'System Integration Expertize',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block2.png'
+			  				title: 'IPAM',
+			  				text: 'IP Management System. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
+			  				image: uploadsUrl + '/block-ipam.png'
 			  			},
 			  			{
-			  				title: 'Software Testing',
+			  				title: 'Quota Reporting',
 			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block2.png'
+			  				image: uploadsUrl + '/block-quota.png'
 			  			}
 			  		]
 			  	},
@@ -58,29 +66,37 @@ angular.module("egem.config", []).
 			  			{
 			  				title: 'Your Big Data Partner',
 			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/slide1.png'
+			  				image: uploadsUrl + '/slide-bigdata.png',
+			  				link: '#/#services'
 			  			},
 			  			{
-			  				title: 'System Integration Expertize',
+			  				title: 'System Integration Expertise',
 			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/slide2.png'
+			  				image: uploadsUrl + '/slide-integration.png',
+			  				link: '#/#services'
+			  			},
+			  			{
+			  				title: 'Software Testing Services',
+			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
+			  				image: uploadsUrl + '/slide-test.png',
+			  				link: '#/#services'
 			  			}
 			  		],
 			  		blocks: [
 			  			{
-			  				title: 'Your Big Data Partner',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block1.png'
+			  				title: 'MARS',
+			  				text: 'Mail archiving, analysis and reporting system. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
+			  				image: uploadsUrl + '/block-mars.png'
 			  			},
 			  			{
-			  				title: 'System Integration Expertize',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block2.png'
+			  				title: 'IPAM',
+			  				text: 'IP Management System. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
+			  				image: uploadsUrl + '/block-ipam.png'
 			  			},
 			  			{
-			  				title: 'Software Testing',
+			  				title: 'Logger',
 			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block2.png'
+			  				image: uploadsUrl + '/block-logger.png'
 			  			}
 			  		]
 			  	}
