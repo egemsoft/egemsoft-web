@@ -2,36 +2,34 @@
 	   style="min-height: {{window.innerHeight-54-60}}px;">
 	
   <div id="home" class="animated fadeInDown" style="min-height: {{window.innerHeight-54}}px;">
-	  <div id="home-top">
-	 		<div style="height: {{(window.innerHeight-54-60)/2}}px">
-	 			<carousel interval="config.home.slideInterval" id="egem-slider">
-	 				<slide ng-repeat="slide in slides" active="slide.active" style="height: {{(window.innerHeight-54-60)/2}}px">
-	 					<div class="container text-right">
-		 					<div class="col-xs-6 item-description">
-		 						<h1 class="title"><a href="{{slide.link}}">{{slide.title}}</a></h1>
-		 						<p class="text">
-		 							<a href="{{slide.link}}">
-		 								{{slide.text|limitTo:300}}
-		 								<span ng-if="slide.text.length > 300">...</span>
-		 							</a>
-		 						</p>
-		 					</div>
-		 					<div class="col-xs-6">
-		 						<a href="{{slide.link}}">
-		 							<img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;">
-		 						</a>
-		 					</div>
+	  <div id="home-top" style="height: {{(window.innerHeight)/2 + 54}}px">
+ 			<carousel interval="config.home.slideInterval" id="egem-slider" style="height: {{((window.innerHeight)/2 - 40)}}px">
+ 				<slide ng-repeat="slide in slides" active="slide.active">
+ 					<div class="container text-right">
+	 					<div class="col-sm-6 item-description">
+	 						<h1 class="title"><a href="{{slide.link}}">{{slide.title}}</a></h1>
+	 						<p class="text">
+	 							<a href="{{slide.link}}">
+	 								{{slide.text|limitTo:300}}
+	 								<span ng-if="slide.text.length > 300">...</span>
+	 							</a>
+	 						</p>
 	 					</div>
-	 				</slide>
-	 			</carousel>
-	 		</div>
+	 					<div class="col-sm-6">
+	 						<a href="{{slide.link}}">
+	 							<img style="margin:auto; max-height: {{((window.innerHeight)/2 - 40)}}px" class="img-responsive" ng-src="{{slide.image}}">
+	 						</a>
+	 					</div>
+ 					</div>
+ 				</slide>
+ 			</carousel>
 		</div>
 
 		<div class="row animated fadeInLeft" id="home-blocks">
-			<carousel interval="-1" id="egem-slider" style="height: {{(window.innerHeight-54-60)/2}}px">
+			<carousel interval="-1" id="egem-slider" style="height: {{(window.innerHeight)/2 - 54 - 40}}px">
 				<slide ng-repeat="blocksSlide in blocksSlides">
 				  <div class="col-md-4 block" ng-repeat="block in blocksSlide">
-				    <div class="thumbnail">
+				    <div class="thumbnail" style="max-height: {{(window.innerHeight)/2 - 54 - 80}}px">
 				    	<div class="caption col-xs-6">
 				        <h3 class="title">
 				        	<a href="{{block.link}}">
