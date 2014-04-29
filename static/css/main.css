@@ -74,6 +74,9 @@ content;}
 	color: #fff;
 	padding-top: 54px;
 }
+#home-blocks {
+	width: 100%;
+}
 #home-blocks .carousel-inner {
 	max-width: 1400px;
 	margin: 20px auto;
