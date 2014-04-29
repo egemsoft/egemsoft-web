@@ -74,9 +74,18 @@ content;}
 	color: #fff;
 	padding-top: 54px;
 }
-#home-blocks {
+#home-blocks .carousel-inner {
 	max-width: 1400px;
 	margin: 20px auto;
+}
+#home-blocks .carousel-control {
+	color: #777;
+}
+#home-blocks .carousel-indicators li.active {
+	background-color: #777;
+}
+#home-blocks .carousel-indicators li {
+	border-color: #777;
 }
 #home-blocks .block .caption {
 	z-index: 100;
@@ -87,7 +96,6 @@ content;}
 }
 
 #egem-slider .carousel-inner .item {
-	height: 400px;
 	padding: 40px 0 40px;
 	color: #2c3e50;
 }

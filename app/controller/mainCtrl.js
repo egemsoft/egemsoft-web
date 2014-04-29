@@ -10,7 +10,16 @@ var MainCtrl = function($scope, $location, $route, $config, $language, $anchorSc
 
 
   $scope.slides = $config.home[$scope.language.key].slides;
-  $scope.blocks = $config.home[$scope.language.key].blocks;
+  var blocks = $config.home[$scope.language.key].blocks;
+  var blocksSlides = [];
+  var blockSlidesSize = Math.ceil(blocks.length/$config.home.blocksPerSlide);
+
+  for(i=0; i<blockSlidesSize; i++) {
+    blocksSlides.push(blocks.slice(i*$config.home.blocksPerSlide, i*$config.home.blocksPerSlide + $config.home.blocksPerSlide));
+  }
+
+  console.log(blocksSlides);
+  $scope.blocksSlides = blocksSlides;
 
   $scope.setLanguage = function(language) {
   	$scope.language = language;

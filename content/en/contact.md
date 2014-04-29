@@ -7,4 +7,4 @@
 - @glyphicon-file [0216 474 44 90](tel:02164744490)
 - @glyphicon-home [EGEM Bilgi İletişim Ticaret Ltd Şti  
   Altunizade Mah. Kısıklı Cad. N:3 D:5 Tekin Ak İş Merkezi  
-  34662 Üsküdar İSTANBUL](https://www.google.com/maps/place/Kısıklı+Cd+No:3)
+  34662 Üsküdar İSTANBUL](https://www.google.com/maps/place/K%C4%B1s%C4%B1kl%C4%B1+Cd+No:3/@41.0237096,29.037486,17z/data=!4m2!3m1!1s0x14cab7fb25b13d0b:0x17dddcf46745dbcb)
