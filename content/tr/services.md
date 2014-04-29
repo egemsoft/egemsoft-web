@@ -1,17 +1,17 @@
 - - -
 ## Ürünler
-#### Software Development and Systems Integration
+#### Yazılım Geliştirme ve Sistem Entegrasyon
 
-Big Data Management Platform
+Büyük Veri Yönetim Platformu
 
-- [MARS – Mail Archiving, Analysis and Reporting System](#/page/mars-email-archive-system)
-- [Data Analysis and Reporting](#/page/data-analysis-reporting)
-- [Log Analysis Tool](#/page/log-analysis-tool)
+- [MARS – E-posta Arşivleme, Analiz ve Raporlama Sistemi](#/page/mars-email-archive-system)
+- [Veri Analiz ve Raporlama](#/page/data-analysis-reporting)
+- [Log Analiz Aracı](#/page/log-analysis-tool)
 
-Systems Integration and Corporate Application Development
+Sistem Entegrasyon ve Kurumsal Uygulama Geliştirme
 
-- [IPAM – IP Management System](#/page/ipam-ip-management-system)
-- [Quota Reporting System](#/page/quota-reporting-system)
-- [Modem Defects Detecting Platform](#/page/modem-defects-detecting-platform)
+- [IPAM – IP Adres Yönetim Sistemi](#/page/ipam-ip-management-system)
+- [Kota Raporlama Sistemi](#/page/quota-reporting-system)
+- [Modem Arıza Tespit Platformu](#/page/modem-defects-detecting-platform)
 
-####Software Test Services
+####Yazılım Test Hizmetleri
