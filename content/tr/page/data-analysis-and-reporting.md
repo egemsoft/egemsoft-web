@@ -2,9 +2,9 @@
 ##Veri Analiz ve Raporlama 
 
 **-Temel Gereksinimler:**  
->  -DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
->  -Özel İşlem Gerektiren DPI Raporları  
->  -com.tr, edu.tr, gov.tr gibi kök alan adlarına yönelik raporlar alınabilmeli (metin işleme)  
+>  - DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
+>  - Özel İşlem Gerektiren DPI Raporları  
+>  - com.tr, edu.tr, gov.tr gibi kök alan adlarına yönelik raporlar alınabilmeli (metin işleme)  
 >  -Aynı organizasyona ait farklı alan adları gruplanarak raporlanabilmeli (facebook.com - fb.com...)  
 >  -Alan adları, kategorilerine göre gruplanarak raporlanabilmeli (sosyal medya, oyun, video vs.)  
 >  -Raporlar yüksek performansla oluşturulabilmeli  
