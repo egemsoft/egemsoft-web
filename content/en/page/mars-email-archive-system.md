@@ -10,9 +10,23 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 **Temel İşlevler:**
 
 **-Toplama:**  
-  -Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  
+-Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  
 -POP3 ve IMAP kullanan tüm sağlayıcıların ürettiği e-postalar  
 -PST e-posta arşiv dosyaları  
 -Active Directory veya LDAP’dan kullanıcı ve rol tanımları
 
-**-Yönetim:**
+**-Yönetim:**  
+-Yasal uyumluluk için veri tutarlılığının garanti edilmesi  
+-Erişim kuralları ile veri güvenliğinin sağlanması  
+-Kullanıcı grup/profilleri bazında arşivleme zaman planlaması  
+
+**-Analiz:**  
+-Kurum içi e-posta kullanım eğilimlerine ilişkin detay bilgi üretilmesi  
+-Metin Madenciliği gibi derinlemesine analiz olanağı  
+-Belirlenmiş, uyarı yaratacak anahtar kelimeler bazında e-postaların taranması ve sonuçların raporlanması  
+
+**-Erişim:**  
+-Microsoft Outlook E-posta istemcisinden gerçek zamanlı erişim  
+-Posta kutusunda kısa yollar kullanarak arşivlenmiş postalara erişim  
+-Posta alanları (kime, kimden, dikkatine, konu, mesaj metni, ekli dosya isimleri, ekli dosya içeriği) üzerinde tam metin arama, sorgulama  
+-Web üzerinden erişim  
