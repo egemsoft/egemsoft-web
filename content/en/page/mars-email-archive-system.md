@@ -11,8 +11,7 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 
 **-Toplama:**
 
-  -Tüm Microsoft Exchange sürümlerinde üretilen E-postalar
-  
+  -Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  
   -POP3 ve IMAP kullanan tüm sağlayıcıların ürettiği e-postalar
   
   -PST e-posta arşiv dosyaları
