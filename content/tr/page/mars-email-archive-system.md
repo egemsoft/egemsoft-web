@@ -30,3 +30,31 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 -Posta kutusunda kısa yollar kullanarak arşivlenmiş postalara erişim  
 -Posta alanları (kime, kimden, dikkatine, konu, mesaj metni, ekli dosya isimleri, ekli dosya içeriği) üzerinde tam metin arama, sorgulama  
 -Web üzerinden erişim  
+
+** Genel Özellikler:** 
+-Sınırsız Kapasiteli Kullanıcı Posta Kutusu  
+-Düzenleyici Kurum Yönetmeliklerine Uygunluk İçin Yardımcı  
+-Ölçeklenebilir Kapasite ve Yüksek Performans  
+-Veri Tekilleştirme & Sıkıştırma  
+-Jurnal Posta Kutusu Üzerinden Arşivleme  
+-Zamanlanmış E-Posta Arşivleme (Outlook Eklentisi üzerinden ya da sistem tarafından)  
+-LDAP Entegrasyonu ve Kullanıcı Grubu Temelli Arşivleme Politikaları  
+
+** Kullanıcı Deneyimi:**  
+-Otomatik ya da Elle E-Posta Arşivleme ve Arşivden Elle Geri Yükleme  
+-Outlook Eklentisi ile Değişmeyen Kullanıcı Deneyimi  
+-Tam Metin Arama (Gönderen, Gönderilen, Konu, Mesaj İçeriği, Ekli Dosya Adı, Ekli Dosya İçeriği)  
+-Web Tabanlı Arşiv Posta Kutusu Arayüzü  
+-Web/Outlook/Mobil İstemciler üzerinde görüntülenebilen arşivlenmiş e-posta kısayolları üzerinden orijinal e-posta erişimi  
+-PST Dosyalarının Arşive Eklenebilmesi  
+-Çevrimdışı Arşiv Erişimi: Outlook’ta arşivlenmiş e-postaların tutulabilmesi  
+
+** Yönetici Deneyimi:**  
+-Arşivlenmiş E-Posta Verisinin Yedeklenebilmesi  
+-Coğrafi Yedeklilik  
+-Veri Bütünlüğü Kontrolü İçin Araçlar  
+-Yönetim ve İzleme Araçları  
+-Data Export (PST & HTML)  
+-Belirlenmiş Listeler için E-Posta Arşivlememe Özelliği  
+-Arşivlenmiş E-Posta’lar için Silme Politikaları  
+
