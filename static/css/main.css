@@ -86,6 +86,7 @@ content;}
 	color: #777;
 	z-index: 10000;
 	width: 5%;
+	background-image: none;
 }
 #home-blocks .carousel-indicators li.active {
 	background-color: #777;
