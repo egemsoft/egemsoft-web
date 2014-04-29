@@ -5,7 +5,7 @@
 Big Data Management Platform
 
 - [MARS – Mail Archiving, Analysis and Reporting System](#/page/mars-email-archive-system)
-- [Data Analysis and Reporting](#/page/data-analysis-reporting)
+- [Data Analysis and Reporting](#/page/data-and-analysis-reporting)
 - [Log Analysis Tool](#/page/log-analysis-tool)
 
 Systems Integration and Corporate Application Development
