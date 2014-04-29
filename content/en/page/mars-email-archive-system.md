@@ -9,12 +9,12 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 
 **Temel İşlevler:**
 
-**-**Toplama:
+**-Toplama:**
 
-Tüm Microsoft Exchange sürümlerinde üretilen E-postalar
+  -Tüm Microsoft Exchange sürümlerinde üretilen E-postalar
 
-POP3 ve IMAP kullanan tüm sağlayıcıların ürettiği e-postalar
+  -POP3 ve IMAP kullanan tüm sağlayıcıların ürettiği e-postalar
 
-PST e-posta arşiv dosyaları
+  -PST e-posta arşiv dosyaları
 
-Active Directory veya LDAP’dan kullanıcı ve rol tanımları
+  -Active Directory veya LDAP’dan kullanıcı ve rol tanımları
