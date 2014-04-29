@@ -11,7 +11,8 @@
 		 						<h1 class="title"><a href="{{slide.link}}">{{slide.title}}</a></h1>
 		 						<p class="text">
 		 							<a href="{{slide.link}}">
-		 								{{slide.text|limitTo:300}}...
+		 								{{slide.text|limitTo:300}}
+		 								<span ng-if="slide.text.length > 300">...</span>
 		 							</a>
 		 						</p>
 		 					</div>
@@ -30,11 +31,17 @@
 		  <div class="col-md-4 block" ng-repeat="block in blocks">
 		    <div class="thumbnail">
 		    	<div class="caption col-xs-6">
-		        <h3 class="title">{{block.title}}</h3>
-			      <p>{{block.text|limitTo:150}} <a href="{{block.link}}">...</a></p>
+		        <h3 class="title">
+		        	<a href="{{block.link}}">
+		        		{{block.title}}
+		        	</a>
+		        </h3>
+			      <p>{{block.text|limitTo:150}} <a ng-if="block.text.length > 150" href="{{block.link}}">...</a></p>
 		    	</div>
 		    	<div class="col-xs-6">
-			      <img class="img-circle img-responsive pull-right" src="{{block.image}}">
+		    		<a href="{{block.link}}">
+			      	<img class="img-circle img-responsive pull-right" src="{{block.image}}">
+			      </a>
 			    </div>
 			    <div class="clearfix"></div>
 		    </div>
