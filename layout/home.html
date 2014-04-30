@@ -1,5 +1,6 @@
 <div class="content"
-	   style="min-height: {{window.innerHeight-54-60}}px;">
+	   style="min-height: {{window.innerHeight-54-60}}px;"
+	   ng-controller="HomeCtrl">
 	
   <div id="home" class="animated fadeInDown" style="min-height: {{window.innerHeight-54}}px;">
 	  <div id="home-top" style="height: {{(window.innerHeight)/2 + 54}}px">
@@ -40,7 +41,7 @@
 				    	</div>
 				    	<div class="col-xs-6">
 				    		<a href="{{block.link}}">
-					      	<img class="img-circle img-responsive pull-right" src="{{block.image}}">
+					      	<img class="img-circle img-responsive pull-right" ng-src="{{block.image}}">
 					      </a>
 					    </div>
 					    <div class="clearfix"></div>
@@ -73,7 +74,7 @@
 
      	<div class="col-lg-5 col-sm-6" 
      			 ng-class="{'col-sm-pull-6': $odd, 'col-lg-offset-2': $even}">
-	      <img class="img-responsive rounded" src="static/img/{{section}}.jpg" alt="">
+	      <img class="img-responsive rounded" ng-src="static/img/{{section}}.jpg" alt="">
 	    </div>
     </div>
   </section>
