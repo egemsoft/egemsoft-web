@@ -19,7 +19,7 @@ angular.module("egem.config", []).
 
 		  	// home, motto, etc.
 		  	home: {
-		  		slideInterval: 5000,
+		  		slideInterval: 10000,
 		  		blocksPerSlide: 3,
 		  		blocksSlideInterval: -1, // Do not auto rotate
 		  		// English content slider
