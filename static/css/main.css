@@ -101,9 +101,11 @@ content;}
 #home-blocks .block .caption {
 	z-index: 100;
 }
-
 #home-blocks .block .title {
 	white-space: nowrap;
+}
+#home-blocks .block img {
+	margin-top:20px;
 }
 
 #egem-slider .carousel-inner .item {

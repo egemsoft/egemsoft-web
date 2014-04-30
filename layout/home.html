@@ -41,7 +41,9 @@
 				    	</div>
 				    	<div class="col-xs-6">
 				    		<a href="{{block.link}}">
-					      	<img class="img-circle img-responsive pull-right" ng-src="{{block.image}}">
+					      	<img class="img-responsive pull-right"
+					      			 ng-class="{'rounded':block.rounded!=false}"
+					      			 ng-src="{{block.image}}">
 					      </a>
 					    </div>
 					    <div class="clearfix"></div>
