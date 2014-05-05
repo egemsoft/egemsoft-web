@@ -1,9 +1,9 @@
 - - -
 ##BÜYÜK VERİ YÖNETİM PLATFORMU
 
-Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta ve karmaşık veri yapılarını tariflemektedir.  
+Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir. Egemsoft, büyük veri teknolojilerini stratejik öneme sahip araştırma ve ürün geliştirme alanı olarak belirlemiştir. 
 
-Sadece bu iki faktör dahi büyük ölçekli kurumlarda yaygın olarak kullanılan geleneksel veri yönetim ve analiz araçlarının yetersiz kalmalarına neden olmaktadır. Bu faktörlere ek olarak veri kaynak ve türleri de, sosyal medyadaki metin yapısında veriler, kurumsal yazılım uygulamalarının ürettiği yapısal veriler, kameralardan alınan video sinyalleri, çağrı merkezi kayıtları, telefon konuşmaları, web üzerinde kullanıcı tercih desenleri gibi, çok çeşitlilik göstermektedir.
+Yukarıda belirtilen, büyük veriyi tanımlayan faktörler, büyük ölçekli kurumlarda yaygın olarak kullanılan geleneksel veri yönetim ve analiz araçlarının yetersiz kalmalarına neden olmaktadır. Bu faktörlere ek olarak veri kaynak ve türleri de, sosyal medyadaki metin yapısında veriler, kurumsal yazılım uygulamalarının ürettiği yapısal veriler, kameralardan alınan video sinyalleri, çağrı merkezi kayıtları, telefon konuşmaları, web üzerinde kullanıcı tercih desenleri gibi, çok çeşitlilik göstermektedir.
 
 İş dünyasında sürdürülebilir rekabet avantajını elde edebilmek amacıyla, eldeki bilginin farklı kaynaklardan elde edilen verilerin ilişkilendirilerek zenginleştirilmesini ve derinlemesine analiz olanağını sağlayan teknolojilerin devreye alınması, kurumların ajandasında bir zorunluluk haline gelmiştir. Bununla birlikte, yüksek mailyetli geleneksel veri yönetim sistemlerine ve altyapı ürünlerine yapılacak geri dönüşü çok düşük yatırımlar, sonu gelmeyen bir sarmala dönüşerek öngörülemeyen büyüklükte operasyonel maliyetlere sebep olabilecektir.
 
@@ -17,6 +17,7 @@ Sadece bu iki faktör dahi büyük ölçekli kurumlarda yaygın olarak kullanıl
 
 - **Kişisel Hizmet Sunumu**
 	- Farklı açılardan elde edilen müşteri bilgilerinin ilişkilendirilmesi ile her farklı müşteri için en uygun ürünün bulunabilmesi, tanımlanabilmesi
+
 
 - **Anında Önlem Alabilme**
 	- Müşteri ihtiyaç ve taleplerinin zamanında öğrenilmesi ile ihtiyaç duydukları anda ilgili hizmetin veya ürünün verilebilmesi
