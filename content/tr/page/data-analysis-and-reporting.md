@@ -1,7 +1,7 @@
 - - -
 ##Veri Analiz ve Raporlama 
 
-- **Temel Gereksinimler:**  
+**Temel Gereksinimler:**  
 
     - DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
     - Özel İşlem Gerektiren DPI Raporları  
@@ -18,7 +18,7 @@
     - Şebeke planlamasına katkıda bulunabilecek çeşitli raporlara ihtiyaç duyulmakta  
     
 
--  **İş Akışı:**  
+**İş Akışı:**  
 
     -  Verinin Sisteme Alınması  
         -  Çeşitli veri kaynaklarından toplanması gereken verinin, belirli saatlerde, otomatik olarak sisteme aktarılması (DB – View, FTP ile dosya transferi vs.)  
@@ -29,9 +29,9 @@
         -  Harici BI araçlarıyla entegrasyon sağlanabilmesi  
         -  Geçmişe dönük trend analizinin sağlanması 
 
-- **Veri Kaynakları:**  
+**Veri Kaynakları:**  
 
-- **Rapor Örnekleri:**  
+**Rapor Örnekleri:**  
 **Ağ Analizi:**  
     - Abonelerin Hızlarına Göre Dağılımları  
     - Müşterilerin deneyimlediği hızların gruplanması  
