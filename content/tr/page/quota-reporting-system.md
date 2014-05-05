@@ -1,6 +1,8 @@
 - - -
 ##Kota Raporlama Sistemi
 
+Günümüz telekomünikasyon şebekelerinde çeşitli yöntemler ile kullanım hizmet faturası üretmek mümkündür. Bu yöntemlerden biri de "Kullandığın Kadar Öde" şeklinde olabilir. Kota Raporlama çözümümüz, kullanıcıların cihazlarının ürettiği detaylı çağrı raporlarını inceleyen, fatura üretimine yönelik bilgileri toplayan bir uygulamadır. 
+
 **Temel Özellikler**  
 
 - Şebekeler üzerindeki müşteri trafik kullanımlarının ölçümü,
