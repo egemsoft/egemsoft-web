@@ -86,20 +86,20 @@ angular.module("egem.config", []).
 			  		slides: [
 			  			{
 			  				title: 'Büyük Veri Platformu ve Uygulamaları',
-			  				text: 'Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir.'
-							image: uploadsUrl + '/slide-bigdata.png',
+			  				text: 'Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir.',
+								image: uploadsUrl + '/slide-bigdata.png',
 			  				link: '#page/#big-data-platform-and-applications'
 			  			},
 			  			{
 			  				title: 'Kurumsal Uygulama Geliştirme ve Sistem Entegrasyonu',
-			  				text: 'Başarı odaklı kurumlar, faaliyetlerini rakiplerinden ayrıştıracak, kendilerine rekabet avantajı yaratacak kurumlarına özel geliştirilen uygulamaları tercih etmektedir. Egemsoft, barındırdığı yüksek yetkinlikteki yazılım mühendisleri ile uygulama geliştirme çalışmalarının yanında karmaşık sistemlerin bütünsel olarak çalışmasını sağlayan sistem entegrasyon hizmetini de vermektedir.'
-							image: uploadsUrl + '/slide-integration.png',
+			  				text: 'Başarı odaklı kurumlar, faaliyetlerini rakiplerinden ayrıştıracak, kendilerine rekabet avantajı yaratacak kurumlarına özel geliştirilen uygulamaları tercih etmektedir. Egemsoft, barındırdığı yüksek yetkinlikteki yazılım mühendisleri ile uygulama geliştirme çalışmalarının yanında karmaşık sistemlerin bütünsel olarak çalışmasını sağlayan sistem entegrasyon hizmetini de vermektedir.',
+								image: uploadsUrl + '/slide-integration.png',
 			  				link: '#page/#corporate-application-development-and-system-integration'
 			  			},
 			  			{
 			  				title: 'Yazılım Test Hizmetleri',
-			  				text: 'Uygulama yazılımı geliştirme süreçlerinde test aşaması, öneminin bilinmesine karşın, genellikle en az sürenin verildiği, zaman sıkışıklığı öne sürülerek tamamlanmasına gerek duyulmayan, hatta proje maliyetini yukarı çeken bir işlev olarak da görülmüştür. Bu yanlış yaklaşımla gerçekleştirilmeye çalışılan projeler ise başarısız, öngörülenden çok daha uzun süren ve çok daha yüksek maliyetlerle sonuçlanmıştır.'
-							image: uploadsUrl + '/slide-test.png',
+			  				text: 'Uygulama yazılımı geliştirme süreçlerinde test aşaması, öneminin bilinmesine karşın, genellikle en az sürenin verildiği, zaman sıkışıklığı öne sürülerek tamamlanmasına gerek duyulmayan, hatta proje maliyetini yukarı çeken bir işlev olarak da görülmüştür. Bu yanlış yaklaşımla gerçekleştirilmeye çalışılan projeler ise başarısız, öngörülenden çok daha uzun süren ve çok daha yüksek maliyetlerle sonuçlanmıştır.',
+								image: uploadsUrl + '/slide-test.png',
 			  				link: '#page/#software-testing-services'
 			  			}
 			  		],
