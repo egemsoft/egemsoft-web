@@ -1,5 +1,5 @@
 - - -
-##Veri Analiz ve Raporlama 
+##VERİ ANALİZ ve Raporlama
 
 **Temel Gereksinimler:**  
 
