@@ -1,7 +1,7 @@
 - - -
 ##Veri Analiz ve Raporlama 
 
- **Temel Gereksinimler:**  
+- **Temel Gereksinimler:**  
 
     - DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
     - Özel İşlem Gerektiren DPI Raporları  
@@ -31,11 +31,10 @@
 
 - **Veri Kaynakları:**  
 
-- **Rapor Örnekleri:**
-
-    - **Ağ Analizi:**
-	Abonelerin Hızlarına Göre Dağılımları
-	Müşterilerin deneyimlediği hızların gruplanması
+- **Rapor Örnekleri:** 
+**Ağ Analizi:**
+    - Abonelerin Hızlarına Göre Dağılımları
+    - Müşterilerin deneyimlediği hızların gruplanması
 	0-2 Mbit Aralığına Düşen ve 0-2 Mbit Aralığından Çıkan Abonelerin İncelenmesi
 	0-2 Mbit aralığına nasıl ve neden düşüldüğünün belirlenilmeye çalışılması
 	Sürekli 0-2 Aralığında Kalan Abonelerin Tespiti
