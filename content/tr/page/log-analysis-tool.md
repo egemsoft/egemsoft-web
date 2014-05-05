@@ -1,5 +1,5 @@
 - - -
-##Log Analysis Tool
+##LOG ANALİZ ARACI
 
 
 **Temel Özellikler:**  
@@ -10,3 +10,6 @@
 - Farklı kaynaklardan üreyen logların ilişkilendirilebilmesi ve olayların sebeplerinin bulunması konusunda yardımcı
 - Şebekede oluşan alarm durumlarının tesbiti ve bildirimlerinin yapılması (switch ya da router’lar üzerinde çalıştırılan kritik bir komut neticesinde E-posta ile bildirim, aynı alarm tipinden son 5 dk’da 10 tane gelmesi durumunda ilgili birimlere bildirimler)
 - Logların çeşitli kriterlere göre sorgulanabilmesi, ilgili arayüzler
+
+
+[[[[[[[[LogAnalizAracı_TemelÖzellikler]]]]]]]
