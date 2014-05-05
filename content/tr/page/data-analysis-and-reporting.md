@@ -16,15 +16,15 @@
     - Müşteri deneyiminin bir bütün olarak DSL üretici firmalarının üzerinde raporlanabilmesi gerekmekte  
     - Şebeke planlamasına katkıda bulunabilecek çeşitli raporlara ihtiyaç duyulmakta  
 
-**-İş Akışı:**-
->  -Verinin Sisteme Alınması  
->  -Çeşitli veri kaynaklarından toplanması gereken verinin, belirli saatlerde, otomatik olarak sisteme aktarılması (DB – View, FTP ile dosya transferi vs.)  
->  -Verinin Analizi ve Raporlanması  
->  -Farklı kaynaklardan toplanan verilerin hazırlanan scriptler aracılığıyla ilişkilendirilmesi  
->  -Hazırlanması istenen raporların oluşturulması için, ilişkilendirilmiş veri üzerinde çalışacak gerekli scriptlerin hazırlanması  
->  -Scriptlerin çalışması neticesinde oluşacak raporların PDF, XLS formatlarında dış ortama aktarılması, raporların E-posta yolu ile ilgili kişilere gönderilmesinin sağlanması  
->  -Harici BI araçlarıyla entegrasyon sağlanabilmesi  
->  -Geçmişe dönük trend analizinin sağlanması  
+- **-İş Akışı:**  
+    -Verinin Sisteme Alınması  
+    -Çeşitli veri kaynaklarından toplanması gereken verinin, belirli saatlerde, otomatik olarak sisteme aktarılması (DB – View, FTP ile dosya transferi vs.)  
+    -Verinin Analizi ve Raporlanması  
+    -Farklı kaynaklardan toplanan verilerin hazırlanan scriptler aracılığıyla ilişkilendirilmesi  
+    -Hazırlanması istenen raporların oluşturulması için, ilişkilendirilmiş veri üzerinde çalışacak gerekli scriptlerin hazırlanması  
+    -Scriptlerin çalışması neticesinde oluşacak raporların PDF, XLS formatlarında dış ortama aktarılması, raporların E-posta yolu ile ilgili kişilere gönderilmesinin sağlanması  
+    -Harici BI araçlarıyla entegrasyon sağlanabilmesi  
+    -Geçmişe dönük trend analizinin sağlanması  
 
 
 Rapor Örnekleri:
