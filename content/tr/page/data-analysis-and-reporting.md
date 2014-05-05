@@ -1,6 +1,8 @@
 - - -
 ##VERİ ANALİZ ve RAPORLAMA
 
+Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır. 
+
 **Temel Gereksinimler:**  
 
 - DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
