@@ -18,6 +18,7 @@ Sadece bu iki faktör dahi büyük ölçekli kurumlarda yaygın olarak kullanıl
 - **Kişisel Hizmet Sunumu**
 	- Farklı açılardan elde edilen müşteri bilgilerinin ilişkilendirilmesi ile her farklı müşteri için en uygun ürünün bulunabilmesi, tanımlanabilmesi
 
+
 - **Anında Önlem Alabilme**
 	- Müşteri ihtiyaç ve taleplerinin zamanında öğrenilmesi ile ihtiyaç duydukları anda ilgili hizmetin veya ürünün verilebilmesi
 	- Müşteri eğilimlerine göre hareket planlaması
