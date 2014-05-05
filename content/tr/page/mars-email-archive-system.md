@@ -35,7 +35,7 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 	- Posta alanları (kime, kimden, dikkatine, konu, mesaj metni, ekli dosya isimleri, ekli dosya içeriği) üzerinde tam metin arama, sorgulama  
 	- Web üzerinden erişim  
 
-** Genel Özellikler:**
+**Genel Özellikler:**
 
 - Sınırsız Kapasiteli Kullanıcı Posta Kutusu  
 - Düzenleyici Kurum Yönetmeliklerine Uygunluk İçin Yardımcı  
@@ -45,7 +45,7 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 - Zamanlanmış E-Posta Arşivleme (Outlook Eklentisi üzerinden ya da sistem tarafından)  
 - LDAP Entegrasyonu ve Kullanıcı Grubu Temelli Arşivleme Politikaları  
 
-** Kullanıcı Deneyimi:**  
+**Kullanıcı Deneyimi:**  
 
 - Otomatik ya da Elle E-Posta Arşivleme ve Arşivden Elle Geri Yükleme  
 - Outlook Eklentisi ile Değişmeyen Kullanıcı Deneyimi  
@@ -55,7 +55,7 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 - PST Dosyalarının Arşive Eklenebilmesi  
 - Çevrimdışı Arşiv Erişimi: Outlook’ta arşivlenmiş e-postaların tutulabilmesi  
 
-** Yönetici Deneyimi:**  
+**Yönetici Deneyimi:**  
 
 - Arşivlenmiş E-Posta Verisinin Yedeklenebilmesi  
 - Coğrafi Yedeklilik  
