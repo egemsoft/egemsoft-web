@@ -11,6 +11,8 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 
 **Mimari Yapı:**  
 
+[[[[[[[[MARS_MimariYapı]]]]]]
+
 - **Toplama:**  
 	- Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  
 	- POP3 ve IMAP kullanan tüm sağlayıcıların ürettiği e-postalar  
@@ -22,7 +24,7 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 	- Erişim kuralları ile veri güvenliğinin sağlanması  
 	- Kullanıcı grup/profilleri bazında arşivleme zaman planlaması  
 
-- **-Analiz:**  
+- **Analiz:**  
 	- Kurum içi e-posta kullanım eğilimlerine ilişkin detay bilgi üretilmesi  
 	- Metin Madenciliği gibi derinlemesine analiz olanağı  
 	- Belirlenmiş, uyarı yaratacak anahtar kelimeler bazında e-postaların taranması ve sonuçların raporlanması  
