@@ -31,7 +31,7 @@
 
 **Veri Kaynakları:**  
 
-[[[[[[[[VeriAnalizRaporlama_VeriKaynakları]]]]]]
+![VeriAnalizRaporlama_VeriKaynakları](/static/uploads/page/tr/VeriAnalizRaporlama_VeriKaynaklari.png)
 
 **Rapor Örnekleri:**   
 

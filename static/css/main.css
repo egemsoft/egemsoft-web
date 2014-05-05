@@ -61,14 +61,8 @@ a:hover {
 }
 .lng-selection .glyphicon {
 	font-size: 15px
-content;}
-.loca {
-	width:100%;
-	overflow: hidden;
 }
-.content.page {
-	margin-top:80px;
-}
+
 #home-top {
 	background: url('../img/home-bg.jpg');
 	width: 100%;
@@ -201,4 +195,19 @@ a {
 .nowrap {
 	white-space: nowrap;
 	z-index: 1000;
+}
+
+.content.page {
+	margin-top:80px;
+}
+
+.content.page .section img {
+	margin:0;
+	padding: 20px 20px 20px;
+	background: #eee;
+	border-radius: 4px;
+	border: 1px solid #CCC;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
