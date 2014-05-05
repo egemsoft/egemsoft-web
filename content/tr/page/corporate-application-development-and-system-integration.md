@@ -3,7 +3,9 @@
 
 **Yazılım Geliştirme ve Sistem Entegrasyon**
 
-Egemsoft bünyesinde yazılım geliştirme çalışmalarında Büyük Veri kavramı ve bu kavram kapsamına giren uygulamalar yüksek öneme sahiptir. Bu uygulama geliştirme çalışmalarının yanında, yukarıda değinilen teknik yetkinlikler ve özellikle telekom alanındaki bilgi birikimi çerçevesinde, telekom kurumlarına yönelik operasyonel ve verimlilik yaratacak özel uygulamaların geliştirilmesi hizmetlerini de vermektedir.
+Başarı odaklı kurumlar, faaliyetlerini rakiplerinden ayrıştıracak, kendilerine rekabet avantajı yaratacak kurumlarına özel geliştirilen uygulamaları tercih etmektedir. Egemsoft, barındırdığı yüksek yetkinlikteki yazılım mühendisleri ile uygulama geliştirme çalışmalarının yanında karmaşık sistemlerin bütünsel olarak çalışmasını sağlayan sistem entegrasyon hizmetini de vermektedir.
+
+Şirket bünyesindeki yazılım geliştirme çalışmalarında, Büyük Veri kavramı ve bu kavram kapsamına giren uygulamalar yüksek öneme sahiptir. Egemsoft, bu alandaki yetkinlikleri ve özellikle telekom alanındaki bilgi birikimi çerçevesinde, telekom kurumlarına yönelik operasyonel ve verimlilik yaratacak özel uygulamaların geliştirilmesi hizmetlerini de vermektedir.
 
 **Entegrasyon ve Kurumsal Yazılım Geliştirme Yetkinliği:**
 
