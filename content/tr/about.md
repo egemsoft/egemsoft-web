@@ -1,7 +1,7 @@
 - - -
 ## Hakkımızda
 
-2011 yılında özellikle telekom sektörüne yönelik projelere danışmanlık hizmeti vermek üzere kurulan Egem Bilgi İletişim (Egemsoft), 2014 Ocak ayından itibaren yazılım geliştirme ve yazılım test hizmetlerini vermek üzere yeniden yapılandı. Egemsoft bugün faaliyetlerini, bünyesindeki elliye yakın yazılım ve test mühendisi ile sürdürmektedir.
+Yazılım geliştirme ve yazılım test hizmetlerini vermek üzere 2011 yılında kurulan Egem Bilgi İletişim (Egemsoft), faaliyetlerini bünyesindeki elliye yakın yazılım ve test mühendisi ile sürdürmektedir.
 
 
 Egemsoft, yazılım geliştirme alanında, Büyük Veri Teknolojileri, Sistem Entegrasyonu ve Kurumsal Uygulama Geliştirme konularına odaklanmıştır.
