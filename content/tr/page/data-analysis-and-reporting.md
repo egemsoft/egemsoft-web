@@ -1,7 +1,7 @@
 - - -
 ##Veri Analiz ve Raporlama 
 
-- **Temel Gereksinimler:** 
+- **Temel Gereksinimler:**
 
 
     - DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
