@@ -1,5 +1,7 @@
 - - -
-##IP YÖNETİM SİSTEMİ
+##IP ADRES YÖNETİM SİSTEMİ
+
+Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar açısından bu kaynağı yüksek verimlilikle yönetebilmek son derece önemlidir. IP Adres Yönetimi çözümümüz, kurumların bu hedefi gerçekleştirebilmesini sağlayan yetenekli bir yazılım uygulamasıdır. 
 
 **Temel Özellikler:**  
 
