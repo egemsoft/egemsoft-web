@@ -3,6 +3,7 @@
 
 - **Temel Gereksinimler:** 
 
+
     - DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
     - Özel İşlem Gerektiren DPI Raporları  
         - com.tr, edu.tr, gov.tr gibi kök alan adlarına yönelik raporlar alınabilmeli (metin işleme)  
@@ -16,6 +17,7 @@
     - DSL şebekesi üzerinde yapılan ıslah çalışmalarının etkilerinin analizi gerekmekte  
     - Müşteri deneyiminin bir bütün olarak DSL üretici firmalarının üzerinde raporlanabilmesi gerekmekte  
     - Şebeke planlamasına katkıda bulunabilecek çeşitli raporlara ihtiyaç duyulmakta  
+    
 
 - **İş Akışı:** 
 
