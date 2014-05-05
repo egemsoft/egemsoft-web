@@ -2,8 +2,8 @@
 	   style="min-height: {{window.innerHeight-54-60}}px;"
 	   ng-controller="HomeCtrl">
 	
-  <div id="home" class="animated fadeInDown" style="min-height: {{window.innerHeight-54}}px;">
-	  <div id="home-top" style="height: {{(window.innerHeight)/2 + 54}}px">
+  <div id="home" class="animated fadeInDown" style="min-height: {{window.innerHeight-64}}px;">
+	  <div id="home-top" style="height: {{(window.innerHeight)/2 + 64}}px">
  			<carousel interval="config.home.slideInterval" id="egem-slider" style="height: {{((window.innerHeight)/2 - 40)}}px">
  				<slide ng-repeat="slide in slides" active="slide.active">
  					<div class="container text-right">
@@ -27,10 +27,10 @@
 		</div>
 
 		<div class="row animated fadeInLeft" id="home-blocks">
-			<carousel interval="-1" style="height: {{(window.innerHeight)/2 - 54 - 40}}px">
+			<carousel interval="-1" style="height: {{(window.innerHeight)/2 - 64 - 40}}px">
 				<slide ng-repeat="blocksSlide in blocksSlides">
 				  <div class="col-md-4 block" ng-repeat="block in blocksSlide">
-				    <div class="thumbnail" style="max-height: {{(window.innerHeight)/2 - 54 - 80}}px">
+				    <div class="thumbnail" style="max-height: {{(window.innerHeight)/2 - 64 - 80}}px">
 				    	<div class="caption col-xs-6">
 				        <h3 class="title">
 				        	<a href="{{block.link}}">
@@ -62,7 +62,7 @@
   				 ng-repeat="section in loadedSections"
 	         class="section animated fadeInLeft",
 	         ng-class="{'section-a': $even, 'section-b': $odd}"
-	         style="min-height: {{window.innerHeight-54-60}}px;"
+	         style="min-height: {{window.innerHeight-64-60}}px;"
 	         scroll-section-load
 	         sections="sections"
 	         loaded-sections="loadedSections">
