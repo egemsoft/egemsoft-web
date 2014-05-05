@@ -20,32 +20,35 @@
 
 **İş Akışı:**  
 
-    -  Verinin Sisteme Alınması  
-        -  Çeşitli veri kaynaklarından toplanması gereken verinin, belirli saatlerde, otomatik olarak sisteme aktarılması (DB – View, FTP ile dosya transferi vs.)  
-    -  Verinin Analizi ve Raporlanması  
-        -  Farklı kaynaklardan toplanan verilerin hazırlanan scriptler aracılığıyla ilişkilendirilmesi  
-        -  Hazırlanması istenen raporların oluşturulması için, ilişkilendirilmiş veri üzerinde çalışacak gerekli scriptlerin hazırlanması  
-        -  Scriptlerin çalışması neticesinde oluşacak raporların PDF, XLS formatlarında dış ortama aktarılması, raporların E-posta yolu ile ilgili kişilere gönderilmesinin sağlanması  
-        -  Harici BI araçlarıyla entegrasyon sağlanabilmesi  
-        -  Geçmişe dönük trend analizinin sağlanması 
+-  Verinin Sisteme Alınması  
+    -  Çeşitli veri kaynaklarından toplanması gereken verinin, belirli saatlerde, otomatik olarak sisteme aktarılması (DB – View, FTP ile dosya transferi vs.)  
+-  Verinin Analizi ve Raporlanması  
+    -  Farklı kaynaklardan toplanan verilerin hazırlanan scriptler aracılığıyla ilişkilendirilmesi  
+    -  Hazırlanması istenen raporların oluşturulması için, ilişkilendirilmiş veri üzerinde çalışacak gerekli scriptlerin hazırlanması  
+    -  Scriptlerin çalışması neticesinde oluşacak raporların PDF, XLS formatlarında dış ortama aktarılması, raporların E-posta yolu ile ilgili kişilere gönderilmesinin sağlanması  
+    -  Harici BI araçlarıyla entegrasyon sağlanabilmesi  
+    -  Geçmişe dönük trend analizinin sağlanması 
 
 **Veri Kaynakları:**  
 
-**Rapor Örnekleri:**  
-**Ağ Analizi:**  
-    - Abonelerin Hızlarına Göre Dağılımları  
-    - Müşterilerin deneyimlediği hızların gruplanması  
-	0-2 Mbit Aralığına Düşen ve 0-2 Mbit Aralığından Çıkan Abonelerin İncelenmesi
-	0-2 Mbit aralığına nasıl ve neden düşüldüğünün belirlenilmeye çalışılması
-	Sürekli 0-2 Aralığında Kalan Abonelerin Tespiti
-	Sürekli ya da belli bir zaman aralığında okunan tüm hız değerleri 0-2 aralığında olan abonelerin incelenmesi
-	Abonelerin Profil Bazında İncelenmesi
-	DSLAM profillerinin olası problemlerinin tespitine yönelik çalışma
-	Islah Çalışmalarının Sonuçlarının İncelenmesi
-	Sahaya gönderilen ıslah iş emirlerinin geri dönüşlerinin ve etkilerinin incelenmesi
+**Rapor Örnekleri:**   
 
-DPI Raporlama:
-	Trafiği link ve servis bazında inceleyen raporlar
-	Trafiği kök alan adı (domain adından sonraki uzantı kısmı .com, .com.tr, .edu.tr gibi) bazında inceleyen çalışmalar
-	Trafiği alan adı kategorisi (URL kategorileri - haber, oyun, sosyal medya vs.) bazında inceleyen çalışmalar
-	Raporların tüm DPI cihazlarını destekleyecek şekilde, tüm şebeke verisi üzerinden geçmişe yönelik olarak çalıştırılabilmesi
+***Ağ Analizi:***  
+
+- Abonelerin Hızlarına Göre Dağılımları  
+    - Müşterilerin deneyimlediği hızların gruplanması  
+- 0-2 Mbit Aralığına Düşen ve 0-2 Mbit Aralığından Çıkan Abonelerin İncelenmesi  
+    - 0-2 Mbit aralığına nasıl ve neden düşüldüğünün belirlenilmeye çalışılması
+- Sürekli 0-2 Aralığında Kalan Abonelerin Tespiti
+    - Sürekli ya da belli bir zaman aralığında okunan tüm hız değerleri 0-2 aralığında olan abonelerin incelenmesi
+- Abonelerin Profil Bazında İncelenmesi
+    - DSLAM profillerinin olası problemlerinin tespitine yönelik çalışma
+- Islah Çalışmalarının Sonuçlarının İncelenmesi
+    - Sahaya gönderilen ıslah iş emirlerinin geri dönüşlerinin ve etkilerinin incelenmesi
+
+***DPI Raporlama:***  
+
+- Trafiği link ve servis bazında inceleyen raporlar
+- Trafiği kök alan adı (domain adından sonraki uzantı kısmı .com, .com.tr, .edu.tr gibi) bazında inceleyen çalışmalar
+- Trafiği alan adı kategorisi (URL kategorileri - haber, oyun, sosyal medya vs.) bazında inceleyen çalışmalar
+- Raporların tüm DPI cihazlarını destekleyecek şekilde, tüm şebeke verisi üzerinden geçmişe yönelik olarak çalıştırılabilmesi
