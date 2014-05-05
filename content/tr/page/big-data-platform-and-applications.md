@@ -12,7 +12,8 @@ Sadece bu iki faktör dahi büyük ölçekli kurumlarda yaygın olarak kullanıl
 - **Derinlemesine Bilgi Edinme**
 	- Müşterilerin farklı yönlerden analiz edilmesi
 	- Çeşitli metrikler ile daha gerçekçi müşteri segmentasyonu
-	- Müşterilerin ne düşündüğünü, ne konuştuğunu öğrenebilme
+	- Müşterilerin ne düşündüğünü, ne konuştuğunu öğrenebilme  
+	
 
 - **Kişisel Hizmet Sunumu**
 	- Farklı açılardan elde edilen müşteri bilgilerinin ilişkilendirilmesi ile her farklı müşteri için en uygun ürünün bulunabilmesi, tanımlanabilmesi
@@ -35,17 +36,16 @@ Büyük veri teknolojileri, yukarıda açıklanan sorunların, zorlukların üst
 
 **Büyük Veri Teknolojilerinin Sağladığı Avantajlar:**
 
-- **Mevcut veri yönetim sistemlerini tamamlayan nitelik**
+- **Mevcut veri yönetim sistemlerini tamamlayan nitelik**  
 	- Mevcut Veri Ambarları (DWH) veya İlişkisel Veri Tabanları’nın (RDBMS) alternatifi veya rakibi değil, tamamlayıcısı
 	- «Soğuk Veri» Büyük Veri yığınlarında saklanabilmesi ile mevcut sistemler üzerindeki yükü azaltma ve aynı zamanda verinin anlık erişilebilir olması
-	- Verinin DWH/RDBMS’e gönderilmesi öncesinde yapısal olmayan verilerin işlenmesi, temizlenmesi ve yapılandırılması
+	- Verinin DWH/RDBMS’e gönderilmesi öncesinde yapısal olmayan verilerin işlenmesi, temizlenmesi ve yapılandırılması  
 
-- **Önceden modelleme çalışmasına gerek duyulmaması**
+- **Önceden modelleme çalışmasına gerek duyulmaması**  
 	- Verinin olduğu gibi saklanması; biçimlendirmeden, ön işleme yapmadan
 	- Projelere hızlı başlama imkanı: Veri modellemesi veya veri temizliğinin proje uygulama aşamalarına bırakılabilmesi
 
- 
-- **TB başına düşük değerdeki veri yığınlarının işlenmesi için doğru araçlar**
+- **TB başına düşük değerdeki veri yığınlarının işlenmesi için doğru araçlar**  
 	- Yasal verilerin, soğuk verilerin depolanıp sorgulanması için doğru araç
 	- Yüksek maliyetli veri ambarı kaynaklarının bu amaç için kullanılmasına ihtiyaç duyulmaması
 
