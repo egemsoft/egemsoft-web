@@ -86,7 +86,7 @@ angular.module("egem.config", []).
 			  		slides: [
 			  			{
 			  				title: 'Büyük Veri Platformu ve Uygulamaları',
-			  				text: 'Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir.',
+			  				text: 'Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir. Egemsoft, büyük veri teknolojilerini stratejik öneme sahip araştırma ve ürün geliştirme alanı olarak belirlemiştir.',
 								image: uploadsUrl + '/slide-bigdata.png',
 			  				link: '#page/#big-data-platform-and-applications'
 			  			},
