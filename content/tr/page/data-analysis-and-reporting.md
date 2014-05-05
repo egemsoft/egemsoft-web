@@ -31,6 +31,8 @@
 
 **Veri Kaynakları:**  
 
+[[[[[[[[VeriAnalizRaporlama_VeriKaynakları]]]]]]
+
 **Rapor Örnekleri:**   
 
 ***Ağ Analizi:***  
