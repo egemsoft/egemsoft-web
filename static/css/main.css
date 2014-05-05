@@ -212,6 +212,7 @@ a {
 	height: auto;
 }
 
-.content.page .affix-side-column.affix {
+.content.page .affix-side-column {
+	position: fixed;
 	right: 0;
 }
