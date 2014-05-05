@@ -47,11 +47,6 @@ Bunun dışında, internet bağlantısı olmadan, yenileme süreci için bekleye
 - Bilinen/bilinmeyen sorunlar için farkındalık yaratılması
 
 
-
-
-
-
-
 **UÇ NOKTA:**
 
 Son kullanıcıların internet sorunlarının tespitine yönelik olan bu uygulama, internet  kullanıcısının bilgisayarında ve modemindeki internet bağlantı sorunlarını kendi başına çözmesini sağlar. Internet kullanıcı sayısının  artışı ve değişen piyasa rekabetiyle, servis sağlayıcılar müşteri memnuniyetini arttırmak amacıyla müşterilerine güvenilir teknik destek vermek üzerinde yoğunlaşmışlardır. Servis sağlayıcılar, müşterilerine çağrı merkezlerini aramadan sorunlarını çözebilecekleri, etkili yardım seçenekleri sunmayı hedeflemektedirler. Bu uygulama sayesinde, aboneler sıradan teknik sorunlarla karşılaştıklarında artık servis sağlayıcının destek hattını aramak zorunda olmayacaklardır. Bilgisayarlarında kurulu olan onarım aracını kullanarak,  abonelerin bilgisayar ya da modem kaynaklı sorunları, otomatik olarak tespit edilmekte ve kolay kullanımlı arayüzü sayesinde kullanıcı, hızlı çözüme ulaştırılmaktadır.

@@ -21,7 +21,7 @@ Egemsoft bu anlayıştan yola çıkarak, bünyesinde barındırdığı test müh
 
 Genel olarak yazılım projeleri **analiz -> tasarım -> kodlama -> test -> ürün** süreçleri izlenerek geliştirilir. Aşamalar birbirini bu sırada izler görünse de idealde test sürecinin kodlama sürecinin bitmesini beklememesi gerekir. Bundan hareketle, ideal bir yazılım-test süreci, aşamaların,  **analiz -> tasarım -> test hazırlık süreci-> kodlama -> dinamik test süreci -> testin sonlandırılması -> ürün** şeklinde sıralandığı süreçtir. 
 
-[[[[[[YazilimTest1]]]]]]
+![YazilimTest1](/static/uploads/page/tr/YazilimTest1.jpg)
 
 
 **Gerçekleştirilen Yazılım Test Çeşitleri:**  
@@ -91,14 +91,14 @@ Bu araçların dışında Egemsoft olarak geliştirmekte olduğumuz bir yazılı
 
 BO -> Test Durum Raporu:
 
-[[[[[[YazilimTest2]]]]]]
+![YazilimTest2](/static/uploads/page/tr/YazilimTest2.png)
 
 - BLOKE DURUM RAPORU
 	- Test durum raporunda uygulama bazlı geliştirme testlerinde bloke olan konuların bloke nedenleri ve bu bloke sebebiyle kaç senaryonun etkilendiğini detaylı bir şekilde raporlanmaktadır. Bu sayede ilgili Proje yöneticileri ve analistler bloke olunan durumları önceliklendirebilmektedirler.  
 
 BO -> Bloke Durum Raporu:
 
-[[[[[[YazilimTest3]]]]]]
+![YazilimTest3](/static/uploads/page/tr/YazilimTest3.png)
  
 - RTM ( Release & Test Management V1) 
 	- Bu uygulama ile Test uzmanlarının ilgili iş detayında ekstra belirtmek istediği notları/riskleri ve önerileri de raporlanabilmektedir. Böylelikle daha net ve anlamlı raporların tüm şirket tarafından görüntülenmesi sağlanabilmektedir. 
@@ -106,12 +106,12 @@ BO -> Bloke Durum Raporu:
 
 RTM -> Test Durum Raporu:
 
-[[[[[[YazilimTest4]]]]]]
+![YazilimTest4](/static/uploads/page/tr/YazilimTest4.png)
 
 RTM -> Açık Hata Raporu:
 
-[[[[[[YazilimTest5]]]]]]
+![YazilimTest5](/static/uploads/page/tr/YazilimTest5.png)
 
 RTM -> Bloke Durum Raporu:
 
-[[[[[[YazilimTest6]]]]]]
+![YazilimTest6](/static/uploads/page/tr/YazilimTest6.png)

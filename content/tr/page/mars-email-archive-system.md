@@ -11,7 +11,7 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 
 **Mimari Yapı:**  
 
-[[[[[[[[MARS_MimariYapı]]]]]]
+![MARS_MimariYapı](/static/uploads/page/tr/MARS_MimariYapi.png)
 
 - **Toplama:**  
 	- Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  

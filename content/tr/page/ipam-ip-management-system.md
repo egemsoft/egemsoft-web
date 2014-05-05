@@ -14,4 +14,4 @@
 
 **Mimari Yapı:**
 
-[[[[[[[IPYönetimSsistemi_MimariYapı]]]]]]]]]]]]]
+![IPYönetimSsistemi_MimariYapı](/static/uploads/page/tr/IPYonetimSistemi_MimariYapi.png)

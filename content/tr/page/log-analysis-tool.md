@@ -12,4 +12,4 @@
 - Logların çeşitli kriterlere göre sorgulanabilmesi, ilgili arayüzler
 
 
-[[[[[[[[LogAnalizAracı_TemelÖzellikler]]]]]]]
+![LogAnalizAracı_TemelÖzellikler](/static/uploads/page/tr/LogAnalizAraci_TemelOzellikler.png)
