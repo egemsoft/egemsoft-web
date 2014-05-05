@@ -72,3 +72,6 @@ Büyük veri teknolojilerinin getirdiği bu avantajlar yanında kurum bünyesine
 Egemsoft Büyük Veri Yönetim Platformu, yukarıda bahsedilen zorluklar ve dezavantajları özellikle gözönünde bulundurarak, kurumların büyük veri teknolojilerini yüksek fayda/maliyet rasyosu ile bünyelerine adapte edebilecekleri bir altyapı sistemi olarak tasarlanmış ve geliştirilmiştir.
 
 IBM’in BigInsights Hadoop dosya sistemi temelinde kurulan platformun mimari yapısı şekilsel olarak aşağıdaki gibidir. BigInsights dışında Büyük Veri Teknoloji Kümesinde belirtilen açık kaynak kodlu kütüphanelerin entegrasyonu, bunun yanı sıra platformun bir kurum bünyesinde işletimini, yönetimini, raporlamayı ve dış sistemlerle entegrasyonu sağlayacak Veri Yönetim Platformu Egemsoft tarafından geliştirilmiştir.
+
+
+[[[[[[[[[[BüyükVeri]]]]]]]]]]]]]]]
