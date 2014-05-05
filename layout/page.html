@@ -1,11 +1,18 @@
 <div ng-controller="PageCtrl"
 		 class="content page"
 		 style="min-height: {{window.innerHeight-172-60}}px">
-		 
-	<section class="animated fadeInLeft section">
-		<div class="container">
-			<markdown ng-include="config.contentSrc + language.key + '/page/' + page + '.md'">
-			</markdown>
+	<div class="container">
+		<div class="col-sm-8"> 
+			<section class="animated fadeInLeft section">
+				<div class="">
+					<markdown ng-include="config.contentSrc + language.key + '/page/' + page + '.md'">
+					</markdown>
+				</div>
+			</section>
 		</div>
-	</section>
+		<div class="col-sm-4 affix-side-column" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+			<img ng-src="/static/uploads/page-{{page}}.png" class="img-responsive">
+		</div>
+		<div class="clearfix"></div>
+	</div>
 </div>

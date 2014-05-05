@@ -211,3 +211,7 @@ a {
 	max-width: 100%;
 	height: auto;
 }
+
+.content.page .affix-side-column.affix {
+	right: 0;
+}
