@@ -1,32 +1,69 @@
 - - -
-##MARS - E-Posta Arşivleme Sistemi
+##MARS - E-Mail Archiving System
 
-Günümüzde en yaygın iletişim aracı olarak kullanılan e-posta uygulaması, kullanım yoğunluğu ve erişim ihtiyacının sürekli artması gibi faktörlerin sonucu olarak, alınan ve gönderilen e-postaların saklanması ve arşivlenmesi gibi gereksinimleri de beraberinde getirmektedir. Bu ihtiyaç genellikle kurum çalışanlarının kendi inisiyatifleri ile yine kendi PC’lerinde yarattıkları arşivler yolu ile giderilmeye çalışılmaktadır. Ancak, kişisel ortamlarda saklanan bu bilgiler, bilgiyi arşivleyen kişisel ortamlarda saklanan bilgiye ihtiyaç duyması halinde, genellikle bu bilgilere ulaşım imkanı olmamaktadır.kişinin kullanımını ile sınırlı olmaktadır. İlgili kişilerin kurumdan ayrılması ve/veya kurumun herhangi bir neden ile bu 
+There is no doubt that e-mails are one of the crucial and most commonly used means of communication, whether among individuals for social purposes or  for business needs among professionals, user groups, companies, with a worldwide reach. An e-mail not only conveys textual information but any type of media as attachments.
+Along with the comfort it brings, the task of storing, archiving and the need to access an old e-mail item, also come as an important issue. Due to the high cost of storing mechanisms or data warehouse appliances, many institutions preferred deleting “old” items. Today, with the introduction of hadoop based file systems and storing mechanisms, this is not considered as an important issue.
+Mail Archiving System – MARS is built on Egemsoft’s hadoop based big data analytics platform. MARS gives the institutions the opportunity not only to save, archive all e-mail items including the attachments, access them as easy and fast as within well-known e-mail applications, but to feel the comfort of complying with the regulations, with reasonable and affordable costs. 
 
-Günümüzde, özellikle Finans, Telekom ve Enerji alanlarında, sektörel Denetleme ve Düzenleme Kurumları da, sektör firmalarının yürüttükleri faaliyetlerde gerekli şeffaflığın temini adına, firma ve paydaşları ile yapılan her türlü elektronik haberleşme bilgilerinin de anında ulaşılabilir bir şekilde saklanmasını talep etmektedirler. Bu ihtiyaca cevap verebilmek adına çeşitli çözümler piyasada oluşmaktadır. Ancak önerilen Yurtdışı menşeli çözümler genellikle, kullanılan teknolojilerin gereği, yüksek maliyetli donanım altyapısına ihtiyaç duymaktadır.
+**Architecture:**
 
-Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemleri ve veri saklama teknolojileri kullanılarak MARS - E-Posta Arşivleme Sistemi geliştirilmiştir.
+[[[[[[[MARS]]]]]]]
 
-**Temel İşlevler:**
+**Fundamental Functions:**
 
-**-Toplama:**  
-  		-Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  
--POP3 ve IMAP kullanan tüm sağlayıcıların ürettiği e-postalar  
--PST e-posta arşiv dosyaları  
--Active Directory veya LDAP’dan kullanıcı ve rol tanımları
+- **Collect:**
 
-**-Yönetim:**  
--Yasal uyumluluk için veri tutarlılığının garanti edilmesi  
--Erişim kuralları ile veri güvenliğinin sağlanması  
--Kullanıcı grup/profilleri bazında arşivleme zaman planlaması  
+- Emails from any version of Microsoft Exchange
+- Emails from any email provider using POP3 and IMAP collectors
+- Import PST email archives
+- Users and roles from Active Directory or LDAP
 
-**-Analiz:**  
--Kurum içi e-posta kullanım eğilimlerine ilişkin detay bilgi üretilmesi  
--Metin Madenciliği gibi derinlemesine analiz olanağı  
--Belirlenmiş, uyarı yaratacak anahtar kelimeler bazında e-postaların taranması ve sonuçların raporlanması  
+- **Manage:**
 
-**-Erişim:**  
--Microsoft Outlook E-posta istemcisinden gerçek zamanlı erişim  
--Posta kutusunda kısa yollar kullanarak arşivlenmiş postalara erişim  
--Posta alanları (kime, kimden, dikkatine, konu, mesaj metni, ekli dosya isimleri, ekli dosya içeriği) üzerinde tam metin arama, sorgulama  
--Web üzerinden erişim  
+- Ensure data integrity for regulatory compliance
+- Secure data by defining access rules
+- Scheduling archiving based on user groups/profiles
+
+- **Analyse:**
+
+- Gather insights about your company’s emailing trends
+- Ready for deeper analytics such as text mining
+- Enter alert keywords to be scanned over emails and report
+
+- **Access:**
+
+- Live access from your Microsoft Outlook email client
+- Accessing archieved mails using shortcuts in the mailbox
+- Full text search on mail fields (to, from, cc, subject, body, attachment contents, attachment names)
+- Web access
+
+**General Features:**
+
+- Unlimited User Mailbox
+- Compliancy Helper for Regulatory Body Requirements
+- Scalable Capacity and High Performance
+- Deduplication & Compression
+- Journal Mailbox Archiving
+- Scheduled Mail Archiving (via Outlook Plugin or Server side)
+- LDAP Integration and User Group Based Archiving Policies
+
+**User Experience:**
+
+- Unlimited User Mailbox
+- Compliancy Helper for Regulatory Body Requirements
+- Scalable Capacity and High Performance
+- Deduplication & Compression
+- Journal Mailbox Archiving
+- Scheduled Mail Archiving (via Outlook Plugin or Server side)
+- LDAP Integration and User Group Based Archiving Policies
+
+**Administration:**
+
+- Archive Backup Ability
+- Replication to Disaster Recovery Center
+- Tools to Verify Data Integrity
+- Management and  Monitoring Tools
+- Data Export (PST & HTML)
+- Whitelists to Disable Automatic Mail Archiving
+- Data Retention Policies
+
