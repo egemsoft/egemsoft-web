@@ -235,4 +235,5 @@ a {
 .content.page .affix-side-column {
 	position: fixed;
 	right: 0;
+	top: 200px;
 }
