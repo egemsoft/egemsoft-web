@@ -17,7 +17,7 @@ var HomeCtrl = function($scope, $location, $route, $config, $activePage, $anchor
   for(i=0; i<blockSlidesSize; i++) {
     blocksSlides.push(blocks.slice(i*$config.home.blocksPerSlide, i*$config.home.blocksPerSlide + $config.home.blocksPerSlide));
   }
-
+  blocksSlides[0].active = true;
   $scope.blocksSlides = blocksSlides;
 
   $scope.placeMap = function() {

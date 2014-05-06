@@ -4,56 +4,86 @@
 	
   <div id="home" class="animated fadeInDown" style="min-height: {{window.innerHeight-64}}px;">
 	  <div id="home-top" style="height: {{(window.innerHeight)/2 + 64}}px">
- 			<carousel interval="config.home.slideInterval" id="egem-slider" style="height: {{((window.innerHeight)/2 - 40)}}px">
- 				<slide ng-repeat="slide in slides" active="slide.active">
- 					<div class="container text-right">
-	 					<div class="col-sm-6 item-description">
-	 						<h1 class="title"><a href="{{slide.link}}">{{slide.title}}</a></h1>
-	 						<p class="text">
-	 							<a href="{{slide.link}}">
-	 								{{slide.text|limitTo:300}}
-	 								<span ng-if="slide.text.length > 300">...</span>
-	 							</a>
-	 						</p>
+	  	<div class="carousel slide" data-ride="carousel" id="egem-slider" style="height: {{((window.innerHeight)/2 - 40)}}px">
+				<ol class="carousel-indicators">
+				  <li data-target="#egem-slider"
+				  		data-slide-to="{{$index}}"
+				  		ng-repeat="slide in slides"
+				  		ng-class="{'active':slide.active}">
+				  </li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="item" ng-repeat="slide in slides" ng-class="{'active':slide.active}">
+				  	<div class="container text-right">
+		 					<div class="col-sm-6 item-description">
+		 						<h1 class="title"><a href="{{slide.link}}">{{slide.title}}</a></h1>
+		 						<p class="text">
+		 							<a href="{{slide.link}}">
+		 								{{slide.text|limitTo:300}}
+		 								<span ng-if="slide.text.length > 300">...</span>
+		 							</a>
+		 						</p>
+		 					</div>
+		 					<div class="col-sm-6">
+		 						<a href="{{slide.link}}">
+		 							<img style="margin:auto; max-height: {{((window.innerHeight)/2 - 40)}}px" class="img-responsive" ng-src="{{slide.image}}">
+		 						</a>
+		 					</div>
 	 					</div>
-	 					<div class="col-sm-6">
-	 						<a href="{{slide.link}}">
-	 							<img style="margin:auto; max-height: {{((window.innerHeight)/2 - 40)}}px" class="img-responsive" ng-src="{{slide.image}}">
-	 						</a>
-	 					</div>
- 					</div>
- 				</slide>
- 			</carousel>
+				  </div>
+				</div>
+				<a class="left carousel-control" data-target="#egem-slider" data-slide="prev">
+				  <span class="icon-prev"></span>
+				</a>
+				<a class="right carousel-control" data-target="#egem-slider" data-slide="next">
+				  <span class="icon-next"></span>
+				</a>
+			</div>
 		</div>
 
 		<div class="row animated fadeInLeft" id="home-blocks">
-			<carousel interval="-1" style="height: {{(window.innerHeight)/2 - 64 - 40}}px">
-				<slide ng-repeat="blocksSlide in blocksSlides">
-				  <div class="col-md-4 block" ng-repeat="block in blocksSlide">
-				    <div class="thumbnail" style="max-height: {{(window.innerHeight)/2 - 64 - 40 - 28 }}px">
-				    	<div class="caption col-xs-6">
-				        <h3 class="title">
-				        	<a href="{{block.link}}">
-				        		{{block.title}}
-				        	</a>
-				        </h3>
-					      <p style="max-height: {{(window.innerHeight)/2 - 64 - 80 - 20 - 65}}px">
-					      	{{block.text|limitTo:150}}
-					      	<a ng-if="block.text.length > 150" href="{{block.link}}">...</a>
-					      </p>
-				    	</div>
-				    	<div class="col-xs-6">
-				    		<a href="{{block.link}}">
-					      	<img class="img-responsive pull-right"
-					      			 ng-class="{'rounded':block.rounded!=false}"
-					      			 ng-src="{{block.image}}">
-					      </a>
+			<div id="blocks-slider" class="carousel slide" data-ride="carousel" interval="{{config.blocks.blocksSlideInterval}}" style="height: {{(window.innerHeight)/2 - 64 - 40}}px">
+			  <ol class="carousel-indicators">
+			    <li data-target="#blocks-slider"
+			    		data-slide-to="0"
+			    		ng-repeat="blocksSlide in blocksSlides"
+			    		ng-class="{'active':blocksSlide.active}"></li>
+			  </ol>
+			  <div class="carousel-inner">
+			    <div class="item"
+			    		 ng-repeat="blocksSlide in blocksSlides"
+			    		 ng-class="{'active':blocksSlide.active}">
+			      <div class="col-md-4 block" ng-repeat="block in blocksSlide">
+					    <div class="thumbnail" style="max-height: {{(window.innerHeight)/2 - 64 - 40 - 28 }}px">
+					    	<div class="caption col-xs-6">
+					        <h3 class="title">
+					        	<a href="{{block.link}}">
+					        		{{block.title}}
+					        	</a>
+					        </h3>
+						      <p style="max-height: {{(window.innerHeight)/2 - 64 - 80 - 20 - 65}}px">
+						      	{{block.text|limitTo:150}}
+						      	<a ng-if="block.text.length > 150" href="{{block.link}}">...</a>
+						      </p>
+					    	</div>
+					    	<div class="col-xs-6">
+					    		<a href="{{block.link}}">
+						      	<img class="img-responsive pull-right"
+						      			 ng-class="{'rounded':block.rounded!=false}"
+						      			 ng-src="{{block.image}}">
+						      </a>
+						    </div>
+						    <div class="clearfix"></div>
 					    </div>
-					    <div class="clearfix"></div>
-				    </div>
-				  </div>
-				</slide>
-			</carousel>
+			    </div>
+			  </div>
+			</div>
+			<a class="left carousel-control" data-target="#blocks-slider" data-slide="prev">
+		    <span class="icon-prev"></span>
+		  </a>
+		  <a class="right carousel-control" data-target="#blocks-slider" data-slide="next">
+		    <span class="icon-next"></span>
+		  </a>
 		</div>
 	</div>
 

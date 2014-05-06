@@ -6,7 +6,7 @@
  * @function
  * @author Ismail Demirbilek
  */
-var egemApp = angular.module('egem-web', ['egem.language', 'egem.config', 'ngRoute','ui.bootstrap', 'scrollSectionLoader', 'angular-markdown']).
+var egemApp = angular.module('egem-web', ['egem.language', 'egem.config', 'ngRoute', 'scrollSectionLoader', 'angular-markdown']).
 	// Route configuration
 	config(['$routeProvider', function($routeProvider) {
 	  $routeProvider.when('/', {
