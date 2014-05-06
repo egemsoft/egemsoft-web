@@ -47,37 +47,39 @@ angular.module("egem.config", []).
 			  		blocks: [
 			  			{
 			  				title: 'MARS',
-			  				text: 'Mail archiving, analysis and reporting system. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block-mars.png',
-			  				rounded: false,
+			  				text: 'Günümüzde en yaygın iletişim aracı olarak kullanılan e-posta uygulaması, kullanım yoğunluğu ve erişim ihtiyacının sürekli artması gibi faktörlerin sonucu olarak, alınan ve gönderilen e-postaların saklanması ve arşivlenmesi gibi gereksinimleri de beraberinde getirmektedir. Bu ihtiyaç genellikle kurum çalışanlarının kendi inisiyatifleri ile yine kendi PC’lerinde yarattıkları arşivler yolu ile giderilmeye çalışılmaktadır. Ancak, kişisel ortamlarda saklanan bu bilgiler, bilgiyi arşivleyen kişinin kullanımını ile sınırlı olmaktadır. İlgili kişilerin kurumdan ayrılması ve/veya kurumun herhangi bir neden ile bu kişisel ortamlarda saklanan bilgiye ihtiyaç duyması halinde, genellikle bu bilgilere ulaşım imkanı olmamaktadır.',
+								image: uploadsUrl + '/block-mars.png',
 			  				link: '#/page/mars-email-archive-system'
 			  			},
 			  			{
+			  				title: 'Veri Analiz',
+			  				text: 'Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır.',
+								image: uploadsUrl + '/block-ipam.png',
+			  				link: '#/page/data-analysis-and-reporting'
+			  			},
+			  			{
+			  				title: 'Log Analiz',
+			  				text: 'Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazlardan oluşmaktadır. Log Analiz Aracımız, üretilen bu bilgilerin toplandığı, geçmiş ile ilişkilendirilerek analizlerin yapıldığı ve belirli kurallar çerçevesinde ilgililerin uyarılarak şebekelerin sağlıklı ve verimli çalışmasını sağlayan bir uygulamadır.',
+								image: uploadsUrl + '/block-quota.png',
+			  				link: '#/page/log-analysis-tool'
+			  			},
+			  			{
 			  				title: 'IPAM',
-			  				text: 'IP Management System. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block-ipam.png',
+			  				text: 'Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar açısından bu kaynağı yüksek verimlilikle yönetebilmek son derece önemlidir. IP Adres Yönetimi çözümümüz, kurumların bu hedefi gerçekleştirebilmesini sağlayan yetenekli bir yazılım uygulamasıdır.',
+								image: uploadsUrl + '/block-ipam.png',
 			  				link: '#/page/ipam-ip-management-system'
 			  			},
 			  			{
-			  				title: 'Quota Reporting',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block-quota.png',
+			  				title: 'Kota Raporlama',
+			  				text: 'Günümüz telekomünikasyon şebekelerinde çeşitli yöntemler ile kullanım hizmet faturası üretmek mümkündür. Bu yöntemlerden biri de "Kullandığın Kadar Öde" şeklinde olabilir. Kota Raporlama çözümümüz, kullanıcıların cihazlarının ürettiği detaylı çağrı raporlarını inceleyen, fatura üretimine yönelik bilgileri toplayan bir uygulamadır.',
+								image: uploadsUrl + '/block-quota.png',
 			  				link: '#/page/quota-reporting-system'
 			  			},
 			  			{
-			  				title: 'MARS 2',
-			  				text: 'Mail archiving, analysis and reporting system. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block-mars.png'
-			  			},
-			  			{
-			  				title: 'IPAM 2',
-			  				text: 'IP Management System. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block-ipam.png'
-			  			},
-			  			{
-			  				title: 'Quota Reporting 2',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block-quota.png'
+			  				title: 'Modem Arıza Tespit',
+			  				text: 'Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabilmeleri, olası müşteri veya cihaz, hat kaynaklı sorunları kısa sürede çözmeleri ile doğru orantılıdır. Egemsoft tarafından geliştirilen Modem Arıza Tespit Platformu, belirtilen sorunlara yönelik geliştirilen iki temel uygulamayı içermektedir.',
+								image: uploadsUrl + '/block-quota.png',
+			  				link: '#/page/modem-defects-detecting-platform'
 			  			}
 			  		]
 			  	},
@@ -107,35 +109,38 @@ angular.module("egem.config", []).
 			  			{
 			  				title: 'MARS',
 			  				text: 'Günümüzde en yaygın iletişim aracı olarak kullanılan e-posta uygulaması, kullanım yoğunluğu ve erişim ihtiyacının sürekli artması gibi faktörlerin sonucu olarak, alınan ve gönderilen e-postaların saklanması ve arşivlenmesi gibi gereksinimleri de beraberinde getirmektedir. Bu ihtiyaç genellikle kurum çalışanlarının kendi inisiyatifleri ile yine kendi PC’lerinde yarattıkları arşivler yolu ile giderilmeye çalışılmaktadır. Ancak, kişisel ortamlarda saklanan bu bilgiler, bilgiyi arşivleyen kişinin kullanımını ile sınırlı olmaktadır. İlgili kişilerin kurumdan ayrılması ve/veya kurumun herhangi bir neden ile bu kişisel ortamlarda saklanan bilgiye ihtiyaç duyması halinde, genellikle bu bilgilere ulaşım imkanı olmamaktadır.',
-							image: uploadsUrl + '/block-mars.png',
+								image: uploadsUrl + '/block-mars.png',
 			  				link: '#/page/mars-email-archive-system'
 			  			},
 			  			{
 			  				title: 'Veri Analiz',
 			  				text: 'Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır.',
-							image: uploadsUrl + '/block-ipam.png',
-			  				link: '#/page/ipam-ip-management-system'
+								image: uploadsUrl + '/block-ipam.png',
+			  				link: '#/page/data-analysis-and-reporting'
 			  			},
 			  			{
 			  				title: 'Log Analiz',
 			  				text: 'Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazlardan oluşmaktadır. Log Analiz Aracımız, üretilen bu bilgilerin toplandığı, geçmiş ile ilişkilendirilerek analizlerin yapıldığı ve belirli kurallar çerçevesinde ilgililerin uyarılarak şebekelerin sağlıklı ve verimli çalışmasını sağlayan bir uygulamadır.',
-							image: uploadsUrl + '/block-quota.png',
-			  				link: '#/page/quota-reporting-system'
+								image: uploadsUrl + '/block-quota.png',
+			  				link: '#/page/log-analysis-tool'
 			  			},
 			  			{
 			  				title: 'IPAM',
 			  				text: 'Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar açısından bu kaynağı yüksek verimlilikle yönetebilmek son derece önemlidir. IP Adres Yönetimi çözümümüz, kurumların bu hedefi gerçekleştirebilmesini sağlayan yetenekli bir yazılım uygulamasıdır.',
-							image: uploadsUrl + '/block-mars.png'
+								image: uploadsUrl + '/block-ipam.png',
+			  				link: '#/page/ipam-ip-management-system'
 			  			},
 			  			{
 			  				title: 'Kota Raporlama',
 			  				text: 'Günümüz telekomünikasyon şebekelerinde çeşitli yöntemler ile kullanım hizmet faturası üretmek mümkündür. Bu yöntemlerden biri de "Kullandığın Kadar Öde" şeklinde olabilir. Kota Raporlama çözümümüz, kullanıcıların cihazlarının ürettiği detaylı çağrı raporlarını inceleyen, fatura üretimine yönelik bilgileri toplayan bir uygulamadır.',
-							image: uploadsUrl + '/block-ipam.png'
+								image: uploadsUrl + '/block-quota.png',
+			  				link: '#/page/quota-reporting-system'
 			  			},
 			  			{
 			  				title: 'Modem Arıza Tespit',
 			  				text: 'Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabilmeleri, olası müşteri veya cihaz, hat kaynaklı sorunları kısa sürede çözmeleri ile doğru orantılıdır. Egemsoft tarafından geliştirilen Modem Arıza Tespit Platformu, belirtilen sorunlara yönelik geliştirilen iki temel uygulamayı içermektedir.',
-							image: uploadsUrl + '/block-quota.png'
+								image: uploadsUrl + '/block-quota.png',
+			  				link: '#/page/modem-defects-detecting-platform'
 			  			}
 			  		]
 			  	}
