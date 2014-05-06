@@ -86,11 +86,32 @@ a:hover {
 	background-image: none;
 }
 #home-blocks .carousel-indicators li.active {
-	background-color: #777;
+	background-color: #c0392b;
 }
 #home-blocks .carousel-indicators li {
-	border-color: #777;
+	border-color: #c0392b;
 	z-index: 10000;
+}
+#home-blocks .carousel-control {
+	color: #c0392b;
+	-webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  margin-top: -70px;
+  animation-delay:2s;
+	-webkit-animation-delay:2s;
+}
+#home-blocks .carousel-control span { font-size: 40px; }
+#home-blocks .right.carousel-control {
+	-webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+#home-blocks .left.carousel-control {
+	-webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
 }
 #home-blocks .block .thumbnail {
 	overflow: hidden;
@@ -116,7 +137,6 @@ a:hover {
 }
 
 #egem-slider .carousel-inner .item .item-description {
-	text-shadow: 2px 1px 8px rgba(150, 150, 150, 1);
 	z-index: 100;
 	text-overflow: hidden;
 }
