@@ -11,33 +11,33 @@ Mail Archiving System – MARS is built on Egemsoft’s hadoop based big data an
 
 **Fundamental Functions:**
 
--**Collect:**
+- **Collect:**
 
 - Emails from any version of Microsoft Exchange
 - Emails from any email provider using POP3 and IMAP collectors
 - Import PST email archives
 - Users and roles from Active Directory or LDAP
 
--**Manage:**
+- **Manage:**
 
 - Ensure data integrity for regulatory compliance
 - Secure data by defining access rules
 - Scheduling archiving based on user groups/profiles
 
--**Analyse:**
+- **Analyse:**
 
 - Gather insights about your company’s emailing trends
 - Ready for deeper analytics such as text mining
 - Enter alert keywords to be scanned over emails and report
 
--**Access:**
+- **Access:**
 
 - Live access from your Microsoft Outlook email client
 - Accessing archieved mails using shortcuts in the mailbox
 - Full text search on mail fields (to, from, cc, subject, body, attachment contents, attachment names)
 - Web access
 
--**General Features:**
+**General Features:**
 
 - Unlimited User Mailbox
 - Compliancy Helper for Regulatory Body Requirements
@@ -47,7 +47,7 @@ Mail Archiving System – MARS is built on Egemsoft’s hadoop based big data an
 - Scheduled Mail Archiving (via Outlook Plugin or Server side)
 - LDAP Integration and User Group Based Archiving Policies
 
--**User Experience:**
+**User Experience:**
 
 - Unlimited User Mailbox
 - Compliancy Helper for Regulatory Body Requirements
@@ -57,7 +57,7 @@ Mail Archiving System – MARS is built on Egemsoft’s hadoop based big data an
 - Scheduled Mail Archiving (via Outlook Plugin or Server side)
 - LDAP Integration and User Group Based Archiving Policies
 
--**Administration:**
+**Administration:**
 
 - Archive Backup Ability
 - Replication to Disaster Recovery Center
