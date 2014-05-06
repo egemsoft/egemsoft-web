@@ -29,8 +29,8 @@ Every intervention on complex communication networks have different impacts. Dat
 	- Exporting the generated reports in PDF, XLS formats, sending the reports to the related persons via e-mail
 	- Integration with 3rd. party BI tools
 	- Trend analysis on historic data  
- 
-**Veri Kaynakları:**
+
+**Veri Kaynakları:**  
 
 [[[[[[DataAnalysis]]]]]]
 
