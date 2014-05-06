@@ -55,9 +55,10 @@
       <div class="collapse navbar-collapse" id="egem-navbar">
         <ul class="nav navbar-nav navbar-right">
           <li ng-class="{'active':activePage == 'home'}"><a href="#/#home"><span class="glyphicon glyphicon-home"></span></a></li>
-          <li ng-class="{'active':activePage=='about'}"><a href="#/#about">{{locale('about')}}</a></li>
-          <li ng-class="{'active':activePage=='services' || path=='page'}"><a href="#/#services">{{locale('services')}}</a></li>
-          <li ng-class="{'active':activePage=='contact'}"><a href="#/#contact">{{locale('contact')}}</a></li>
+          <li ng-repeat="section in sections"
+              ng-class="{'active':activePage == section}">
+            <a href="#/#{{section}}">{{locale(section)}}</a>
+          </li>
           <li class="dropdown lng-selection">
             <a class="dropdown-toggle" data-toggle="dropdown">
               <span class="glyphicon glyphicon-globe"></span> {{locale('language')}} <b class="caret"></b></a>
@@ -95,8 +96,13 @@
         </div>
       </div>
     </footer>
-
     <script src="/static/js/analytics.js"></script>
+    <script type="text/javascript">
+      var ymapsApi = null;
+      function fid_139936384058655207154(ymaps) {
+        ymapsApi = ymaps;
+      };
+    </script>
     <script type="text/javascript" src="http://api-maps.yandex.ru/2.0-stable/?lang=tr-TR&coordorder=longlat&load=package.full&wizard=constructor&onload=fid_139936384058655207154"></script>
   </body>
   </html>

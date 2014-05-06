@@ -61,7 +61,7 @@
 		<a href="#/#{{sections[0]}}"><span class="glyphicon glyphicon-chevron-down"></span></a>
 	</div>
   
-  <section id="{{section}}-section"
+  <section id="{{section}}"
   				 ng-repeat="section in loadedSections"
 	         class="section animated fadeInLeft",
 	         ng-class="{'section-a': $even, 'section-b': $odd}"
@@ -83,8 +83,7 @@
 	      		 ng-src="static/img/{{section}}.jpg" alt=""
 	      		 ng-if="section != 'contact'" />
 	      <div ng-if="section == 'contact'">
-					<div id="ymaps-map-id_139936384058655207154" style="width: 450px; height: 350px;"></div>
-					<script type="text/javascript">function fid_139936384058655207154(ymaps) {var map = new ymaps.Map("ymaps-map-id_139936384058655207154", {center: [29.03792383862299, 41.02652803715182], zoom: 15, type: "yandex#map"});map.controls.add("zoomControl");map.geoObjects.add(new ymaps.Placemark([29.038095, 41.023798], {balloonContent: "Egemsoft", iconContent: "3"}, {preset: "twirl#redIcon"}));};</script>
+					<div id="ymaps-map-id_139936384058655207154" style="width: 450px; height: 350px;" ng-init="placeMap()"></div>
 				</div>
 	    </div>
     </div>
