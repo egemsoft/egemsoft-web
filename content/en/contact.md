@@ -1,5 +1,5 @@
 - - -
-## Contact
+## Contact Us
 ### Do not hesitate to contact us!
 
 - @glyphicon-envelope [bilgi@egemsoft.net](mailto:bilgi@egemsoft.net)
