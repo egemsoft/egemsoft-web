@@ -29,8 +29,7 @@ angular.module("egem.config", []).
 			  				title: 'Big Data Platform and Applications',
 			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
 			  				image: uploadsUrl + '/slide-bigdata.png',
-			  				link: '#page/big-data-platform-and-applications',
-			  				active: true
+			  				link: '#page/big-data-platform-and-applications'
 			  			},
 			  			{
 			  				title: 'Corporate Application Development and System Integration',
@@ -91,8 +90,7 @@ angular.module("egem.config", []).
 			  				title: 'Büyük Veri Platformu ve Uygulamaları',
 			  				text: 'Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir. Egemsoft, büyük veri teknolojilerini stratejik öneme sahip araştırma ve ürün geliştirme alanı olarak belirlemiştir.',
 								image: uploadsUrl + '/slide-bigdata.png',
-			  				link: '#page/big-data-platform-and-applications',
-			  				active: true
+			  				link: '#page/big-data-platform-and-applications'
 			  			},
 			  			{
 			  				title: 'Kurumsal Uygulama Geliştirme ve Sistem Entegrasyonu',

@@ -7,6 +7,7 @@ var HomeCtrl = function($scope, $location, $route, $config, $activePage, $anchor
 
   // Main slides
   $scope.slides = $config.home[$scope.language.key].slides;
+  $scope.slides[0].active = true;
 
   var blocks = $config.home[$scope.language.key].blocks;
   var blocksSlides = [];
