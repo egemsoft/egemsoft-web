@@ -4,7 +4,11 @@
 	
   <div id="home" class="animated fadeInDown" style="min-height: {{window.innerHeight-64}}px;">
 	  <div id="home-top" style="height: {{(window.innerHeight)/2 + 64}}px">
-	  	<div class="carousel slide" data-ride="carousel" id="egem-slider" style="height: {{((window.innerHeight)/2 - 40)}}px">
+	  	<div class="carousel slide"
+	  			 data-ride="carousel"
+	  			 data-interval="{{config.home.slideInterval}}"
+	  			 id="egem-slider"
+	  			 style="height: {{((window.innerHeight)/2 - 40)}}px">
 				<ol class="carousel-indicators">
 				  <li data-target="#egem-slider"
 				  		data-slide-to="{{$index}}"
@@ -42,7 +46,11 @@
 		</div>
 
 		<div class="row animated fadeInLeft" id="home-blocks">
-			<div id="blocks-slider" class="carousel slide" data-ride="carousel" interval="{{config.blocks.blocksSlideInterval}}" style="height: {{(window.innerHeight)/2 - 64 - 40}}px">
+			<div id="blocks-slider"
+					 class="carousel slide"
+					 data-ride="carousel"
+					 data-interval="{{config.home.blocksSlideInterval}}"
+					 style="height: {{(window.innerHeight)/2 - 64 - 40}}px">
 			  <ol class="carousel-indicators">
 			    <li data-target="#blocks-slider"
 			    		data-slide-to="0"
