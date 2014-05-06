@@ -45,10 +45,10 @@ The information has always been there but the ability to enrich the variety of i
 	- «Cold Data» can be placed on BigData stacks. Reduces load on existing systems, still providing live access to data
 	- Process, cleanse and structure big and unstructured data before DWH/RDBMS
 
-- **No Pre-Modelling Effort- **
+- **No Pre-Modelling Effort**
 
 - Store the data as is; no formatting, no pre-processing
-- Make a quick start: defer data-modelling or cleansing to later stages
+- Make a quick start: defer data-modelling or cleansing to later stages  
 
 - **Correct Tools to Process Low Value per TB Data Stacks**
 
