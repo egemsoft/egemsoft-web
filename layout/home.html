@@ -30,14 +30,17 @@
 			<carousel interval="-1" style="height: {{(window.innerHeight)/2 - 64 - 40}}px">
 				<slide ng-repeat="blocksSlide in blocksSlides">
 				  <div class="col-md-4 block" ng-repeat="block in blocksSlide">
-				    <div class="thumbnail" style="max-height: {{(window.innerHeight)/2 - 64 - 80}}px">
+				    <div class="thumbnail" style="max-height: {{(window.innerHeight)/2 - 64 - 40 - 28 }}px">
 				    	<div class="caption col-xs-6">
 				        <h3 class="title">
 				        	<a href="{{block.link}}">
 				        		{{block.title}}
 				        	</a>
 				        </h3>
-					      <p>{{block.text|limitTo:150}} <a ng-if="block.text.length > 150" href="{{block.link}}">...</a></p>
+					      <p style="max-height: {{(window.innerHeight)/2 - 64 - 80 - 20 - 65}}px">
+					      	{{block.text|limitTo:150}}
+					      	<a ng-if="block.text.length > 150" href="{{block.link}}">...</a>
+					      </p>
 				    	</div>
 				    	<div class="col-xs-6">
 				    		<a href="{{block.link}}">
