@@ -134,8 +134,8 @@ angular.module("egem.config", []).
 			  			},
 			  			{
 			  				title: 'Modem Arıza Tespit',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/block-quota.png'
+			  				text: 'Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabilmeleri, olası müşteri veya cihaz, hat kaynaklı sorunları kısa sürede çözmeleri ile doğru orantılıdır. Egemsoft tarafından geliştirilen Modem Arıza Tespit Platformu, belirtilen sorunlara yönelik geliştirilen iki temel uygulamayı içermektedir.',
+							image: uploadsUrl + '/block-quota.png'
 			  			}
 			  		]
 			  	}
