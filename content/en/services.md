@@ -10,7 +10,7 @@
 
 [Systems Integration and Corporate Application Development](#/page/corporate-application-development-and-system-integration)
 
-- [IPAM – IP Management System](#/page/ipam-ip-management-system)
+- [IPAM – IP Address Management System](#/page/ipam-ip-management-system)
 - [Quota Reporting System](#/page/quota-reporting-system)
 - [Modem Defects Detecting Platform](#/page/modem-defects-detecting-platform)
 
