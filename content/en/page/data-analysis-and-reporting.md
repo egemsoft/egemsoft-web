@@ -28,7 +28,7 @@ Every intervention on complex communication networks have different impacts. Dat
 	- Developing scripts that would run on the correlated data to generate the required reports 
 	- Exporting the generated reports in PDF, XLS formats, sending the reports to the related persons via e-mail
 	- Integration with 3rd. party BI tools
-	- Trend analysis on historic data
+	- Trend analysis on historic data  
  
 **Veri Kaynakları:**
 
