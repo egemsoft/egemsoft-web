@@ -8,7 +8,7 @@
 - [Veri Analiz ve Raporlama](#/page/data-analysis-and-reporting)
 - [Log Analiz Aracı](#/page/log-analysis-tool)
 
-[Sistem Entegrasyon ve Kurumsal Uygulama Geliştirme](#/page/corporate-application-development-and-system-integration)
+[Kurumsal Uygulama Geliştirme ve Sistem Entegrasyonu](#/page/corporate-application-development-and-system-integration)
 
 - [IPAM – IP Adres Yönetim Sistemi](#/page/ipam-ip-management-system)
 - [Kota Raporlama Sistemi](#/page/quota-reporting-system)
