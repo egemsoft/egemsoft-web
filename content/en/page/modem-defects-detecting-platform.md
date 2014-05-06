@@ -26,20 +26,20 @@ Modem Defect Detection Platform offers a client application for the technical se
 
 **Advantages:**
 
-**Detect Defects at Technical Service Centers**
+- **Detect Defects at Technical Service Centers**
 
-- Shipment of devices to vendors without actual problems is prevented.
-- Refurbishment process duration shortens. 
+	- Shipment of devices to vendors without actual problems is prevented.
+	- Refurbishment process duration shortens. 
 
-**Pay less for storage and logistics cost**
+- **Pay less for storage and logistics cost**
 
-- No need for keeping backup devices. 
-- No wasted time and extra cost for shipping modems with no defects to vendors.
+	- No need for keeping backup devices. 
+	- No wasted time and extra cost for shipping modems with no defects to vendors.
 
-**Control Device and Log History**
+- **Control Device and Log History**
 
-- Device error logs are recorded with technical details.
-- Awareness for known/unknown issues is created. 
+	- Device error logs are recorded with technical details.
+	- Awareness for known/unknown issues is created. 
 
  
 **PC CLIENT - APPLICATION FOR END-USERS/SUBSCRIBERS:**
