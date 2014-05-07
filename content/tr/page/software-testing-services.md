@@ -100,9 +100,10 @@ BO -> Bloke Durum Raporu:
 
 ![YazilimTest3](/static/uploads/page/tr/YazilimTest3.png)
  
-- RTM ( Release & Test Management V1) 
-	- Bu uygulama ile Test uzmanlarının ilgili iş detayında ekstra belirtmek istediği notları/riskleri ve önerileri de raporlanabilmektedir. Böylelikle daha net ve anlamlı raporların tüm şirket tarafından görüntülenmesi sağlanabilmektedir. 
-	- Sürüm ve Testin ayrılmaz bir bütün olduğundan hareketle, sürüm içeriklerinin oluşturulması ve sürüm takvimlerinin kaynak planlamasıyla yapılabilmesi de bu uygulamamız tarafından sağlanmaktadır. Sürüm ve test iş akışı böylelikle çok daha tutarlı ve düzgün bir şekilde gerçekleşmektedir.
+- RTM ( Release & Test Management V1)  
+
+Bu uygulama ile Test uzmanlarının ilgili iş detayında ekstra belirtmek istediği notları/riskleri ve önerileri de raporlanabilmektedir. Böylelikle daha net ve anlamlı raporların tüm şirket tarafından görüntülenmesi sağlanabilmektedir. 
+Sürüm ve Testin ayrılmaz bir bütün olduğundan hareketle, sürüm içeriklerinin oluşturulması ve sürüm takvimlerinin kaynak planlamasıyla yapılabilmesi de bu uygulamamız tarafından sağlanmaktadır. Sürüm ve test iş akışı böylelikle çok daha tutarlı ve düzgün bir şekilde gerçekleşmektedir.
 
 RTM -> Test Durum Raporu:
 
