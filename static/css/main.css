@@ -159,8 +159,8 @@ a:hover {
 	min-height: 650px;
 }
 
-.section img {
-	margin-top: 90px;
+.section .visual {
+	padding-top: 90px;
 }
 
 .section p, .section ul, .section h4, .section h3 {
@@ -216,6 +216,10 @@ a {
 .nowrap {
 	white-space: nowrap;
 	z-index: 1000;
+}
+
+.content {
+	padding-bottom: 50px;
 }
 
 .content.page {
