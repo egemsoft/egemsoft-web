@@ -95,12 +95,11 @@ Sample reports
 Business Objects -> Test Status Report:
 
 [[[[[[[SW2]]]]]]]  
-
  
 - BLOCKED CASES STATUS REPORT  
 	- Blocked domains, modules, blocking reasons, affected scenarios due to blockage are detailed in this report.  
 
-Bloked Cases Status Report (Business Objects)  
+Blocked Cases Status Report (Business Objects)  
  
 
 [[[[[[SW3]]]]]]]]]
@@ -110,14 +109,14 @@ Bloked Cases Status Report (Business Objects)
 
 One of the success factors of delivering error free products in large scale corporate application development projects is establishing a well-matched release and test processes. The management tool being developed by Egemsoft addresses this important issue. Matching the release content and the required man-day effort to test the release, gives the opportunity for better resource planning and a realistic release date announcement.
 
-RTM -> Test Durum Raporu  
+RTM -> Test Status Report 
 
 [[[[[[SW4]]]]]]]
 
-RTM -> Açık Hata Raporu:
+RTM -> Error Report:
 
 [[[[[[SW5]]]]]]]
 
-RTM -> Bloke Durum Raporu:
+RTM -> Blocked Cases Report:
 
 [[[[[[SW6]]]]]]]
