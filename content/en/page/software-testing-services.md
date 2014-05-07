@@ -92,17 +92,17 @@ Sample reports
 	- Status of the application tests;
 	Total # Cases / Cases Executed / Failed / Passed / Completion Rate / Success Rate 
 
-Business Objects -> Test Status Report:
+Business Objects -> Test Status Report:  
 
 [[[[[[[SW2]]]]]]]  
  
 - BLOCKED CASES STATUS REPORT  
-	- Blocked domains, modules, blocking reasons, affected scenarios due to blockage are detailed in this report.  
+	- Blocked domains, modules, blocking reasons, affected scenarios due to blockage are detailed in this report.   
 
 Blocked Cases Status Report (Business Objects)  
  
 
-[[[[[[SW3]]]]]]]]]
+[[[[[[SW3]]]]]]]]]  
  
 
 - RTM ( Release & Test Management V1)  
