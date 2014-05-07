@@ -23,8 +23,6 @@ Test services provided can be summarised as below:
 
 In general softwrae projects are developed following a workflow that consists of the tasks ordered as; **analysis -> design -> coding -> test -> product.** Although thşs order of tasks seem to be applicable, ideally, the test process should not wait for the coding phase to be completed. With this approach, the ideal order of tasks can be as; **analysis -> design -> test preperation process -> coding -> dynamic test process -> completion of test -> product.** 
 
-[[[[[[[SW1]]]]]]
-
 
  
 **Accomplished Software Tests:**
