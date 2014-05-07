@@ -1,5 +1,5 @@
 - - -
-##LOG ANALİZ ARACI
+##Log Analiz Aracı
 
 Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazlardan oluşmaktadır. Log Analiz Aracımız, üretilen bu bilgilerin toplandığı, geçmiş ile ilişkilendirilerek analizlerin yapıldığı ve belirli kurallar çerçevesinde ilgililerin uyarılarak şebekelerin sağlıklı ve verimli çalışmasını sağlayan bir uygulamadır. 
 
