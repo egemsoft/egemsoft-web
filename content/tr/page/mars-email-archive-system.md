@@ -7,11 +7,12 @@ Günümüzde, özellikle Finans, Telekom ve Enerji alanlarında, sektörel Denet
 
 Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemleri ve veri saklama teknolojileri kullanılarak MARS - E-Posta Arşivleme Sistemi geliştirilmiştir.
 
-**Temel İşlevler:**
 
 **Mimari Yapı:**  
 
 ![MARS_MimariYapı](/static/uploads/page/tr/MARS_MimariYapi.png)
+
+**Temel İşlevler:**
 
 - **Toplama:**  
 	- Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  
