@@ -120,9 +120,6 @@ a:hover {
 	z-index: 100;
 }
 #home-blocks .block .caption p { overflow: hidden; }
-#home-blocks .block .title {
-	white-space: nowrap;
-}
 #home-blocks .block img {
 	margin-top:20px;
 }
@@ -211,11 +208,6 @@ a {
 
 .more-section a {
 	color: #c0392b;
-}
-
-.nowrap {
-	white-space: nowrap;
-	z-index: 1000;
 }
 
 .content {
