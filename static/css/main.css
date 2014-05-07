@@ -167,19 +167,19 @@ a:hover {
 	color: #6f6f6f;
 }
 
-#contact-section {
+#contact {
 	font-size: 16px;
 	padding-left: 15px;
 }
-#contact-section ul {
+#contact ul {
 	padding-left: 5px;
 	margin-top: 15px;
 }
-#contact-section li {
+#contact li {
 	list-style-type: none;
 	margin-top: 10px;
 }
-#contact-section a {
+#contact a {
 	color: #6f6f6f;
 }
 
