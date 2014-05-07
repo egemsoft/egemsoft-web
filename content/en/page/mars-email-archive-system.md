@@ -1,5 +1,5 @@
 - - -
-###MARS - E-Mail Archiving System
+##MARS - E-Mail Archiving System
 
 There is no doubt that e-mails are one of the crucial and most commonly used means of communication, whether among individuals for social purposes or  for business needs among professionals, user groups, companies, with a worldwide reach. An e-mail not only conveys textual information but any type of media as attachments.
 Along with the comfort it brings, the task of storing, archiving and the need to access an old e-mail item, also come as an important issue. Due to the high cost of storing mechanisms or data warehouse appliances, many institutions preferred deleting “old” items. Today, with the introduction of hadoop based file systems and storing mechanisms, this is not considered as an important issue.
