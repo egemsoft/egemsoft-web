@@ -24,8 +24,13 @@ var MainCtrl = function($scope, $location, $route, $config, $language, $activePa
   $scope.year = new Date().getFullYear();
 
   $scope.languages = $language.availableLanguages;
-  $scope.language = $language.availableLanguages[0];
 
+  // Set user's language if supported
+  var userLanguage = navigator.language || navigator.userLanguage;
+  if(userLanguage == 'tr') // set Turkish
+    $scope.language = $language.availableLanguages[0];
+  else                    // set English
+    $scope.language = $language.availableLanguages[1];
 
   /**
    * Sets active language to show desired translations
@@ -45,5 +50,4 @@ var MainCtrl = function($scope, $location, $route, $config, $language, $activePa
   $scope.locale = function(key) {
   	return $language.strings[key][$scope.language.key];
   };
-
 };
