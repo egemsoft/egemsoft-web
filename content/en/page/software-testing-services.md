@@ -98,6 +98,7 @@ Business Objects -> Test Status Report:
 
  
 - BLOCKED CASES STATUS REPORT
+
 	- Blocked domains, modules, blocking reasons, affected scenarios due to blockage are detailed in this report.  
 
 Bloked Cases Status Report (Business Objects)  
