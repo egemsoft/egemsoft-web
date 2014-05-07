@@ -30,7 +30,7 @@ Every intervention on complex communication networks have different impacts. Dat
 	- Integration with 3rd. party BI tools
 	- Trend analysis on historic data  
 
-**Veri Kaynakları:**  
+**Data Resources:**  
 
 [[[[[[DataAnalysis]]]]]]
 
