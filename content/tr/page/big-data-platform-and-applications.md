@@ -1,5 +1,5 @@
 - - -
-##BÜYÜK VERİ YÖNETİM PLATFORMU
+##Büyük Veri Yönetim Platformu
 
 Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir. Egemsoft, büyük veri teknolojilerini stratejik öneme sahip araştırma ve ürün geliştirme alanı olarak belirlemiştir. 
 
