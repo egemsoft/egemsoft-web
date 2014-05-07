@@ -1,7 +1,7 @@
 - - -
 ##Big Data Platform and Applications
 
-Big data, as the name recalls, is usually interpreted as the datasets that are too large and complex.
+Big data, as the name recalls, is usually interpreted as the datasets that are too large and complex. Egemsoft has determined big data technologies as the strategic platform for the research and application development activities.  
 
 These two factors alone, challenge the traditional data management and analysis tools commonly utilised by the enterprises today. On top of that, the sources of data are numerous; data in the form of text from social media, structured data from corporate applications, video signals from survelliance cameras, call center logs, cell phone talks and browsing patterns of web users and many more.
 
