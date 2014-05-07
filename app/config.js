@@ -27,7 +27,7 @@ angular.module("egem.config", []).
 			  		slides: [
 			  			{
 			  				title: 'Big Data Platform and Applications',
-			  				text: 'Big data, as the name recalls, is usually interpreted as the datasets that are too large, growing at a high speed and emerging from various resources with different structures.',
+			  				text: 'Big data, as the name recalls, is usually interpreted as the datasets that are too large, growing at a high speed and emerging from various resources with different structures. Egemsoft has determined big data technologies as the strategic platform for the research and application development activities.',
 							image: uploadsUrl + '/slide-bigdata.png',
 			  				link: '#page/big-data-platform-and-applications'
 			  			},
