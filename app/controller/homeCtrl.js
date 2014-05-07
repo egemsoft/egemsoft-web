@@ -5,22 +5,6 @@
  */
 var HomeCtrl = function($scope, $location, $route, $config, $activePage, $anchorScroll, $timeout, $q) {
 
-  // Main slides
-  $scope.slides = $config.home[$scope.language.key].slides;
-  $scope.slides[0].active = true;
-
-  var blocks = $config.home[$scope.language.key].blocks;
-  var blocksSlides = [];
-  
-  // Blocks slides configuration, creates items in slide with defined item numbers per slide
-  var blockSlidesSize = Math.ceil(blocks.length/$config.home.blocksPerSlide);
-
-  for(i=0; i<blockSlidesSize; i++) {
-    blocksSlides.push(blocks.slice(i*$config.home.blocksPerSlide, i*$config.home.blocksPerSlide + $config.home.blocksPerSlide));
-  }
-  blocksSlides[0].active = true;
-  $scope.blocksSlides = blocksSlides;
-
   $scope.placeMap = function() {
     if(ymapsApi==null) { // if yandex maps api not loaded give it 5 secs.
       $timeout(function(){
@@ -35,6 +19,26 @@ var HomeCtrl = function($scope, $location, $route, $config, $activePage, $anchor
       map.geoObjects.add(new ymaps.Placemark([29.038095, 41.023798], {balloonContent: "Egemsoft", iconContent: "3"}, {preset: "twirl#redIcon"}));
     }
   };
+
+  // Update slides and blocks with current language setting
+  $scope.$watch('language', function() {
+    var slides = $config.home[$scope.language.key].slides;
+    slides[0].active = true;
+    $scope.slides = slides;
+    $scope.blocks = $config.home[$scope.language.key].blocks;
+  }, true);
+
+  // Set block slides, ex: 3 blocks per slide
+  $scope.$watch('blocks', function() {
+    var blocksSlides = [];
+    // Blocks slides configuration, creates items in slide with defined item numbers per slide
+    var blockSlidesSize = Math.ceil($scope.blocks.length/$config.home.blocksPerSlide);
+    for(i=0; i<blockSlidesSize; i++) {
+      blocksSlides.push($scope.blocks.slice(i*$config.home.blocksPerSlide, i*$config.home.blocksPerSlide + $config.home.blocksPerSlide));
+    }
+    blocksSlides[0].active = true;
+    $scope.blocksSlides = blocksSlides;
+  }, true);
 
   /**
    * Operations on route change.
