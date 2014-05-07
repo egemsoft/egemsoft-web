@@ -54,13 +54,13 @@ angular.module("egem.config", []).
 			  			{
 			  				title: 'Veri Analiz',
 			  				text: 'Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır.',
-								image: uploadsUrl + '/block-ipam.png',
+								image: uploadsUrl + '/block-reporting.png',
 			  				link: '#/page/data-analysis-and-reporting'
 			  			},
 			  			{
 			  				title: 'Log Analiz',
 			  				text: 'Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazlardan oluşmaktadır. Log Analiz Aracımız, üretilen bu bilgilerin toplandığı, geçmiş ile ilişkilendirilerek analizlerin yapıldığı ve belirli kurallar çerçevesinde ilgililerin uyarılarak şebekelerin sağlıklı ve verimli çalışmasını sağlayan bir uygulamadır.',
-								image: uploadsUrl + '/block-quota.png',
+								image: uploadsUrl + '/block-logger.png',
 			  				link: '#/page/log-analysis-tool'
 			  			},
 			  			{
@@ -78,7 +78,7 @@ angular.module("egem.config", []).
 			  			{
 			  				title: 'Modem Arıza Tespit',
 			  				text: 'Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabilmeleri, olası müşteri veya cihaz, hat kaynaklı sorunları kısa sürede çözmeleri ile doğru orantılıdır. Egemsoft tarafından geliştirilen Modem Arıza Tespit Platformu, belirtilen sorunlara yönelik geliştirilen iki temel uygulamayı içermektedir.',
-								image: uploadsUrl + '/block-quota.png',
+								image: uploadsUrl + '/block-mat.png',
 			  				link: '#/page/modem-defects-detecting-platform'
 			  			}
 			  		]
@@ -115,13 +115,13 @@ angular.module("egem.config", []).
 			  			{
 			  				title: 'Veri Analiz',
 			  				text: 'Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır.',
-								image: uploadsUrl + '/block-ipam.png',
+								image: uploadsUrl + '/block-reporting.png',
 			  				link: '#/page/data-analysis-and-reporting'
 			  			},
 			  			{
 			  				title: 'Log Analiz',
 			  				text: 'Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazlardan oluşmaktadır. Log Analiz Aracımız, üretilen bu bilgilerin toplandığı, geçmiş ile ilişkilendirilerek analizlerin yapıldığı ve belirli kurallar çerçevesinde ilgililerin uyarılarak şebekelerin sağlıklı ve verimli çalışmasını sağlayan bir uygulamadır.',
-								image: uploadsUrl + '/block-quota.png',
+								image: uploadsUrl + '/block-logger.png',
 			  				link: '#/page/log-analysis-tool'
 			  			},
 			  			{
@@ -139,7 +139,7 @@ angular.module("egem.config", []).
 			  			{
 			  				title: 'Modem Arıza Tespit',
 			  				text: 'Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabilmeleri, olası müşteri veya cihaz, hat kaynaklı sorunları kısa sürede çözmeleri ile doğru orantılıdır. Egemsoft tarafından geliştirilen Modem Arıza Tespit Platformu, belirtilen sorunlara yönelik geliştirilen iki temel uygulamayı içermektedir.',
-								image: uploadsUrl + '/block-quota.png',
+								image: uploadsUrl + '/block-mat.png',
 			  				link: '#/page/modem-defects-detecting-platform'
 			  			}
 			  		]
