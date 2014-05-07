@@ -1,5 +1,5 @@
 - - -
-##MODEM ARIZA TESPİT PLATFORMU
+##Modem Arıza Tespit Platformu
 
 Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabilmeleri, olası müşteri veya cihaz, hat kaynaklı sorunları kısa sürede çözmeleri ile doğru orantılıdır. Egemsoft tarafından geliştirilen Modem Arıza Tespit Platformu, belirtilen sorunlara yönelik geliştirilen iki temel uygulamayı içermektedir. 
 
