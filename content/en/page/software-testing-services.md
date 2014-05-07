@@ -95,9 +95,11 @@ Sample reports
 Business Objects -> Test Status Report:  
 
 [[[[[[[SW2]]]]]]]  
+
  
 - BLOCKED CASES STATUS REPORT  
 	- Blocked domains, modules, blocking reasons, affected scenarios due to blockage are detailed in this report.   
+	
 
 Blocked Cases Status Report (Business Objects)  
  
