@@ -27,31 +27,32 @@ angular.module("egem.config", []).
 			  		slides: [
 			  			{
 			  				title: 'Big Data Platform and Applications',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/slide-bigdata.png',
+			  				text: 'Big data, as the name recalls, is usually interpreted as the datasets that are too large, growing at a high speed and emerging from various resources with different structures.',
+							image: uploadsUrl + '/slide-bigdata.png',
 			  				link: '#page/big-data-platform-and-applications'
 			  			},
 			  			{
 			  				title: 'Corporate Application Development and System Integration',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/slide-integration.png',
+			  				text: 'Institutions focused on ultimate success, prefer custom developed applications that will differentiate them from their competitors and create competitive advantage.  Egemsoft, with its highly skilled software engineers, provides application development and system integration services which seamlesşy connect complex systems.',
+							image: uploadsUrl + '/slide-integration.png',
 			  				link: '#page/corporate-application-development-and-system-integration'
 			  			},
 			  			{
 			  				title: 'Software Testing Services',
-			  				text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce massa tellus, adipiscing nec condimentum at, aliquam egestas enim. Curabitur in leo at dui eleifend fringilla. Duis varius ante vel rhoncus lobortis. Etiam sed elit eget massa congue blandit vitae vitae nibh. In tincidunt risus non enim lacinia lacinia. Nam eget pellentesque odio, ut venenatis ipsum. Curabitur blandit lectus id nunc aliquet, at elementum nisl luctus. Maecenas tincidunt, arcu at vehicula malesuada, ante neque tristique ipsum, in porttitor orci tellus id ante. Maecenas ut commodo justo. Curabitur at elit nisl. Sed elementum ligula enim, elementum vestibulum metus convallis vel. Vestibulum facilisis, erat et bibendum vulputate, felis neque blandit lectus, quis rutrum massa ante et leo. Ut sit amet semper eros.',
-			  				image: uploadsUrl + '/slide-test.png',
+			  				text: 'Software test services are one of the most important phases in application development projects. It is the phase which actually defines the quality of the end product. Despite these facts, test phase has always been the one with inadequate durations assigned, even skipped due to strict project timetables and unfortunately, sometimes regarded as a high, unnecessary cost function.',
+							image: uploadsUrl + '/slide-test.png',
 			  				link: '#page/software-testing-services'
 			  			}
 			  		],
 			  		blocks: [
 			  			{
 			  				title: 'MARS',
-			  				text: 'Günümüzde en yaygın iletişim aracı olarak kullanılan e-posta uygulaması, kullanım yoğunluğu ve erişim ihtiyacının sürekli artması gibi faktörlerin sonucu olarak, alınan ve gönderilen e-postaların saklanması ve arşivlenmesi gibi gereksinimleri de beraberinde getirmektedir. Bu ihtiyaç genellikle kurum çalışanlarının kendi inisiyatifleri ile yine kendi PC’lerinde yarattıkları arşivler yolu ile giderilmeye çalışılmaktadır. Ancak, kişisel ortamlarda saklanan bu bilgiler, bilgiyi arşivleyen kişinin kullanımını ile sınırlı olmaktadır. İlgili kişilerin kurumdan ayrılması ve/veya kurumun herhangi bir neden ile bu kişisel ortamlarda saklanan bilgiye ihtiyaç duyması halinde, genellikle bu bilgilere ulaşım imkanı olmamaktadır.',
-								image: uploadsUrl + '/block-mars.png',
+			  				text: 'There is no doubt that e-mails are one of the crucial and most commonly used means of communication, whether among individuals for social purposes or  for business needs among professionals, user groups, companies, with a worldwide reach. An e-mail not only conveys textual information but any type of media as attachments.',
+							image: uploadsUrl + '/block-mars.png',
 			  				link: '#/page/mars-email-archive-system'
 			  			},
 			  			{
+<<<<<<< HEAD
 			  				title: 'Veri Analiz',
 			  				text: 'Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır.',
 								image: uploadsUrl + '/block-reporting.png',
@@ -61,24 +62,41 @@ angular.module("egem.config", []).
 			  				title: 'Log Analiz',
 			  				text: 'Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazlardan oluşmaktadır. Log Analiz Aracımız, üretilen bu bilgilerin toplandığı, geçmiş ile ilişkilendirilerek analizlerin yapıldığı ve belirli kurallar çerçevesinde ilgililerin uyarılarak şebekelerin sağlıklı ve verimli çalışmasını sağlayan bir uygulamadır.',
 								image: uploadsUrl + '/block-logger.png',
+=======
+			  				title: 'Data Analysis',
+			  				text: 'Every intervention on complex communication networks have different impacts. Data Analysis and Reporting solution has been developed to analyse such impacts. It collects data from various network devices, correlates such data and provides the tools for analysis including trend analysis which utilises historic data.',
+							image: uploadsUrl + '/block-ipam.png',
+			  				link: '#/page/data-analysis-and-reporting'
+			  			},
+			  			{
+			  				title: 'Log Analysis',
+			  				text: 'Communication networks have various smart devices producing data continously. Log Analysis Tool collects such data, correlates and compares with related historic data. Based on specified rules, it creates alerts for the responsible units, for a healty and effective network generation.',
+							image: uploadsUrl + '/block-quota.png',
+>>>>>>> 790d7e8... config.js edited online with Bitbucket
 			  				link: '#/page/log-analysis-tool'
 			  			},
 			  			{
 			  				title: 'IPAM',
-			  				text: 'Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar açısından bu kaynağı yüksek verimlilikle yönetebilmek son derece önemlidir. IP Adres Yönetimi çözümümüz, kurumların bu hedefi gerçekleştirebilmesini sağlayan yetenekli bir yazılım uygulamasıdır.',
-								image: uploadsUrl + '/block-ipam.png',
+			  				text: 'IP Addresses are one of the limited resources for the telecom operators. Every telco institution should give utmost care to manage these resources effectively. IP Address Management solution provides the tools for this critical management process.',
+							image: uploadsUrl + '/block-ipam.png',
 			  				link: '#/page/ipam-ip-management-system'
 			  			},
 			  			{
-			  				title: 'Kota Raporlama',
-			  				text: 'Günümüz telekomünikasyon şebekelerinde çeşitli yöntemler ile kullanım hizmet faturası üretmek mümkündür. Bu yöntemlerden biri de "Kullandığın Kadar Öde" şeklinde olabilir. Kota Raporlama çözümümüz, kullanıcıların cihazlarının ürettiği detaylı çağrı raporlarını inceleyen, fatura üretimine yönelik bilgileri toplayan bir uygulamadır.',
-								image: uploadsUrl + '/block-quota.png',
+			  				title: 'Quota Reporting',
+			  				text: 'Today telecom companies apply various methods when producing the invoices for their clients. One such kind is the “Pay as mufor vch as you utilise”. Quota Reporting solution analysis the detailed call records created by the devices used by the subscribers and collect the necessary information for invoice production.',
+							image: uploadsUrl + '/block-quota.png',
 			  				link: '#/page/quota-reporting-system'
 			  			},
 			  			{
+<<<<<<< HEAD
 			  				title: 'Modem Arıza Tespit',
 			  				text: 'Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabilmeleri, olası müşteri veya cihaz, hat kaynaklı sorunları kısa sürede çözmeleri ile doğru orantılıdır. Egemsoft tarafından geliştirilen Modem Arıza Tespit Platformu, belirtilen sorunlara yönelik geliştirilen iki temel uygulamayı içermektedir.',
 								image: uploadsUrl + '/block-mat.png',
+=======
+			  				title: 'Modem Defect Detection',
+			  				text: 'Internet service providers are obliged to solve problems their clients face, whether it is a defect of a modem, a line failure or fault of subscriber, faster than their competitors, in order to maintain customer satisfaction and reduce churn. Modem Defect Detection Platform, developed by Egemsoft, offers two main applications that address these problems.',
+							image: uploadsUrl + '/block-quota.png',
+>>>>>>> 790d7e8... config.js edited online with Bitbucket
 			  				link: '#/page/modem-defects-detecting-platform'
 			  			}
 			  		]
