@@ -21,8 +21,6 @@ Egemsoft bu anlayıştan yola çıkarak, bünyesinde barındırdığı test müh
 
 Genel olarak yazılım projeleri **analiz -> tasarım -> kodlama -> test -> ürün** süreçleri izlenerek geliştirilir. Aşamalar birbirini bu sırada izler görünse de idealde test sürecinin kodlama sürecinin bitmesini beklememesi gerekir. Bundan hareketle, ideal bir yazılım-test süreci, aşamaların,  **analiz -> tasarım -> test hazırlık süreci-> kodlama -> dinamik test süreci -> testin sonlandırılması -> ürün** şeklinde sıralandığı süreçtir. 
 
-![YazilimTest1](/static/uploads/page/tr/YazilimTest1.jpg)
-
 
 **Gerçekleştirilen Yazılım Test Çeşitleri:**  
 
