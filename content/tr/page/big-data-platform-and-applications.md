@@ -1,7 +1,7 @@
 - - -
 ##Büyük Veri Yönetim Platformu
 
-Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir. Egemsoft, büyük veri teknolojileri platformunu, stratejik öneme sahip araştırma ve ürün geliştirme alanı olarak belirlemiştir. 
+Büyük Veri kavramı, adından da anlaşılacağı gibi, temelde yüksek yoğunlukta, hızla büyüyen ve kaynakları çok çeşitlilik gösteren karmaşık veri yapılarını tariflemektedir. Egemsoft, büyük veri teknolojileri platformunu, stratejik araştırma ve ürün geliştirme alanı olarak belirlemiştir. 
 
 Yukarıda belirtilen, büyük veriyi tanımlayan faktörler, büyük ölçekli kurumlarda yaygın olarak kullanılan geleneksel veri yönetim ve analiz araçlarının yetersiz kalmalarına neden olmaktadır. Bu faktörlere ek olarak veri kaynak ve türleri de, sosyal medyadaki metin yapısında veriler, kurumsal yazılım uygulamalarının ürettiği yapısal veriler, kameralardan alınan video sinyalleri, çağrı merkezi kayıtları, telefon konuşmaları, web üzerinde kullanıcı tercih desenleri gibi, çok çeşitlilik göstermektedir.
 
