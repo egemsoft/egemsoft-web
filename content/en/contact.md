@@ -1,6 +1,5 @@
 - - -
 ## Contact Us
-### Do not hesitate to contact us!
 
 - @glyphicon-envelope [bilgi@egemsoft.net](mailto:bilgi@egemsoft.net)
 - @glyphicon-phone [0216 474 44 88](tel:02164744488)
