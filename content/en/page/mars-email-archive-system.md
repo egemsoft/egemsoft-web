@@ -7,7 +7,7 @@ Mail Archiving System – MARS is built on Egemsoft’s hadoop based big data an
 
 **Architecture:**
 
-![MARS](/static/uploads/page/en/MARS.png)
+![MARS](static/uploads/page/en/MARS.png)
 
 **Fundamental Functions:**
 

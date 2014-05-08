@@ -14,5 +14,5 @@ Günümüz telekomünikasyon şebekelerinde çeşitli yöntemler ile kullanım h
 
 **Mimari Yapı:**  
 
-![KotaRaporlamaSistemi_MimariYapı](/static/uploads/page/tr/KotaRaporlamaSistemi_MimariYapi.png)
+![KotaRaporlamaSistemi_MimariYapı](static/uploads/page/tr/KotaRaporlamaSistemi_MimariYapi.png)
 
