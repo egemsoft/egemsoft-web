@@ -14,4 +14,4 @@ Today telecom companies apply various methods when producing the invoices for th
 
 **Architecture:**
 
-[[[[[[[[[Quota]]]]]]]]
+![Quota](/static/uploads/page/en/Quota.png)

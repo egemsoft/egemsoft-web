@@ -21,7 +21,7 @@ Test services provided can be summarised as below:
 
 **Software Test Process**
 
-In general softwrae projects are developed following a workflow that consists of the tasks ordered as; **analysis -> design -> coding -> test -> product.** Although thşs order of tasks seem to be applicable, ideally, the test process should not wait for the coding phase to be completed. With this approach, the ideal order of tasks can be as; **analysis -> design -> test preperation process -> coding -> dynamic test process -> completion of test -> product.** 
+In general softwrae projects are developed following a workflow that consists of the tasks ordered as; **analysis -> design -> coding -> test -> product.** Although this order of tasks seem to be applicable, ideally, the test process should not wait for the coding phase to be completed. With this approach, the ideal order of tasks can be as; **analysis -> design -> test preperation process -> coding -> dynamic test process -> completion of test -> product.** 
 
 
  
@@ -92,7 +92,7 @@ Sample reports
 
 Business Objects -> Test Status Report:  
 
-[[[[[[[SW2]]]]]]]  
+![SW2](/static/uploads/page/en/SW2.png)
 
  
 - BLOCKED CASES STATUS REPORT  
@@ -102,7 +102,7 @@ Business Objects -> Test Status Report:
 Blocked Cases Status Report (Business Objects)  
  
 
-[[[[[[SW3]]]]]]]]]  
+![SW3](/static/uploads/page/en/SW3.png)
  
 
 - RTM ( Release & Test Management V1)  
@@ -111,12 +111,12 @@ One of the success factors of delivering error free products in large scale corp
 
 RTM -> Test Status Report 
 
-[[[[[[SW4]]]]]]]
+![SW4](/static/uploads/page/en/SW4.png)
 
 RTM -> Error Report:
 
-[[[[[[SW5]]]]]]]
+![SW5](/static/uploads/page/en/SW5.png)
 
 RTM -> Blocked Cases Report:
 
-[[[[[[SW6]]]]]]]
+![SW6](/static/uploads/page/en/SW6.png)

@@ -14,4 +14,4 @@ Communication networks have various smart devices producing data continously. Lo
 - Logs queries according to various criteria and the related user interfaces
 
 
-[[[[[[[LogAnalysis]]]]]]]]
+![LogAnalysis](/static/uploads/page/en/LogAnalysis.png)

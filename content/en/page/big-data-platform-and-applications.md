@@ -84,4 +84,4 @@ Egemsoft Big Data Management Platform has been designed and developed to address
 The architectural design of the platform is as follows:
 
 
-[[[[[BigData]]]]]
+![BigData](/static/uploads/page/en/BigData.png)

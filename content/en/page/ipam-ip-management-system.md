@@ -17,4 +17,4 @@ IP Addresses are one of the limited resources for the telecom operators. Every t
 **Architecture:**
 
 
-[[[[[[[[[[[IPAM]]]]]]]]]
+![IPAM](/static/uploads/page/en/IPAM.png)
