@@ -82,6 +82,9 @@ a:hover {
 #home-blocks .carousel-inner .item {
 	padding: 0 5% 0;
 }
+#home-blocks .carousel-indicators {
+	bottom: 0px;
+}
 #home-blocks .carousel-indicators li.active {
 	background-color: #c0392b;
 }
@@ -115,9 +118,11 @@ a:hover {
 }
 #home-blocks .block .thumbnail {
 	overflow: hidden;
+	padding-top: 0;
 }
 #home-blocks .block .caption {
 	z-index: 100;
+	padding-top: 0;
 }
 #home-blocks .block .caption p { overflow: hidden; }
 #home-blocks .block img {

@@ -8,7 +8,7 @@
 	  			 data-ride="carousel"
 	  			 data-interval="{{config.home.slideInterval}}"
 	  			 id="egem-slider"
-	  			 style="height: {{((window.innerHeight)/2 - 40)}}px">
+	  			 style="height: {{((window.innerHeight)/2)}}px">
 				<ol class="carousel-indicators">
 				  <li data-target="#egem-slider"
 				  		data-slide-to="{{$index}}"
@@ -30,7 +30,7 @@
 		 					</div>
 		 					<div class="col-sm-6">
 		 						<a href="{{slide.link}}">
-		 							<img style="margin:auto; max-height: {{((window.innerHeight)/2 - 40)}}px" class="img-responsive" ng-src="{{slide.image}}">
+		 							<img style="margin:auto; max-height: {{((window.innerHeight)/2)}}px" class="img-responsive" ng-src="{{slide.image}}">
 		 						</a>
 		 					</div>
 	 					</div>
@@ -50,10 +50,10 @@
 					 class="carousel slide"
 					 data-ride="carousel"
 					 data-interval="{{config.home.blocksSlideInterval}}"
-					 style="height: {{(window.innerHeight)/2 - 64 - 40}}px">
+					 style="height: {{(window.innerHeight)/2 - 64}}px">
 			  <ol class="carousel-indicators">
 			    <li data-target="#blocks-slider"
-			    		data-slide-to="0"
+			    		data-slide-to="{{$index}}"
 			    		ng-repeat="blocksSlide in blocksSlides"
 			    		ng-class="{'active':blocksSlide.active}"></li>
 			  </ol>
