@@ -7,6 +7,12 @@ Scaffolding via [yeoman-angular](https://github.com/yeoman/generator-angular) ge
 
 Setup & Run
 ===========
-```npm install```
-```grunt test```
-```grunt serve```
+```bash
+  npm install
+```  
+```bash
+  grunt test
+```  
+```bash
+  grunt serve
+```  
