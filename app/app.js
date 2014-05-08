@@ -10,11 +10,11 @@ var egemApp = angular.module('egem-web', ['egem.language', 'egem.config', 'ngRou
 	// Route configuration
 	config(['$routeProvider', function($routeProvider) {
 	  $routeProvider.when('/', {
-	  	templateUrl: '/layout/home.html'
+	  	templateUrl: 'layout/home.html'
 	  });
 	  // standalone pages routing
 	  $routeProvider.when('/page/:pageName', {
-	  	templateUrl: '/layout/page.html'
+	  	templateUrl: 'layout/page.html'
 	  });
 	}]);
 
