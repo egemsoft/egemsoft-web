@@ -9,10 +9,6 @@ Setup & Run
 ===========
 ```bash
   npm install
-```  
-```bash
   grunt test
-```  
-```bash
   grunt serve
 ```  
