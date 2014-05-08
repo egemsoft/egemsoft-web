@@ -2,7 +2,7 @@
 ##Services & Products
 ####Software Development and Systems Integration
 
-[Big Data Management Platform](#/page/big-data-management-platform-and-applications)
+[Big Data Management Platform](#/page/big-data-platform-and-applications)
 
 - [MARS – Mail Archiving, Analysis and Reporting System](#/page/mars-email-archive-system)
 - [Data Analysis and Reporting](#/page/data-analysis-and-reporting)
@@ -14,4 +14,4 @@
 - [Quota Reporting System](#/page/quota-reporting-system)
 - [Modem Defects Detecting Platform](#/page/modem-defects-detecting-platform)
 
-####[Software Test Services](#/page/software-test-services)
+####[Software Test Services](#/page/software-testing-services)
