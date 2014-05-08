@@ -92,7 +92,7 @@ Sample reports
 
 Business Objects -> Test Status Report:  
 
-![SW2](/static/uploads/page/en/SW2.png)
+<!--![SW2](/static/uploads/page/en/SW2.png)-->
 
  
 - BLOCKED CASES STATUS REPORT  
@@ -102,7 +102,7 @@ Business Objects -> Test Status Report:
 Blocked Cases Status Report (Business Objects)  
  
 
-![SW3](/static/uploads/page/en/SW3.png)
+<!--![SW3](/static/uploads/page/en/SW3.png)-->
  
 
 - RTM ( Release & Test Management V1)  
@@ -111,12 +111,12 @@ One of the success factors of delivering error free products in large scale corp
 
 RTM -> Test Status Report 
 
-![SW4](/static/uploads/page/en/SW4.png)
+<!--![SW4](/static/uploads/page/en/SW4.png)-->
 
 RTM -> Error Report:
 
-![SW5](/static/uploads/page/en/SW5.png)
+<!--![SW5](/static/uploads/page/en/SW5.png)-->
 
 RTM -> Blocked Cases Report:
 
-![SW6](/static/uploads/page/en/SW6.png)
+<!--![SW6](/static/uploads/page/en/SW6.png)-->

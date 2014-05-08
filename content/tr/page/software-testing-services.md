@@ -89,14 +89,14 @@ Bu araçların dışında Egemsoft olarak geliştirmekte olduğumuz bir yazılı
 
 BO -> Test Durum Raporu:
 
-![YazilimTest2](/static/uploads/page/tr/YazilimTest2.png)
+<!--![YazilimTest2](/static/uploads/page/tr/YazilimTest2.png)-->
 
 - BLOKE DURUM RAPORU
 	- Test durum raporunda uygulama bazlı geliştirme testlerinde bloke olan konuların bloke nedenleri ve bu bloke sebebiyle kaç senaryonun etkilendiğini detaylı bir şekilde raporlanmaktadır. Bu sayede ilgili Proje yöneticileri ve analistler bloke olunan durumları önceliklendirebilmektedirler.  
 
 BO -> Bloke Durum Raporu:
 
-![YazilimTest3](/static/uploads/page/tr/YazilimTest3.png)
+<!--![YazilimTest3](/static/uploads/page/tr/YazilimTest3.png)-->
  
 - RTM ( Release & Test Management V1)  
 
@@ -105,12 +105,12 @@ Sürüm ve Testin ayrılmaz bir bütün olduğundan hareketle, sürüm içerikle
 
 RTM -> Test Durum Raporu:
 
-![YazilimTest4](/static/uploads/page/tr/YazilimTest4.png)
+<!--![YazilimTest4](/static/uploads/page/tr/YazilimTest4.png)-->
 
 RTM -> Açık Hata Raporu:
 
-![YazilimTest5](/static/uploads/page/tr/YazilimTest5.png)
+<!--![YazilimTest5](/static/uploads/page/tr/YazilimTest5.png)-->
 
 RTM -> Bloke Durum Raporu:
 
-![YazilimTest6](/static/uploads/page/tr/YazilimTest6.png)
+<!--![YazilimTest6](/static/uploads/page/tr/YazilimTest6.png)-->
