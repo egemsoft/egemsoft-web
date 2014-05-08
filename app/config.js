@@ -8,14 +8,14 @@
 angular.module("egem.config", []).
 	factory("$config", [
 	  function() {
-	  	var staticUrl = 'http://' + window.location.host + '/static';
+	  	var staticUrl = 'static';
 	  	var uploadsUrl = staticUrl + '/uploads';
 	  	return {
 	  		staticUrl: staticUrl,
 	  		// edit here to configure sections (pages), there should be a section-name.html file
 		  	sections: ['about','services','contact'],
 		  	// edit here to configure section source directory e.g. /content/about.html
-		  	contentSrc: '/content/',
+		  	contentSrc: 'content/',
 
 		  	// home, motto, etc.
 		  	home: {
