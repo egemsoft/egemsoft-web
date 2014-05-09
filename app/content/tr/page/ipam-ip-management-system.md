@@ -16,4 +16,4 @@ Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar 
 
 **Mimari Yapı:**
 
-![IPYönetimSsistemi_MimariYapı](static/uploads/page/tr/IPYonetimSistemi_MimariYapi.png)
+![IPYönetimSsistemi_MimariYapı](images/uploads/page/tr/IPYonetimSistemi_MimariYapi.png)
