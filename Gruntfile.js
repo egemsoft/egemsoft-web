@@ -379,7 +379,8 @@ module.exports = function (grunt) {
 
     'gh-pages': {
       options: {
-        base: 'dist'
+        base: 'dist',
+        repo: 'https://github.com/egemsoft/egemsoft-web.git'
       },
       src: ['**']
     }
