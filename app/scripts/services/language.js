@@ -49,15 +49,16 @@ angular.module('egemsoftWebApp')
          */
         addString: function(key, locales) {
           if(key)
-            this[key] = locales;
+            this.strings[key] = locales;
         },
 
         /**
          * Adds multiple string sets to the provider programmatically.
          */
         addStrings: function(strings) {
+          var that = this;
           angular.forEach(strings, function(locale, key) {
-            this.addString(key, locale);
+            that.addString(key, locale);
           });
         },
 

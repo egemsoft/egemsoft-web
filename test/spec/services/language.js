@@ -11,8 +11,38 @@ describe('Service: language', function () {
     language = _language_;
   }));
 
-  it("language should not to be null", function() {
+  it("must has language provider", function() {
     expect(language).not.toBe(null);
   });
+
+  it("must has strings object", function() {
+    expect(language.strings).not.toBe(null);
+    expect(typeof(language.strings)).toBe('object');
+  });
+
+  it("must has availableLanguages array with at least one element", function() {
+    expect(language.availableLanguages).not.toBe(null);
+    expect(typeof(language.availableLanguages)).toBe('object');
+    expect(language.availableLanguages.length).not.toBe(0);
+  });
+
+  it("must has a working addString function", function() {
+    expect(language.addString).not.toBe(null);
+    expect(typeof(language.addString)).toBe('function');
+    language.addString('bardak', {tr: 'Bardak', en: 'Cup'});
+    expect(language.strings.bardak).not.toBe(null);
+    expect(language.strings.bardak.tr).toBe('Bardak');
+    expect(language.strings.bardak.en).toBe('Cup');
+  });
+
+  it("must has a working addStrings function", function() {
+    expect(language.addStrings).not.toBe(null);
+    expect(typeof(language.addStrings)).toBe('function');
+    language.addStrings({bardak: {tr: 'Bardak', en: 'Cup'}});
+    expect(language.strings.bardak).not.toBe(null);
+    expect(language.strings.bardak.tr).toBe('Bardak');
+    expect(language.strings.bardak.en).toBe('Cup');
+  });
+
 
 });
