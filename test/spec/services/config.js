@@ -16,34 +16,34 @@ describe('Service: config', function () {
     expect(typeof(config)).toBe('object');
   });
 
-  it("must has imagesUrl property", function() {
+  it("must has imagesUrl property in provider", function() {
     expect(config.imagesUrl).not.toBe(null);
     expect(typeof(config.imagesUrl)).toBe('string');
   });
 
-  it("must has uploadsUrl property", function() {
+  it("must has uploadsUrl property in provider", function() {
     expect(config.uploadsUrl).not.toBe(null);
     expect(typeof(config.uploadsUrl)).toBe('string');
   });
 
-  it("must has sections array with at least one element", function() {
+  it("must has sections array with at least one element in provider", function() {
     expect(config.sections).not.toBe(null);
     expect(typeof(config.sections)).toBe('object');
     expect(config.sections.length).not.toBe(0);
   });
 
-  it("must has contentSrc string property", function() {
+  it("must has contentSrc string property in provider", function() {
     expect(config.contentSrc).not.toBe(null);
     expect(typeof(config.contentSrc)).toBe('string');
   });
 
 
-  it("must has home object property", function() {
+  it("must has home object property in provider", function() {
     expect(config.home).not.toBe(null);
     expect(typeof(config.home)).toBe('object');
   });
 
-  it("home property must contain slides and blocks for all available languages", function() {
+  it("home property must contain slides and blocks for all available languages in provider", function() {
     inject(function(language) {
       angular.forEach(language.availableLanguages, function(availableLanguage) {
         expect(config.home[availableLanguage.key]).not.toBe(null);
