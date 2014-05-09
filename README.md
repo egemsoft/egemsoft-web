@@ -8,6 +8,7 @@ Scaffolding via [yeoman-angular](https://github.com/yeoman/generator-angular) ge
 Setup & Run
 ===========
 ```bash
+  gem install compass
   npm install
   bower install
   grunt test
