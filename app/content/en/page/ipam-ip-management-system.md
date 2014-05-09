@@ -1,7 +1,7 @@
 - - -
 ##IPAM – IP Address Management System
 
-IP Addresses are one of the limited resources for the telecom operators. Every telco institution should give utmost care to manage these resources effectively. IP Address Management solution provides the tools for this critical management process.
+IP Addresses are one of the limited resources for the telecom operators. Every telco institution should give utmost care to manage these resources effectively. IP Address Management solution aims to provide the tools for this critical management process.
 
 **Key Features:**
 
@@ -15,6 +15,5 @@ IP Addresses are one of the limited resources for the telecom operators. Every t
 - Workflow generation for automatic actions (eg. Requiring two stage approval to add new IP pools to the BRAS configuration)
 
 **Architecture:**
-
 
 ![IPAM](images/uploads/page/en/IPAM.png)
