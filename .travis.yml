@@ -9,6 +9,8 @@ before_script:
 - bower install
 after_success:
 - grunt build
+- git config --global user.name "Travis Build"
+- git config --global user.email "$GH_TOKEN"
 - git clone https://$GH_TOKEN@github.com/egemsoft/egemsoft-web --branch gh-pages gh-pages
 - cd gh-pages
 - cp -Rf ../dist/* .
