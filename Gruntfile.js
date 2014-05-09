@@ -15,6 +15,9 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  // Grunt gh-pages deploy plugin
+  grunt.loadNpmTasks('grunt-gh-pages');
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -372,6 +375,13 @@ module.exports = function (grunt) {
         configFile: 'karma.conf.js',
         singleRun: true
       }
+    },
+
+    'gh-pages': {
+      options: {
+        base: 'dist'
+      },
+      src: ['**']
     }
   });
 
@@ -419,6 +429,10 @@ module.exports = function (grunt) {
     'rev',
     'usemin',
     'htmlmin'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'gh-pages'
   ]);
 
   grunt.registerTask('default', [
