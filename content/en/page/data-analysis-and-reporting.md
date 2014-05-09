@@ -32,7 +32,7 @@ Every intervention on complex communication networks have different impacts. Dat
 
 **Data Resources:**  
 
-![DataAnalysis](static/uploads/page/en/DataAnalysis.png)
+![DataAnalysis](images/uploads/page/en/DataAnalysis.png)
 
 **Sample Reports:**
 

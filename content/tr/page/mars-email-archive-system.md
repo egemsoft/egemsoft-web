@@ -10,7 +10,7 @@ Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemle
 
 **Mimari Yapı:**  
 
-![MARS_MimariYapı](static/uploads/page/tr/MARS_MimariYapi.png)
+![MARS_MimariYapı](images/uploads/page/tr/MARS_MimariYapi.png)
 
 **Temel İşlevler:**
 

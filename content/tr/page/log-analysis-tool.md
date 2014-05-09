@@ -14,4 +14,4 @@ Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazla
 - Logların çeşitli kriterlere göre sorgulanabilmesi, ilgili arayüzler
 
 
-![LogAnalizAracı_TemelÖzellikler](static/uploads/page/tr/LogAnalizAraci_TemelOzellikler.png)
+![LogAnalizAracı_TemelÖzellikler](images/uploads/page/tr/LogAnalizAraci_TemelOzellikler.png)

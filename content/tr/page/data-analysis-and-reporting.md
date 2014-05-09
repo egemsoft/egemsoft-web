@@ -33,7 +33,7 @@ Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çe
 
 **Veri Kaynakları:**  
 
-![VeriAnalizRaporlama_VeriKaynakları](static/uploads/page/tr/VeriAnalizRaporlama_VeriKaynaklari.png)
+![VeriAnalizRaporlama_VeriKaynakları](images/uploads/page/tr/VeriAnalizRaporlama_VeriKaynaklari.png)
 
 **Rapor Örnekleri:**   
 
