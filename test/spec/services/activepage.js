@@ -44,5 +44,4 @@ describe('Service: activePage', function () {
     activePage.set(activePageToBeSet);
   });
 
-
 });
