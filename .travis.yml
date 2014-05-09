@@ -8,9 +8,13 @@ before_script:
 - gem install compass
 - bower install
 after_success:
-- git config credential.helper "store --file=.git/credentials"
-- echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-- grunt deploy
+- grunt build
+- git clone https://$GH_TOKEN@github.com/egemsoft/egemsoft-web --branch gh-pages gh-pages
+- cd gh-pages
+- cp -Rf ../dist/* .
+- git add -f .
+- git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
+- git push -fq origin gh-pages
 env:
   global:
     secure: Ib5e1gYzWbPRb3057VE25/XUeHQQCN3empIW+ZzZ3OTVHsfwGpIGTzvrfcFJciJRoYnXSt8W8C7D/ATOXN4HSzYcKKvYazITUlmVZbi3+EsgczhaFQGdcmMhuEMWfPU23iVif3RkP0Q6T55eNyK7sYoIo+tYAN4Uy2OOOOf9A5k=
