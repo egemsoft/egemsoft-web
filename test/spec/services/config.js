@@ -11,8 +11,9 @@ describe('Service: config', function () {
     config = _config_;
   }));
 
-  it("must not be null", function() {
+  it("must has config provider object", function() {
     expect(config).not.toBe(null);
+    expect(typeof(config)).toBe('object');
   });
 
   it("must has imagesUrl property", function() {

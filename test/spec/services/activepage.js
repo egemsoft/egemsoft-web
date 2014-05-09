@@ -11,7 +11,7 @@ describe('Service: activePage', function () {
     activePage = _activePage_;
   }));
 
-  it('must be object', function() {
+  it('must has language provider object', function() {
     expect(activePage).not.toBe(undefined);
     expect(typeof(activePage)).toBe('object');
   });
