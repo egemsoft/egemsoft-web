@@ -194,7 +194,7 @@ module.exports = function (grunt) {
           src: [
             '<%= yeoman.dist %>/scripts/{,*/}*.js',
             '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/styles/fonts/*'
+            'fonts/{,*/}*'
           ]
         }
       }
@@ -230,9 +230,7 @@ module.exports = function (grunt) {
 
     // The following *-min tasks produce minified files in the dist folder
     cssmin: {
-      options: {
-        root: '<%= yeoman.app %>'
-      }
+      options: { }
     },
 
     imagemin: {
@@ -318,6 +316,11 @@ module.exports = function (grunt) {
           cwd: '.tmp/images',
           dest: '<%= yeoman.dist %>/images',
           src: ['generated/*']
+        },  {
+          expand: true,
+          cwd: '<%= yeoman.app %>/bower_components/bootswatch-yeti/fonts',
+          src: ['*'],
+          dest: '<%= yeoman.dist %>/fonts',
         }]
       },
       styles: {

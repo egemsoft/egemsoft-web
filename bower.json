@@ -10,7 +10,8 @@
     "angular-scroll-section-loader": "~0.1.1",
     "angular-markdown":"~0.0.1",
     "showdown-icon": "~1.0.0",
-    "showdown-date": "~1.0.0"
+    "showdown-date": "~1.0.0",
+    "bootswatch-yeti": "https://github.com/dbtek/bootswatch-yeti/archive/master.zip"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
