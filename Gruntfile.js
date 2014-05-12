@@ -317,7 +317,7 @@ module.exports = function (grunt) {
           src: ['generated/*']
         },  {
           expand: true,
-          cwd: '<%= yeoman.app %>/bower_components/bootswatch-yeti/fonts',
+          cwd: '<%= yeoman.app %>/bower_components/bootswatch-dist/fonts',
           src: ['*'],
           dest: '<%= yeoman.dist %>/fonts',
         }]

@@ -11,7 +11,7 @@
     "angular-markdown":"~0.0.1",
     "showdown-icon": "~1.0.0",
     "showdown-date": "~1.0.0",
-    "bootswatch-yeti": "https://github.com/dbtek/bootswatch-yeti/archive/master.zip"
+    "bootswatch-dist": "^3.1.1-yeti"
   },
   "devDependencies": {
     "angular-mocks": "1.2.16",
