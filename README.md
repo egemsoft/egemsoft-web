@@ -5,12 +5,17 @@ Web app for egemsoft.net
 
 Scaffolding via [yeoman-angular](https://github.com/yeoman/generator-angular) generator.
 
-Setup & Run
+Install
+=======
+```bash
+$ npm install -g bower grunt-cli 
+$ gem install compass
+$ bower install
+```
+
+Test & Run
 ===========
 ```bash
-  gem install compass
-  npm install
-  bower install
-  grunt test
-  grunt serve
+$ grunt test
+$ grunt serve
 ```  
