@@ -15,10 +15,12 @@ angular
   // Route configuration
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider.when('/', {
-      templateUrl: 'views/home.html'
+      templateUrl: 'views/home.html',
+      controller: 'HomeCtrl'
     });
     // standalone pages routing
     $routeProvider.when('/page/:pageName', {
-      templateUrl: 'views/page.html'
+      templateUrl: 'views/page.html',
+      controller: 'PageCtrl'
     });
   }]);
