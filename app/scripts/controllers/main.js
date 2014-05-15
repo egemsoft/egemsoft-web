@@ -9,23 +9,20 @@ angular.module('egemsoftWebApp')
   .controller('MainCtrl', function($scope, $location, $route, config, language, activePage, $anchorScroll, $window, $timeout) {
 		// options
 	  $scope.config = config;
-
 	  $scope.activePage = activePage.get();
-
 
 	  activePage.registerObserverCallback(function() {
 	    $scope.activePage = activePage.get();
 	  });
 
 	  // html files to load
-	  $scope.sections = $scope.config.sections;
+	  $scope.sections = config.sections;
 	  
 	  //loaded html files
 	  $scope.loadedSections = [$scope.sections[0]];
 	  $scope.window = $window;
-	  // active year to show at footer
+	  // current year to show at footer
 	  $scope.year = new Date().getFullYear();
-
 	  $scope.languages = language.availableLanguages;
 
 	  // Set user's language if supported
