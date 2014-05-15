@@ -9,8 +9,9 @@ Install
 =======
 ```bash
 $ npm install -g bower grunt-cli 
-$ gem install compass
-$ bower install
+$ npm install  
+$ gem install compass  
+$ bower install  
 ```
 
 Test & Run
