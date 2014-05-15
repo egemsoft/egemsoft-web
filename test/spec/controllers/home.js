@@ -16,4 +16,15 @@ describe('Controller: HomeCtrl', function () {
     });
   }));
 
+  it('must be defined', function() {
+    expect(!!HomeCtrl).toBe(true);
+  });
+
+  it('must has a scope', function() {
+    expect(!!scope).toBe(true);
+  });
+
+  it('must has a valid placeMap function', function() {
+    expect(!!scope.placeMap).toBe(true);
+  });
 });
