@@ -16,4 +16,11 @@ describe('Controller: PageCtrl', function () {
     });
   }));
 
+  it('must be defined', function() {
+    expect(!!PageCtrl).toBe(true);
+  });
+
+  it('must has a scope', function() {
+    expect(!!scope).toBe(true);
+  });
 });
