@@ -23,7 +23,7 @@ $ grunt serve
 
 Build
 =====
-```
+```bash 
 $ grunt build
 ```
 This command minifies js, css, html and image files, concats them, renames resources to provide revisions and so on. [See Grunt task](https://github.com/egemsoft/egemsoft-web/blob/src/Gruntfile.js#L420). 
