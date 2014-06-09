@@ -1,10 +1,16 @@
 'use strict';
 
 /**
- * Egem web app main module
- * Depends on indicated modules
- * @function
+ * @ngdoc overview
+ * @name egemsoftWebApp
+ * @requires ngRoute
+ * @requires scrollSectionLoader
+ * @requires angular-markdown
+ * @description
+ * Egemsoft web app main module.
+ * Depends on indicated modules.
  * @author Ismail Demirbilek
+ * @function
  */
 angular
   .module('egemsoftWebApp', [

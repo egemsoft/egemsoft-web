@@ -1,9 +1,13 @@
 'use strict';
 
 /**
- * Egem web app config module
+ * @ngdoc service
+ * @name egemsoftWebApp.factory:config
+ * @description
+ * Egem web app config service.
  * $config provider to serve configuration variables
  * @author Ismail Demirbilek
+ * @function
  */
 angular.module('egemsoftWebApp')
   .factory('config', function () {

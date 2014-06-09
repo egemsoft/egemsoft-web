@@ -1,9 +1,22 @@
 'use strict';
 
 /**
+ * @ngdoc controller
+ * @name egemsoftWebApp.controller:HomeCtrl
+ * @scope
+ * @requires $scope
+ * @requires $location
+ * @requires $route
+ * @requires $q
+ * @requires $timeout
+ * @requires anchorScroll
+ * @requires config
+ * @requires activePage
+ * @description 
  * Home page controller.
  * Constructs dynamic objects on home page. Provides lazy loading of sections, etc.
  * @function
+ * @author Ismail Demirbilek
  */
 angular.module('egemsoftWebApp')
   .controller('HomeCtrl', function($scope, $location, $route, config, activePage, $anchorScroll, $timeout, $q) {

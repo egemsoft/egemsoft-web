@@ -1,53 +1,67 @@
 'use strict';
 
 /**
+ * @ngdoc controller
+ * @name egemsoftWebApp.controller:MainCtrl
+ * @scope
+ * @requires $scope
+ * @requires $location
+ * @requires $route
+ * @requires $timeout
+ * @requires $anchorScroll
+ * @requires $window
+ * @requires config
+ * @requires language
+ * @requires activePage
+ * @description
  * Root controller of the app.
  * Responsible from the configurations, main functions, shared variables.
+ * @author Ismail Demirbilek
  * @function
  */
 angular.module('egemsoftWebApp')
   .controller('MainCtrl', function($scope, $location, $route, config, language, activePage, $anchorScroll, $window, $timeout) {
-		// options
-	  $scope.config = config;
-	  $scope.activePage = activePage.get();
+    // options
+    $scope.config = config;
+    $scope.activePage = activePage.get();
 
-	  activePage.registerObserverCallback(function() {
-	    $scope.activePage = activePage.get();
-	  });
+    activePage.registerObserverCallback(function() {
+      $scope.activePage = activePage.get();
+    });
 
-	  // html files to load
-	  $scope.sections = config.sections;
-	  
-	  //loaded html files
-	  $scope.loadedSections = [$scope.sections[0]];
-	  $scope.window = $window;
-	  // current year to show at footer
-	  $scope.year = new Date().getFullYear();
-	  $scope.languages = language.availableLanguages;
+    // html files to load
+    $scope.sections = config.sections;
+    
+    //loaded html files
+    $scope.loadedSections = [$scope.sections[0]];
+    $scope.window = $window;
+    // current year to show at footer
+    $scope.year = new Date().getFullYear();
+    $scope.languages = language.availableLanguages;
 
-	  // Set user's language if supported
-	  var userLanguage = navigator.language || navigator.userLanguage;
-	  if(userLanguage == 'tr') // set Turkish
-	    $scope.language = language.availableLanguages[0];
-	  else                    // set English
-	    $scope.language = language.availableLanguages[1];
+    // Set user's language if supported
+    var userLanguage = navigator.language || navigator.userLanguage;
+    if(userLanguage == 'tr') // set Turkish
+      $scope.language = language.availableLanguages[0];
+    else                    // set English
+      $scope.language = language.availableLanguages[1];
 
-	  /**
-	   * Sets active language to show desired translations
-	   * @param {object} language - Desired language object, including key and label props. 
-	   * @function
-	   */
-	  $scope.setLanguage = function(language) {
-	  	$scope.language = language;
-	  	// scroll to current section, text sizes may differentiate for locales.
-	  	$anchorScroll();
-	  };
+    /**
+     * Sets active language to show desired translations
+     * @param {object} language - Desired language object, including key and label props. 
+     * @function
+     */
+    $scope.setLanguage = function(language) {
+      $scope.language = language;
+      // scroll to current section, text sizes may differentiate for locales.
+      $anchorScroll();
+    };
 
-	  /**
-	   * Translate function. Retrieves translation defined by key from language provider.
-	   * @return {string} - Active language (defined by $scope.language) translation of string defined by key.
-	   */
-	  $scope.locale = function(key) {
-	  	return language.strings[key][$scope.language.key];
-	  };
-	});
+    /**
+     * Translate function. Retrieves translation defined by key from language provider.
+     * @return {string} - Active language (defined by $scope.language) translation of string defined by key.
+     */
+    $scope.locale = function(key) {
+      return language.strings[key][$scope.language.key];
+    };
+  });

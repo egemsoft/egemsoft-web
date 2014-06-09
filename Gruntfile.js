@@ -385,6 +385,15 @@ module.exports = function (grunt) {
         repo: 'https://github.com/egemsoft/egemsoft-web.git'
       },
       src: ['**']
+    },
+
+    ngdocs: {
+      options: {
+        dest: 'docs',
+        html5Mode: false,
+        title: 'Egemsoft.net Documentation'
+      },
+      all: ['app/scripts/**/*.js']
     }
   });
 
@@ -431,7 +440,8 @@ module.exports = function (grunt) {
     'uglify',
     'rev',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'ngdoc'
   ]);
 
   grunt.registerTask('deploy', [

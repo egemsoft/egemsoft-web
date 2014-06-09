@@ -1,5 +1,13 @@
 'use strict';
 
+/**
+ * @ngdoc service
+ * @name egemsoftWebApp.factory:language
+ * @description
+ * Service for string translations.
+ * @author Ismail Demirbilek
+ * @function
+ */
 angular.module('egemsoftWebApp')
   .factory('language', function () {
     return {

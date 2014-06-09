@@ -1,10 +1,13 @@
 'use strict';
 
 /**
+ * @ngdoc service
+ * @name egemsoftWebApp.factory:activePage
+ * @description
  * Service factory to store active page between controllers
  * Initial value is 'home'
- * @function
  * @author Ismail Demirbilek
+ * @function
  */
 angular.module('egemsoftWebApp')
   .factory('activePage', function () {
