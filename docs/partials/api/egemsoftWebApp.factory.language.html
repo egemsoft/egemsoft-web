@@ -6,4 +6,47 @@
 <div><h2 id="description">Description</h2>
 <div class="description"><div class="egemsoftwebapp-factory-page egemsoftwebapp-factory-language-page"><p>Service for string translations.</p>
 </div></div>
+<div class="member method"><h2 id="methods">Methods</h2>
+<ul class="methods"><li><h3 id="methods_addlanguage">addLanguage(key, label)</h3>
+<div class="addlanguage"><div class="addlanguage-page"><p>Adds a language configuration to the availableLanguages property programmatically.
+Usage: $language.addLanguage(&#39;es&#39;, &#39;Español&#39;)</p>
+</div><h5 id="methods_addlanguage_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>key</td><td><a href="" class="label type-hint type-hint-string">String</a></td><td><div class="addlanguage-page"><ul>
+<li>Language key identifier.</li>
+</ul>
+</div></td></tr><tr><td>label</td><td><a href="" class="label type-hint type-hint-string">String</a></td><td><div class="addlanguage-page"><ul>
+<li>Language label to display.</li>
+</ul>
+</div></td></tr></tbody></table></div>
+</li>
+<li><h3 id="methods_addstring">addString(key, locales)</h3>
+<div class="addstring"><div class="addstring-page"><p>Adds new string translation to the provider programmatically.
+Usage: $language.addString(door, {tr: &#39;Kapı&#39;, en: &#39;Door&#39;})</p>
+</div><h5 id="methods_addstring_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>key</td><td><a href="" class="label type-hint type-hint-string">String</a></td><td><div class="addstring-page"><ul>
+<li>String key identifier.</li>
+</ul>
+</div></td></tr><tr><td>locales</td><td><a href="" class="label type-hint type-hint-object">Object</a></td><td><div class="addstring-page"><ul>
+<li>Translations object inluding langKey -&gt; string maps.</li>
+</ul>
+</div></td></tr></tbody></table></div>
+</li>
+<li><h3 id="methods_addstrings">addStrings(strings)</h3>
+<div class="addstrings"><div class="addstrings-page"><p>Adds multiple string sets to the provider programmatically.</p>
+</div><h5 id="methods_addstrings_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>strings</td><td><a href="" class="label type-hint type-hint-array">Array</a></td><td><div class="addstrings-page"><ul>
+<li>String object array to be added to translations.</li>
+</ul>
+</div></td></tr></tbody></table></div>
+</li>
+</ul>
+</div>
+<div class="member property"><h2 id="properties">Properties</h2>
+<ul class="properties"><li><h3 id="properties_avaliablelanguages">avaliableLanguages</h3>
+<div class="avaliablelanguages"><div class="avaliablelanguages-page"><p>Available languages object.</p>
+</div></div>
+</li>
+<li><h3 id="properties_strings">strings</h3>
+<div class="strings"><div class="strings-page"><p>Translations stored here with key[lang].</p>
+</div></div>
+</li>
+</ul>
+</div>
 </div>

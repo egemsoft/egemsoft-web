@@ -4,7 +4,55 @@
 </div>
 </h1>
 <div><h2 id="description">Description</h2>
-<div class="description"><div class="egemsoftwebapp-factory-page egemsoftwebapp-factory-activepage-page"><p>Service factory to store active page between controllers
-Initial value is &#39;home&#39;</p>
+<div class="description"><div class="egemsoftwebapp-factory-page egemsoftwebapp-factory-activepage-page"><p>Service factory to store and share active page value between controllers. Implements observer callback pattern to inform the changes.</p>
+</div></div>
+<div class="member method"><h2 id="methods">Methods</h2>
+<ul class="methods"><li><h3 id="methods_get">get()</h3>
+<div class="get"><div class="get-page"><p>Get method for active page variable.</p>
+</div><h5 id="methods_get_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="get-page"><ul>
+<li>Current active page value.</li>
+</ul>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_registerobservercallback">registerObserverCallback(callback)</h3>
+<div class="registerobservercallback"><div class="registerobservercallback-page"><p>Registers callback to observe changes on service</p>
+</div><h5 id="methods_registerobservercallback_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>callback</td><td><a href="" class="label type-hint type-hint-function">function</a></td><td><div class="registerobservercallback-page"><ul>
+<li>Observer callback function</li>
+</ul>
+</div></td></tr></tbody></table></div>
+</li>
+<li><h3 id="methods_set">set(page)</h3>
+<div class="set"><div class="set-page"><p>Set method for active page variable. Calls registered callback functions to inform about the change.</p>
+</div><h5 id="methods_set_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>page</td><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="set-page"><ul>
+<li>Active page to define on service.</li>
+</ul>
+</div></td></tr></tbody></table></div>
+</li>
+</ul>
+</div>
+<h2 id="example">Example</h2>
+<div class="example"><div class="egemsoftwebapp-factory-page egemsoftwebapp-factory-activepage-page"><pre><code class="lang-js">angular.module(&#39;egemsoftWebApp&#39;)
+  .controller(&#39;HomeCtrl&#39;, function($scope, $route, activePage) {
+    activePage.registerObserverCallback(function() {
+      // runs whenever activePage.set() method is called.
+      $scope.activePage = activePage.get();
+    });
+
+    $scope.$on(&#39;$routeChangeSuccess&#39;, function() {
+      // set active page as home
+      activePage.set(&#39;home&#39;);
+    });
+  })
+  .controller(&#39;PageCtrl&#39;, function($scope, $route, activePage) {
+    activePage.registerObserverCallback(function() {
+      // runs whenever activePage.set() method is called.
+      $scope.activePage = activePage.get();
+    });
+
+    $scope.$on(&#39;$routeChangeSuccess&#39;, function() {
+      // set active page as page
+      activePage.set(&#39;page&#39;);
+    });
+  });</code></pre>
 </div></div>
 </div>

@@ -45,8 +45,8 @@ NG_DOCS={
       "shortName": "activePage",
       "type": "service",
       "moduleName": "egemsoftWebApp",
-      "shortDescription": "Service factory to store active page between controllers",
-      "keywords": "active api controllers demirbilek egemsoftwebapp factory initial ismail service store"
+      "shortDescription": "Service factory to store and share active page value between controllers. Implements observer callback pattern to inform the changes.",
+      "keywords": "$on $route $routechangesuccess $scope active activepage angular api callback called calls change changes controller controllers current define demirbilek egemsoftwebapp factory function functions homectrl implements inform ismail js method module observe observer pagectrl pattern registered registerobservercallback registers runs service set share store variable"
     },
     {
       "section": "api",
@@ -64,7 +64,7 @@ NG_DOCS={
       "type": "service",
       "moduleName": "egemsoftWebApp",
       "shortDescription": "Service for string translations.",
-      "keywords": "api demirbilek egemsoftwebapp factory ismail service string translations"
+      "keywords": "$language addlanguage adds addstring addstrings api array availablelanguages avaliablelanguages configuration demirbilek display door egemsoftwebapp en es espa factory identifier inluding ismail kap key label langkey language languages locales maps method multiple object programmatically property provider service sets stored string strings translation translations usage"
     }
   ],
   "apis": {

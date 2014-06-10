@@ -6,8 +6,33 @@ angular.module('egemsoftWebApp')
    * @ngdoc service
    * @name egemsoftWebApp.factory:activePage
    * @description
-   * Service factory to store active page between controllers
-   * Initial value is 'home'
+   * Service factory to store and share active page value between controllers. Implements observer callback pattern to inform the changes.
+    @example
+    ```js
+    angular.module('egemsoftWebApp')
+      .controller('HomeCtrl', function($scope, $route, activePage) {
+        activePage.registerObserverCallback(function() {
+          // runs whenever activePage.set() method is called.
+          $scope.activePage = activePage.get();
+        });
+
+        $scope.$on('$routeChangeSuccess', function() {
+          // set active page as home
+          activePage.set('home');
+        });
+      })
+      .controller('PageCtrl', function($scope, $route, activePage) {
+        activePage.registerObserverCallback(function() {
+          // runs whenever activePage.set() method is called.
+          $scope.activePage = activePage.get();
+        });
+
+        $scope.$on('$routeChangeSuccess', function() {
+          // set active page as page
+          activePage.set('page');
+        });
+      });
+   ```
    * @author Ismail Demirbilek
    * @function
    */
@@ -19,9 +44,9 @@ angular.module('egemsoftWebApp')
     /**
      * @ngdoc method
      * @name set
-     * @memberOf egemsoftWebApp.factory:activePage
-     * ædescription
-     * Set method for active page variable.
+     * @methodOf egemsoftWebApp.factory:activePage
+     * @description
+     * Set method for active page variable. Calls registered callback functions to inform about the change.
      * @param {string} page - Active page to define on service.
      * @function
      */
@@ -34,8 +59,12 @@ angular.module('egemsoftWebApp')
     };
 
     /**
+     * @ngdoc method
+     * @name get
+     * @methodOf egemsoftWebApp.factory:activePage
+     * @description
      * Get method for active page variable.
-     * @return {string} - Active page defined on service.
+     * @return {string} - Current active page value.
      * @function
      */
     activePageService.get = function() {
@@ -43,6 +72,10 @@ angular.module('egemsoftWebApp')
     };
 
     /**
+     * @ngdoc method
+     * @name registerObserverCallback
+     * @methodOf egemsoftWebApp.factory:activePage
+     * @description
      * Registers callback to observe changes on service
      * @param {function} callback - Observer callback function
      * @function
