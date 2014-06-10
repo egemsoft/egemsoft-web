@@ -1,32 +1,43 @@
 'use strict';
 
-/**
- * @ngdoc service
- * @name egemsoftWebApp.factory:config
- * @description
- * Egem web app config service.
- * $config provider to serve configuration variables
- * @author Ismail Demirbilek
- * @function
- */
 angular.module('egemsoftWebApp')
+  
+  /**
+   * @ngdoc service
+   * @name egemsoftWebApp.factory:config
+   * @description
+   * Egem web app config provider.
+   * Serves configuration variables.
+   * @property {number} imagesUrl                 - Web site images root url. Static images like logo etc.
+   * @property {number} uploadsUrl                - Uploaded items url. Page content images etc.
+   * @property {number} contentSrc                - Page and section contents source directory.
+   * @property {number} sections                  - Home page sections. There has to be section contents with the same name under content directory.
+   * @property {number} home.slideInterval        - Home page main carousel auto slide interval in milliseconds.
+   * @property {number} home.blocksPerSlide       - Blocks carousel number of items per slide.
+   * @property {number} home.blocksSlideInterval  - Home page blocks carousel auto slide interval in milliseconds.
+   * @property {number} home.en.slides            - Main carousel items for English locale.
+   * @property {number} home.en.blocks            - Blocks carousel items for English locale.
+   * @property {number} home.tr.slides            - Main carousel items for Turkish locale.
+   * @property {number} home.tr.blocks            - Blocks carousel items for Turkish locale.
+   *
+   * @author Ismail Demirbilek
+   */
   .factory('config', function () {
       var imagesUrl = 'images';
       var uploadsUrl = imagesUrl + '/uploads';
+
       return {
         imagesUrl: imagesUrl,
         uploadsUrl: uploadsUrl,
         // edit here to configure sections (pages), there should be a section-name.html file
         sections: ['about','services','contact'],
-        // edit here to configure section source directory e.g. /content/about.html
+        // edit here to configure section source directory e.g. /content/{lang}/about.html
         contentSrc: 'content/',
 
-        // home, motto, etc.
         home: {
           slideInterval: 10000,
           blocksPerSlide: 3,
           blocksSlideInterval: 0, // Do not auto rotate
-          // English content slider
           en: {
             slides: [
               {
@@ -87,7 +98,8 @@ angular.module('egemsoftWebApp')
               }
             ]
           },
-          // Turkish content slider
+          
+
           tr: {
             slides: [
               {

@@ -9,7 +9,7 @@ NG_DOCS={
       "shortName": "egemsoftWebApp",
       "type": "overview",
       "moduleName": "egemsoftWebApp",
-      "shortDescription": "Egemsoft web app main module",
+      "shortDescription": "Egemsoft web app main module.",
       "keywords": "angular-markdown api app demirbilek depends egemsoft egemsoftwebapp indicated ismail main module modules ngroute overview scrollsectionloader web"
     },
     {
@@ -54,8 +54,8 @@ NG_DOCS={
       "shortName": "config",
       "type": "service",
       "moduleName": "egemsoftWebApp",
-      "shortDescription": "Egem web app config service.",
-      "keywords": "$config api app config configuration demirbilek egem egemsoftwebapp factory ismail provider serve service variables web"
+      "shortDescription": "Egem web app config provider.",
+      "keywords": "api app auto blocks blocksperslide blocksslideinterval carousel class config configuration content contents contentsrc demirbilek directory egem egemsoftwebapp egemsoftwebapp-factory-config-page egemsoftwebapp-factory-page en english factory images imagesurl interval ismail items locale logo main milliseconds number provider root sections serves service site slide slideinterval slides source static tr turkish uploaded uploadsurl url variables web"
     },
     {
       "section": "api",
