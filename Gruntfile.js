@@ -440,8 +440,7 @@ module.exports = function (grunt) {
     'uglify',
     'rev',
     'usemin',
-    'htmlmin',
-    'ngdoc'
+    'htmlmin'
   ]);
 
   grunt.registerTask('deploy', [
