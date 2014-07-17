@@ -1,5 +1,5 @@
 - - -
-##MÜŞTERİ DENEYİMİ YÖNETİMİ
+##Müşteri Deneyimi Yönetimi
 
 Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin, özellikle müşteri memnuniyetini direkt etkileyecek çok çeşitli sonuçları olabilir. Bu tespitten hareketle geliştirilen Müşteri Deneyimi Yönetimi platformu, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği ve sonuç olarak müşteri deneyimini iyileştirmeye yönelik çok çeşitli analiz olanaklarını sunmaktadır.
 
