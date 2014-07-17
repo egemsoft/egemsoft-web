@@ -1,23 +1,24 @@
 - - -
-##Veri Analiz ve Raporlama
+##MÜŞTERİ DENEYİMİ YÖNETİMİ
 
-Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır. 
+Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin, özellikle müşteri memnuniyetini direkt etkileyecek çok çeşitli sonuçları olabilir. Bu tespitten hareketle geliştirilen Müşteri Deneyimi Yönetimi platformu, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği ve sonuç olarak müşteri deneyimini iyileştirmeye yönelik çok çeşitli analiz olanaklarını sunmaktadır.
 
-**Temel Gereksinimler:**  
+**Temel Gereksinimler/Tespitler:**  
 
-- DPI şebekesindeki raporlanacak veri çok büyük (aylık ~ 150 TB). Ölçeklenebilirlik çok önemli   
+- DPI şebekesindeki raporlanacak verinin büyüklüğü nedeniyle ölçeklenebilirliğin önemi   
 - Özel İşlem Gerektiren DPI Raporları  
     - com.tr, edu.tr, gov.tr gibi kök alan adlarına yönelik raporlar alınabilmeli (metin işleme)  
     - Aynı organizasyona ait farklı alan adları gruplanarak raporlanabilmeli (facebook.com - fb.com...)  
     - Alan adları, kategorilerine göre gruplanarak raporlanabilmeli (sosyal medya, oyun, video vs.)  
-- Raporlar yüksek performansla oluşturulabilmeli  
-    - Veri analizi yapan çalışanların üretkenliğini olumsuz etkilemeyecek şekilde, farklı soruların cevaplarını çok beklemeden verebilmeli  
-- DSL şebekesi üzerinde farklı birimler tanım yapabilmekte  
-    - Şebekedeki hareketin anlaşılması sadece farklı kaynaklarda oluşmuş kayıtların birlikte değerlendirilmesiyle mümkün. Bu kaynakların ürettiği kayıt formatları çok çeşitli  
-- Şebeke üzerindeki işlem kayıtlarının geriye dönük olarak tutulup, analiz edilebilmesi gerekmekte  
-- DSL şebekesi üzerinde yapılan ıslah çalışmalarının etkilerinin analizi gerekmekte  
-- Müşteri deneyiminin bir bütün olarak DSL üretici firmalarının üzerinde raporlanabilmesi gerekmekte  
-- Şebeke planlamasına katkıda bulunabilecek çeşitli raporlara ihtiyaç duyulmakta  
+- Raporların yüksek performansla oluşturulabilmesi
+    - Veri analizi yapan çalışanların üretkenliğini olumsuz etkilemeyecek şekilde, farklı soruların cevaplarını çok beklemeden verebilmesi 
+- DSL şebekesi üzerinde farklı birimlerin tanım yapabilmesi
+    - Şebekedeki hareketin anlaşılmasının sadece farklı kaynaklarda oluşmuş kayıtların birlikte değerlendirilmesiyle mümkün olması 
+    - Bu kaynakların ürettiği kayıt formatlarının çok çeşitli olması
+- Şebeke üzerindeki işlem kayıtlarının geriye dönük olarak tutulup, analiz edilebilmesi
+- DSL şebekesi üzerinde yapılan iyileştirme çalışmalarının etkilerinin analizi
+- Müşteri deneyiminin bir bütün olarak DSL üretici firmalarının üzerinde raporlanabilmesi  
+- Şebeke planlamasına katkıda bulunabilecek çeşitli raporların gerekliliği
     
 
 **İş Akışı:**  
