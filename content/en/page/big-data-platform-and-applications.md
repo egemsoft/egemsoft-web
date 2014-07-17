@@ -9,7 +9,7 @@ The information has always been there but the ability to enrich the variety of i
 
 **Data correlation gives the opportunity to;**
 
-- **Get Indepth Information **
+- **Get Indepth Information**
 
 	- Analyse your customers from different perspectives
 	- Create customer segments more accurately by using diverse metrics
