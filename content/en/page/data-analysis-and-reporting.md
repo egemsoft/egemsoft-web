@@ -1,5 +1,5 @@
 - - -
-##CUSTOMER EXPERIENCE MANAGEMENT
+##CUustomer Experience Management
 
 Every intervention on complex communication networks may have direct impacts on customer satisfaction. Customer Experience Management platform has been developed to analyse such impacts. It collects data from various network devices, correlates such data and provides the tools for analysis, including trend analysis which utilises historic data, which all aim to improve customer experience. 
 
