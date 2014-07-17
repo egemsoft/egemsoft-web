@@ -1,23 +1,24 @@
 - - -
-##Data Analysis and Reporting
+##CUSTOMER EXPERIENCE MANAGEMENT
 
-Every intervention on complex communication networks have different impacts. Data Analysis and Reporting solution has been developed to analyse such impacts. It collects data from various network devices, correlates such data and provides the tools for analysis including trend analysis which utilises historic data. 
+Every intervention on complex communication networks may have direct impacts on customer satisfaction. Customer Experience Management platform has been developed to analyse such impacts. It collects data from various network devices, correlates such data and provides the tools for analysis, including trend analysis which utilises historic data, which all aim to improve customer experience. 
 
-**Primary Needs:**
+**Primary Needs/Findings:**
 
-- Data to be reported in DPI network is too big (~ 150 TB/month). Scalibility is of high importance
+- Data to be reported in DPI network being too big. Scalibility is of high importance
 - DPI Reports that need specific actions
-	- Reports to be created, related to root domain names, ( com.tr, edu.tr, gov.tr …)
-	- Reporting different domain names of the same organizations by grouping (facebook.com - fb.com...)
+	- Reports, related to root domain names, ( com.tr, edu.tr, gov.tr …)
+	- Reporting different domain names of the same organization by grouping (facebook.com - fb.com...)
 	- Reporting domain names grouped by categories (social media, game, video etc.)
-- High performance report creation is key
-	- Result set of different queries should be created fast enough not to create a negative impact on the productivity of data analysts
+- High performance report creation
+	- Result set of different queries should be created fast enough not to cause a negative impact on the productivity of data analysts
 - Definitions on DSL network are made by different departments
-	- There are different record formats created by different sources. Understanding the behavior/movement on the network is only possible by correlating and evaluating all such records together
-- Transaction records on the network should be kept to create historic set so to be analyzed
-- The analysis of the impact of improvement works on the DSL network is required
-- Reporting of customer experience as a whole, on DSL vendors is required
-- Various reports to support network planning are required
+	- Different record formats created by different sources
+	- Correlation and evaluation of all such records together is the only way to understand the behavior/movement on the network
+- Keeping transaction records on the network to create historic set which then can be analyzed
+- The analysis of the impact of improvement works on the DSL network
+- Reporting of customer experience as a whole, on DSL vendors
+- Various reports to support network planning 
 
 **Work Flow:**
 
