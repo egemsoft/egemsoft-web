@@ -20,6 +20,7 @@
  */
 angular.module('egemsoftWebApp')
   .controller('HomeCtrl', function($scope, $location, $route, config, activePage, $anchorScroll, $timeout, $q) {
+    $scope.year = new Date().getFullYear();
 
     $scope.placeMap = function() {
       if(ymapsApi==null) { // if yandex maps api not loaded give it 5 secs.

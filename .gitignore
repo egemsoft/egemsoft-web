@@ -4,4 +4,5 @@ node_modules
 .grunt
 dist
 app/bower_components
+app/views/content
 npm-debug.log

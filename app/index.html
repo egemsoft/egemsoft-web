@@ -13,7 +13,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootswatch-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bower_components/bootswatch-dist/css/bootstrap.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
@@ -77,10 +77,10 @@
               <a href="#/#{{section}}">{{locale(section)}}</a>
             </li>
           </ul>
-          <markdown class="copyright small"
+          <footer class="copyright small"
                     extensions="icon, date"
-                    ng-include="config.contentSrc + language.key + '/footer.md'">
-          </markdown>
+                    ng-include="'views/content/' + language.key + '/footer.html'">
+          </footer>
         </div>
       </div>
     </footer>
@@ -110,16 +110,12 @@
     <![endif]-->
 
     <!-- build:js scripts/vendor.js -->
-    <script src="bower_components/showdown/compressed/showdown.js"></script>
     <!-- bower:js -->
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-scroll-section-loader/scroll-section-loader.js"></script>
-    <script src="bower_components/angular-markdown/angular.markdown.js"></script>
-    <script src="bower_components/showdown-icon/showdown-icon.js"></script>
-    <script src="bower_components/showdown-date/showdown-date.js"></script>
-    <script src="bower_components/bootswatch-dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/bootswatch-dist/js/bootstrap.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

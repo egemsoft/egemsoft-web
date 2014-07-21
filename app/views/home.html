@@ -108,11 +108,11 @@
 	         loaded-sections="loadedSections">
 	         
   	<div class="container">
-	    <markdown class="col-lg-5 col-sm-6"
+	    <div class="col-lg-5 col-sm-6"
 			     			ng-class="{'col-lg-offset-1 col-sm-push-6': $odd}"
 			     			showdown-extensions="icon"
-			     			ng-include="config.contentSrc + language.key + '/' + section + '.md'">
-	    </markdown>
+			     			ng-include="'views/content/' + language.key + '/' + section + '.html'">
+	    </div>
 
      	<div class="col-lg-6 col-sm-6 visual" 
      			 ng-class="{'col-sm-pull-6': $odd, 'col-lg-offset-1': $even}">

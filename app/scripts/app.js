@@ -15,8 +15,7 @@
 angular
   .module('egemsoftWebApp', [
     'ngRoute',
-    'scrollSectionLoader',
-    'angular-markdown'
+    'scrollSectionLoader'
   ])
   // Route configuration
   .config(['$routeProvider', function($routeProvider) {
