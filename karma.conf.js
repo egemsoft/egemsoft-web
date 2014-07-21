@@ -25,6 +25,8 @@ module.exports = function(config) {
     // list of files / patterns to exclude
     exclude: [],
 
+    reporters: ['spec'],
+
     // web server port
     port: 8080,
 
@@ -45,7 +47,7 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['Firefox'],
+    browsers: ['PhantomJS'],
 
 
     // Continuous Integration mode
