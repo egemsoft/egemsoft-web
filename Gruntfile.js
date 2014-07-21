@@ -394,6 +394,32 @@ module.exports = function (grunt) {
         title: 'Egemsoft.net Documentation'
       },
       all: ['app/scripts/**/*.js']
+    },
+
+    markdown: {
+      all: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= yeoman.app %>/content',
+            src: '**/*.md',
+            dest: '<%= yeoman.app %>/views/content',
+            ext: '.html'
+          }
+        ],
+        options: {
+          template: 'markdown.tpl',
+          postCompile: function(src, context) {
+            // convert icons
+            src = src.replace(/\@glyphicon-([^ ]*)/ig,
+              function(match) {
+                return '<span class="glyphicon ' + match.replace('@', '') + '"></span>';
+              });
+
+            return src;
+          }
+        }
+      }
     }
   });
 
