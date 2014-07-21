@@ -5,7 +5,7 @@
 [Büyük Veri Yönetim Platformu](#/page/big-data-platform-and-applications)
 
 - [MARS – E-posta Arşivleme, Analiz ve Raporlama Sistemi](#/page/mars-email-archive-system)
-- [Veri Analiz ve Raporlama](#/page/data-analysis-and-reporting)
+- [Müşteri Deneyimi Yönetimi](#/page/data-analysis-and-reporting)
 - [Log Analiz Aracı](#/page/log-analysis-tool)
 
 [Kurumsal Uygulama Geliştirme ve Sistem Entegrasyonu](#/page/corporate-application-development-and-system-integration)
