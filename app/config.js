@@ -63,7 +63,7 @@ angular.module("egem.config", []).
 			  				text: 'Günümüzde iletişim şebekeleri, sürekli bilgi üreten çok akıllı cihazlardan oluşmaktadır. Log Analiz Aracımız, üretilen bu bilgilerin toplandığı, geçmiş ile ilişkilendirilerek analizlerin yapıldığı ve belirli kurallar çerçevesinde ilgililerin uyarılarak şebekelerin sağlıklı ve verimli çalışmasını sağlayan bir uygulamadır.',
 								image: uploadsUrl + '/block-logger.png',
 =======
-			  				title: 'Data Analysis',
+			  				title: 'Customer Experience Management',
 			  				text: 'Every intervention on complex communication networks have different impacts. Data Analysis and Reporting solution has been developed to analyse such impacts. It collects data from various network devices, correlates such data and provides the tools for analysis including trend analysis which utilises historic data.',
 							image: uploadsUrl + '/block-ipam.png',
 			  				link: '#/page/data-analysis-and-reporting'
@@ -131,7 +131,7 @@ angular.module("egem.config", []).
 			  				link: '#/page/mars-email-archive-system'
 			  			},
 			  			{
-			  				title: 'Veri Analiz',
+			  				title: 'Müşteri Deneyimi Yönetimi',
 			  				text: 'Karmaşık iletişim şebekelerinde yapılacak her türlü müdahalenin çok çeşitli etkileri olabilir. Bu tespitten haraketle geliştirilen veri analizi çözümümüz, farklı şebeke cihazlarından verileri toplamakta, birbirleri ile ilişkilendirmekte ve istendiğinde trendin de izlenebildiği çok çeşitli analiz olanaklarını sunmaktadır.',
 								image: uploadsUrl + '/block-reporting.png',
 			  				link: '#/page/data-analysis-and-reporting'
