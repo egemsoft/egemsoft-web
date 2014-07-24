@@ -29,8 +29,8 @@ angular.module('egemsoftWebApp')
           en: 'About'
         },
         services: {
-          tr: 'Ürünler',
-          en: 'Services'
+          tr: 'Ürünler ve Hizmetler',
+          en: 'Products and Services'
         },
         contact: {
           tr: 'İletişim',
