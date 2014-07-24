@@ -4,8 +4,8 @@
 		<div class="col-sm-8">
 			<section class="animated fadeInLeft section">
 				<div class="">
-					<markdown ng-include="config.contentSrc + language.key + '/page/' + page + '.md'">
-					</markdown>
+					<ng-include src="'views/content/' + language.key + '/page/' + page + '.html'">
+					</ng-include>
 				</div>
 			</section>
 		</div>

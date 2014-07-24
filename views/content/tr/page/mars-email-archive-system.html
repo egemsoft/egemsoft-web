@@ -1,0 +1,70 @@
+<hr>
+<h2 id="mars-e-posta-ar-ivleme-sistemi">MARS - E-Posta Arşivleme Sistemi</h2>
+<p>Günümüzde en yaygın iletişim aracı olarak kullanılan e-posta uygulaması, kullanım yoğunluğu ve erişim ihtiyacının sürekli artması gibi faktörlerin sonucu olarak, alınan ve gönderilen e-postaların saklanması ve arşivlenmesi gibi gereksinimleri de beraberinde getirmektedir. Bu ihtiyaç genellikle kurum çalışanlarının kendi inisiyatifleri ile yine kendi PC’lerinde yarattıkları arşivler yolu ile giderilmeye çalışılmaktadır. Ancak, kişisel ortamlarda saklanan bu bilgiler, bilgiyi arşivleyen kişinin kullanımını ile sınırlı olmaktadır. İlgili kişilerin kurumdan ayrılması ve/veya kurumun herhangi bir neden ile bu kişisel ortamlarda saklanan bilgiye ihtiyaç duyması halinde, genellikle bu bilgilere ulaşım imkanı olmamaktadır.</p>
+<p>Günümüzde, özellikle Finans, Telekom ve Enerji alanlarında, sektörel Denetleme ve Düzenleme Kurumları da, sektör firmalarının yürüttükleri faaliyetlerde gerekli şeffaflığın temini adına, firma ve paydaşları ile yapılan her türlü elektronik haberleşme bilgilerinin de anında ulaşılabilir bir şekilde saklanmasını talep etmektedirler. Bu ihtiyaca cevap verebilmek adına çeşitli çözümler piyasada oluşmaktadır. Ancak önerilen Yurtdışı menşeli çözümler genellikle, kullanılan teknolojilerin gereği, yüksek maliyetli donanım altyapısına ihtiyaç duymaktadır.</p>
+<p>Bu tespitlerle başlatılan çalışmalar sonunda, Hadoop temelli dosya sistemleri ve veri saklama teknolojileri kullanılarak MARS - E-Posta Arşivleme Sistemi geliştirilmiştir.</p>
+<p><strong>Mimari Yapı:</strong>  </p>
+<p><img src="images/uploads/page/tr/MARS_MimariYapi.png" alt="MARS_MimariYapı"></p>
+<p><strong>Temel İşlevler:</strong></p>
+<ul>
+<li><p><strong>Toplama:</strong>  </p>
+<ul>
+<li>Tüm Microsoft Exchange sürümlerinde üretilen E-postalar  </li>
+<li>POP3 ve IMAP kullanan tüm sağlayıcıların ürettiği e-postalar  </li>
+<li>PST e-posta arşiv dosyaları  </li>
+<li>Active Directory veya LDAP’dan kullanıcı ve rol tanımları</li>
+</ul>
+</li>
+<li><p><strong>Yönetim:</strong>  </p>
+<ul>
+<li>Yasal uyumluluk için veri tutarlılığının garanti edilmesi  </li>
+<li>Erişim kuralları ile veri güvenliğinin sağlanması  </li>
+<li>Kullanıcı grup/profilleri bazında arşivleme zaman planlaması  </li>
+</ul>
+</li>
+<li><p><strong>Analiz:</strong>  </p>
+<ul>
+<li>Kurum içi e-posta kullanım eğilimlerine ilişkin detay bilgi üretilmesi  </li>
+<li>Metin Madenciliği gibi derinlemesine analiz olanağı  </li>
+<li>Belirlenmiş, uyarı yaratacak anahtar kelimeler bazında e-postaların taranması ve sonuçların raporlanması  </li>
+</ul>
+</li>
+<li><p><strong>Erişim:</strong>  </p>
+<ul>
+<li>Microsoft Outlook E-posta istemcisinden gerçek zamanlı erişim  </li>
+<li>Posta kutusunda kısa yollar kullanarak arşivlenmiş postalara erişim  </li>
+<li>Posta alanları (kime, kimden, dikkatine, konu, mesaj metni, ekli dosya isimleri, ekli dosya içeriği) üzerinde tam metin arama, sorgulama  </li>
+<li>Web üzerinden erişim  </li>
+</ul>
+</li>
+</ul>
+<p><strong>Genel Özellikler:</strong></p>
+<ul>
+<li>Sınırsız Kapasiteli Kullanıcı Posta Kutusu  </li>
+<li>Düzenleyici Kurum Yönetmeliklerine Uygunluk İçin Yardımcı  </li>
+<li>Ölçeklenebilir Kapasite ve Yüksek Performans  </li>
+<li>Veri Tekilleştirme &amp; Sıkıştırma  </li>
+<li>Jurnal Posta Kutusu Üzerinden Arşivleme  </li>
+<li>Zamanlanmış E-Posta Arşivleme (Outlook Eklentisi üzerinden ya da sistem tarafından)  </li>
+<li>LDAP Entegrasyonu ve Kullanıcı Grubu Temelli Arşivleme Politikaları  </li>
+</ul>
+<p><strong>Kullanıcı Deneyimi:</strong>  </p>
+<ul>
+<li>Otomatik ya da Elle E-Posta Arşivleme ve Arşivden Elle Geri Yükleme  </li>
+<li>Outlook Eklentisi ile Değişmeyen Kullanıcı Deneyimi  </li>
+<li>Tam Metin Arama (Gönderen, Gönderilen, Konu, Mesaj İçeriği, Ekli Dosya Adı, Ekli Dosya İçeriği)  </li>
+<li>Web Tabanlı Arşiv Posta Kutusu Arayüzü  </li>
+<li>Web/Outlook/Mobil İstemciler üzerinde görüntülenebilen arşivlenmiş e-posta kısayolları üzerinden orijinal e-posta erişimi  </li>
+<li>PST Dosyalarının Arşive Eklenebilmesi  </li>
+<li>Çevrimdışı Arşiv Erişimi: Outlook’ta arşivlenmiş e-postaların tutulabilmesi  </li>
+</ul>
+<p><strong>Yönetici Deneyimi:</strong>  </p>
+<ul>
+<li>Arşivlenmiş E-Posta Verisinin Yedeklenebilmesi  </li>
+<li>Coğrafi Yedeklilik  </li>
+<li>Veri Bütünlüğü Kontrolü İçin Araçlar  </li>
+<li>Yönetim ve İzleme Araçları  </li>
+<li>Data Export (PST &amp; HTML)  </li>
+<li>Belirlenmiş Listeler için E-Posta Arşivlememe Özelliği  </li>
+<li>Arşivlenmiş E-Posta’lar için Silme Politikaları  </li>
+</ul>
