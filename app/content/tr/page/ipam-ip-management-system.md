@@ -14,7 +14,7 @@ Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar 
 - IP kullanım eşikleri uyarısı ve BRAS ağlarda otomatik IP Havuz sağlanması
 - Otomatik aksiyonlar için iş akışı oluşturulması (ör. BRAS konfigürasyonuna yeni IP Havuzu eklenmeden iki kademeli onay istenmesi)
 
-[Broşür indirmek için tıklayınız](images/uploads/page/tr/IP-TR.pdf)
+[Broşür indirmek için tıklayınız](app/images/uploads/page/tr/IP-TR.pdf)
 
 **Mimari Yapı:**
 
