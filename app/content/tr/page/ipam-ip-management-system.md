@@ -3,6 +3,8 @@
 
 Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar açısından bu kaynağı yüksek verimlilikle yönetebilmek son derece önemlidir. IP Adres Yönetimi çözümümüz, kurumların bu hedefini gerçekleştirebilmesini amaçlamaktadır. 
 
+[Broşürü indirmek için tıklayınız.](images/uploads/page/tr/IP-TR.pdf)
+
 **Temel Özellikler:**  
 
 - Telekom operatörlerine yönelik planlama, yönetim ve raporlama çözümü
@@ -13,7 +15,7 @@ Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar 
 - CRM sistemleri ile ağ ekipmanları arasında tutarlılık kontrolu
 - IP kullanım eşikleri uyarısı ve BRAS ağlarda otomatik IP Havuz sağlanması
 - Otomatik aksiyonlar için iş akışı oluşturulması (ör. BRAS konfigürasyonuna yeni IP Havuzu eklenmeden iki kademeli onay istenmesi)
-[Broşür indirmek için tıklayınız](images/uploads/page/tr/IP-TR.pdf)
+
 **Mimari Yapı:**
 
-![IPYönetimSsistemi_MimariYapı](images/uploads/page/tr/IPYonetimSistemi_MimariYapi.png)
+![IPYönetimSsistemi_MimariYapı](files/uploads/page/tr/IPYonetimSistemi_MimariYapi.png)
