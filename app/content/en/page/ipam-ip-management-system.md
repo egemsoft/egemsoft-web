@@ -3,6 +3,8 @@
 
 IP Addresses are one of the limited resources for the telecom operators. Every telco institution should give utmost care to manage these resources effectively. IP Address Management solution aims to provide the tools for this critical management process.
 
+[Click here to download the brochure.](files/uploads/page/en/IP-ENG.pdf)  
+
 **Key Features:**
 
 - Planning, managing and reporting solution for telecom operators
@@ -12,7 +14,9 @@ IP Addresses are one of the limited resources for the telecom operators. Every t
 - Reporting IP address conflicts in networks and VPN's (IP pool conflicts in BRAS and  MPLS networks)
 - Check of consistency between CRM systems and network equipments
 - Creating alarms for IP usage thresholds and proposing IP pools, in BRAS networks.
-- Workflow generation for automatic actions (eg. Requiring two stage approval to add new IP pools to the BRAS configuration)
+- Workflow generation for automatic actions (eg. Requiring two stage approval to add new IP pools to the BRAS configuration)  
+
+[Broşür indirmek için tıklayınız](app/images/uploads/page/tr/MODEM-DEFECT-USER-TR.pdf)  
 
 **Architecture:**
 

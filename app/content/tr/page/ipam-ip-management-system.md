@@ -3,7 +3,7 @@
 
 Telekom operatörlerinin kıt kaynaklarından biri de IP adresleridir. Kurumlar açısından bu kaynağı yüksek verimlilikle yönetebilmek son derece önemlidir. IP Adres Yönetimi çözümümüz, kurumların bu hedefini gerçekleştirebilmesini amaçlamaktadır. 
 
-[Broşürü indirmek için tıklayınız.](images/uploads/page/tr/IP-TR.pdf)
+[Broşürü indirmek için tıklayınız.](files/uploads/page/tr/IPYonetimSistemi_MimariYapi.pdf)  
 
 **Temel Özellikler:**  
 

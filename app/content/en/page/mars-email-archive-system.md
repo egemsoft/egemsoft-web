@@ -3,7 +3,9 @@
 
 There is no doubt that e-mails are one of the crucial and most commonly used means of communication, whether among individuals for social purposes or  for business needs among professionals, user groups, companies, with a worldwide reach. An e-mail not only conveys textual information but any type of media as attachments.
 Along with the comfort it brings, the task of storing, archiving and the need to access an old e-mail item, also come as an important issue. Due to the high cost of storing mechanisms or data warehouse appliances, many institutions preferred deleting “old” items. Today, with the introduction of hadoop based file systems and storing mechanisms, this is not considered as an important issue.
-Mail Archiving System – MARS is built on Egemsoft’s hadoop based big data analytics platform. MARS gives the institutions the opportunity not only to save, archive all e-mail items including the attachments, access them as easy and fast as within well-known e-mail applications, but to feel the comfort of complying with the regulations, with reasonable and affordable costs. 
+Mail Archiving System – MARS is built on Egemsoft’s hadoop based big data analytics platform. MARS gives the institutions the opportunity not only to save, archive all e-mail items including the attachments, access them as easy and fast as within well-known e-mail applications, but to feel the comfort of complying with the regulations, with reasonable and affordable costs.   
+
+[Click here to download the brochure.](files/uploads/page/en/MARS-ENG.pdf)  
 
 **Architecture:**
 

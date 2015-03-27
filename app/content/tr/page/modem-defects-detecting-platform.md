@@ -44,7 +44,10 @@ Bunun dışında, internet bağlantısı olmadan, yenileme süreci için bekleye
 **Cihaz ve hata geçmişinin kontrolü**
 
 - Modem arıza kayıtları detaylı olarak tutulması
-- Bilinen/bilinmeyen sorunlar için farkındalık yaratılması
+- Bilinen/bilinmeyen sorunlar için farkındalık yaratılması  
+
+[Broşürü indirmek için tıklayınız.](files/uploads/page/tr/MODEM-DEFECT-CLIENT-TR.pdf)  
+
 
 
 **UÇ NOKTA:**
@@ -76,5 +79,10 @@ Son kullanıcıların internet sorunlarının tespitine yönelik olan bu uygulam
 - Durum kodları
 	- Çağrı merkezi arandığında daha kolay hizmet alınabilmesi için statü kodları üretilir.
 - Hız Testi
-	- Sabit olmayan internet bağlantısı hakkında bilgi edinebilmek için kablosuz hız testi sunar.
+	- Sabit olmayan internet bağlantısı hakkında bilgi edinebilmek için kablosuz hız testi sunar.  
+
+[Broşürü indirmek için tıklayınız.](files/uploads/page/tr/MODEM-DEFECT-USER-TR.pdf)  
+
+
+
 

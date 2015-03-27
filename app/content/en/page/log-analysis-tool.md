@@ -2,7 +2,9 @@
 ##Log Analysis Tool
 
 
-Communication networks have various smart devices producing data continously. Log Analysis Tool collects such data, correlates and compares with related historic data. Based on specified rules, it creates alerts for the responsible units, for a healty and effective network generation. 
+Communication networks have various smart devices producing data continously. Log Analysis Tool collects such data, correlates and compares with related historic data. Based on specified rules, it creates alerts for the responsible units, for a healty and effective network generation.   
+
+[Click here to download the brochure.](files/uploads/page/en/LOG-ENG.pdf)  
  
 **Key Features:**
 

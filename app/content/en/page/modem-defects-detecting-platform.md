@@ -39,7 +39,9 @@ Modem Defect Detection Platform offers a client application for the technical se
 - Control Device and Log History
 
 	- Device error logs are recorded with technical details.
-	- Awareness for known/unknown issues is created. 
+	- Awareness for known/unknown issues is created.   
+
+[Click here to download the brochure.](files/uploads/page/en/MODEM-DEFECT-CLIENT-EN.pdf)  
 
  
 **PC CLIENT - APPLICATION FOR END-USERS/SUBSCRIBERS:**
@@ -77,4 +79,6 @@ With the help of PC Client, when subscribers encounter common technical issues, 
 	- Generates status codes if further guidance by call center is needed. 
 
 - Speed Test
-	- Offers wireless speed tests to gather information about unstable internet connection root causes. 
+	- Offers wireless speed tests to gather information about unstable internet connection root causes.   
+
+[Click here to download the brochure.](files/uploads/page/en/MODEM-DEFECT-USER-EN.pdf)  
