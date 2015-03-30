@@ -16,7 +16,6 @@ IP Addresses are one of the limited resources for the telecom operators. Every t
 - Creating alarms for IP usage thresholds and proposing IP pools, in BRAS networks.
 - Workflow generation for automatic actions (eg. Requiring two stage approval to add new IP pools to the BRAS configuration)  
 
-[Broşür indirmek için tıklayınız](app/images/uploads/page/tr/MODEM-DEFECT-USER-TR.pdf)  
 
 **Architecture:**
 
