@@ -5,7 +5,7 @@ Internet servis sağlayıcı kurumların müşteri memnuniyetini yüksek tutabil
 
 **MERKEZİ:**
 
-Teknik servisler tarafından üreticilere arızalı olarak gönderilen modemlerin, detaylı testler sonucunda sadece %20’sinin arızasız olduğu görülmektedir. Geri kalan %80’inın sorunsuz olduğu bilinmektedir. Üreticiye gönderilen her bir sorunsuz modem, servis sağlayıcılara, lojistik ve yenileme süreçleri için ciddi  masrafları beraberinde getirmektedir. 
+Teknik servisler tarafından üreticilere arızalı olarak gönderilen modemlerin, detaylı testler sonucunda sadece %20’sinin arızalı olduğu görülmektedir. Geri kalan %80’inın sorunsuz olduğu bilinmektedir. Üreticiye gönderilen her bir sorunsuz modem, servis sağlayıcılara, lojistik ve yenileme süreçleri için ciddi  masrafları beraberinde getirmektedir. 
 Bunun dışında, internet bağlantısı olmadan, yenileme süreci için bekleyen aboneler tarafında memnuniyet azalmakta ve servis sağlayıcıya yönelik güvensizlik oluşmaktadır. Bu araştırmaların sonucunda, teknik destek merkezlerinde ve bayilerde kullanılmak üzere etkili modem arıza tespit sistemlerine gereksinim olduğu kesinleşmişti.
 Çözüm olarak sunduğumuz kiosk platformu otomatize ve güvenilir modem testleri yapar. Teknik servislerde ve bayilerde donanım sorunlarının tespiti, konfigurasyon sorunlarının çözümü ve firmware güncellemeri için kullanılır. Çözüm kiosklar üzerinde çalışan istemciler (client uygulamalar) ve merkezi sunucudan oluşur. 
 
